@@ -1,13 +1,14 @@
 # Publication notes
 
-**Default policy: keep the GitHub repository PRIVATE** until the maintainer explicitly switches visibility to public.
+**Status:** repository is **PUBLIC** (`https://github.com/FernandoLizana/navier-stokes-ai-lab`).
 
-## Private → public checklist
+## Pre-public checklist (completed locally before visibility change)
 
-1. Confirm no secrets, tokens, or personal absolute paths remain (search for `api_key`, `ghp_`, `sk-`, home-directory paths, etc.).
-2. Confirm large binaries policy (LFS / release assets) for items like `reports/l0049_full_M.npz`.
-3. Update About + topics on GitHub.
-4. Only then: GitHub → Settings → Change repository visibility → Public.
+1. Scanned tracked tree for tokens (`ghp_` / `gho_` / `github_pat_` / private keys / AWS-style keys): only documentation mentions of scan patterns.
+2. No personal absolute paths (`Users\\…`) and no personal username leftovers in tracked content.
+3. No `.env` / credential / `.pem` files tracked.
+4. Workflows use `actions/checkout` + pip/pytest only; no `secrets.*` usage.
+5. Large regenerable dump `reports/l0049_full_M.npz` kept out of git; remaining large files are scientific JSON (~5–9 MB).
 
 ## Suggested GitHub blurb
 

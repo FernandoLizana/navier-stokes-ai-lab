@@ -8,7 +8,7 @@
 
 Historical names in code and archives: **NS-MRL**, **bastardus2**. Python imports remain `ns_exploration`.
 
-**Repository visibility:** intended to stay **private** until the maintainer explicitly publishes it. Do not treat a local clone as a public release.
+**Repository:** public on GitHub as [`navier-stokes-ai-lab`](https://github.com/FernandoLizana/navier-stokes-ai-lab). Historical local folder name: `bastardus2`.
 
 ---
 

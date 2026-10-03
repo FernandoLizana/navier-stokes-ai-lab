@@ -8,7 +8,7 @@
 
 Nombres históricos: **NS-MRL**, **bastardus2**. Imports: `ns_exploration`.
 
-**Visibilidad:** el repositorio debe permanecer **privado** hasta que el mantenedor lo publique explícitamente.
+**Repositorio:** público en GitHub como [`navier-stokes-ai-lab`](https://github.com/FernandoLizana/navier-stokes-ai-lab). Nombre histórico local: `bastardus2`.
 
 ---
 
