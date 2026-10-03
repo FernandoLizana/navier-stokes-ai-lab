@@ -4,7 +4,7 @@
 
 ## Private → public checklist
 
-1. Confirm no secrets, tokens, or personal absolute paths remain (`rg -i 'fliza|api_key|ghp_|sk-'` or equivalent).
+1. Confirm no secrets, tokens, or personal absolute paths remain (search for `api_key`, `ghp_`, `sk-`, home-directory paths, etc.).
 2. Confirm large binaries policy (LFS / release assets) for items like `reports/l0049_full_M.npz`.
 3. Update About + topics on GitHub.
 4. Only then: GitHub → Settings → Change repository visibility → Public.
