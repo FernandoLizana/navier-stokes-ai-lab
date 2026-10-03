@@ -1,0 +1,32 @@
+{
+  "mode": "full",
+  "rows": [
+    {
+      "label": "equal_12",
+      "strategy": "equal",
+      "n_clusters": 11,
+      "route_a_I_hi": "37.91955812524674097702040111940917993968",
+      "route_d_I_hi": "62.48487303734750009397403522843881454152",
+      "best_route": "A",
+      "best_I_hi": "37.91955812524674097702040111940917993968",
+      "omega_T_hi": 54.23121142428405,
+      "closes_c0008": false,
+      "runtime_s": 5829.44,
+      "manifest_path": "experiments/terminal_weighted/route_a_manifest_equal_12.json"
+    }
+  ],
+  "best": {
+    "label": "equal_12",
+    "strategy": "equal",
+    "n_clusters": 11,
+    "route_a_I_hi": "37.91955812524674097702040111940917993968",
+    "route_d_I_hi": "62.48487303734750009397403522843881454152",
+    "best_route": "A",
+    "best_I_hi": "37.91955812524674097702040111940917993968",
+    "omega_T_hi": 54.23121142428405,
+    "closes_c0008": false,
+    "runtime_s": 5829.44,
+    "manifest_path": "experiments/terminal_weighted/route_a_manifest_equal_12.json"
+  },
+  "best_manifest_path": "experiments/terminal_weighted/route_a_manifest_equal_12.json"
+}

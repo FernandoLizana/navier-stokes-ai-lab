@@ -1,0 +1,18 @@
+{
+  "C-R-0013": true,
+  "C_shor_sym": 9.189036845789548,
+  "C_ub_sos_hi": 4.014938261573984,
+  "D": 154,
+  "n_proved_restricted": 13,
+  "certificate_ok": true,
+  "checks": {
+    "support_frozen": true,
+    "C_le_Cdagger": true,
+    "C_matches": true,
+    "extends_cr0008": true,
+    "closes_cr": true,
+    "all_ic_false": true,
+    "sos_below_Cdagger": true
+  },
+  "not_a_clay_claim": true
+}

@@ -1,0 +1,29 @@
+{
+  "compatible_worst_OmT": 41.824753513640154,
+  "L0024_majorant": 41.74337593971423,
+  "S_max_full": 169574.0,
+  "N_from_Smax": 411.79363763904854,
+  "N_young": 78.689262291624,
+  "C_from_cubic_F": 8992.08836275977,
+  "C_dagger": 9.562009938690146,
+  "zero_alpha_shells": [
+    48,
+    108,
+    147
+  ],
+  "C_R_0003_OmT": 40.82462307930434,
+  "closes_c0007": false,
+  "certificate_ok": true,
+  "checks": {
+    "compatible_above_M": true,
+    "compatible_above_L0024": true,
+    "Smax_matches": true,
+    "Smax_worse_than_young": true,
+    "F_matches": true,
+    "C_cubic_above_Cdagger": true,
+    "zero_alpha_nonempty": true,
+    "zero_alpha_le_M": true,
+    "closes_false": true
+  },
+  "not_a_clay_claim": true
+}

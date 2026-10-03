@@ -1,0 +1,21 @@
+{
+  "radii": [1, 2, 3, 4, 5, 6],
+  "four_path_ok": true,
+  "interval_enclosed": true,
+  "pol_leray_ok": true,
+  "rational_interval_ok": true,
+  "production_opnorm_rational_wired": true,
+  "band_regen_complete": true,
+  "band_regen_seconds": 65,
+  "manifest_rational": "experiments/terminal_weighted/shell_manifest_repair_band6_one_inf_rational.json",
+  "manifest_legacy": "experiments/terminal_weighted/shell_manifest_repair_band6_one_inf.json",
+  "C_term_sum_hi_rational": "62.69177126839118981544169161",
+  "C_term_sum_hi_legacy": "62.69177126839118827096500141957679659783",
+  "B_C_combined_hi": "32.58590997078726125714208742489404695703",
+  "shell_blocks_match_legacy_within_mpfr_noise": true,
+  "method": "one_inf_mpfr_up",
+  "rational_coefficients": true,
+  "note": "Band {1..6} manifest regenerated with rational_coefficients=True. Does NOT close C-0008.",
+  "ready_for_full_n24_rational_regen": true,
+  "full_n24_rational_regen_estimate": "days with --workers 4; run in external PowerShell"
+}

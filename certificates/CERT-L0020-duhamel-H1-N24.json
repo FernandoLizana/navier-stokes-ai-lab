@@ -1,0 +1,23 @@
+{
+  "certificate_id": "CERT-L0020-duhamel-H1-N24",
+  "lemma_ref": "L-0020 Stokes\u2013Duhamel H\u00b9 majorant",
+  "route": "B",
+  "evidence_level": "N5",
+  "n": 24,
+  "E0": 0.5,
+  "nu": 0.1,
+  "T": 0.02,
+  "K2": 147,
+  "rho_star": 6192.0,
+  "S_T": 81.64924615860868,
+  "I_sigma": 0.2100924089068647,
+  "Nstar_young": 78.689262291624,
+  "Omega_young_H1": 326.86166770253544,
+  "envelope_cap": 73.5,
+  "c0005_M": 61.23693461895651,
+  "Ncrit_c0005": 9.666194264843458,
+  "young_closes_c0005": false,
+  "clay_implication": "None. Finite dealias Galerkin Stokes\u2013Duhamel H\u00b9 bound; Young instantiation does not close C-0005; not Clay.",
+  "payload_sha256": "41330869c037179b51529f279eed70672802d1313171980a360d5d8dbb1c42fb",
+  "notes": "S(T)=81.6492, Stokes_floor=40.8246, I_\u03c3=0.210092. Young N_*=78.6893 (\u03c1_\u2605=6192 at r=86,m=72) \u21d2 \u03a9_H1=326.862 (envelope=73.5). C-0005 N_crit=9.66619; Young closes C-0005: False."
+}

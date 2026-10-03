@@ -1,0 +1,22 @@
+{
+  "certificate_id": "CERT-L0007-exp-euclidean-k2-N12",
+  "lemma_ref": "L-0007 exponential (shell IC, full dealias stretch)",
+  "route": "B",
+  "evidence_level": "N5",
+  "support": "shell_ic_full_dealias",
+  "n": 12,
+  "ic_kind": "euclidean",
+  "k_ic": 2,
+  "K_ic_squared": 4,
+  "K_full_squared": 27,
+  "M_full": 343,
+  "E0": 0.5,
+  "t": 0.02,
+  "Omega0_hi": 2.000000000000001,
+  "alpha_hi": 333.3646651941389,
+  "Omega_bound_hi": 1572.5290850216109,
+  "closes": true,
+  "clay_implication": "None. Finite Galerkin shell-IC/full-grid; not continuum NS.",
+  "payload_sha256": "d04797bcc2ed42f6d76dab4b4add2a900e8db60d41bd39d0815b3d1c456e5229",
+  "notes": "Outward: \u03a9(t)\u2264\u03a90 exp(\u03b1t) \u2264 1.572529e+03 (\u03a90_hi=2.000000e+00, \u03b1_hi=3.333647e+02)."
+}

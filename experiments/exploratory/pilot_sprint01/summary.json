@@ -1,0 +1,9 @@
+{
+  "n_runs": 72,
+  "max_div": 9.712700670265677e-17,
+  "n_stopped": 0,
+  "route": "B",
+  "purpose": "infrastructure_validation",
+  "evidence": "N2",
+  "not_a_singularity_search": true
+}

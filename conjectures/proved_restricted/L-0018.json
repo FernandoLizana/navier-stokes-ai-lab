@@ -1,0 +1,17 @@
+{
+  "lemma_id": "L-0018",
+  "route": "B",
+  "status": "proved_restricted",
+  "evidence_level": "N7",
+  "n_max": 16,
+  "K2_worst": 75,
+  "n_worst": 16,
+  "E0": 0.5,
+  "nu": 0.1,
+  "Omega_cap": 37.5,
+  "cs0002_M": 20.320076249551253,
+  "closes_cs0002": false,
+  "margin": -17.179923750448747,
+  "clay_implication": "None. Finite dealiased Galerkin spectral envelope only; does not address continuum Clay routes.",
+  "notes": "\u03a9 \u2264 K\u00b2 E0 with K\u00b2(16)=75 \u21d2 \u03a9_cap=37.5 > M=20.3201 (margin=-17.1799). Closes C-S-0002 for all t\u22650 on dealiased Galerkin N\u226416. Also closes all-IC C-0003 with M=37.5 (after C-0002 Stokes refutation)."
+}

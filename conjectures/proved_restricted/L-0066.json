@@ -1,0 +1,32 @@
+{
+  "lemma_id": "L-0066",
+  "route": "B",
+  "status": "proved_restricted",
+  "evidence_level": "N7",
+  "n": 24,
+  "c0007_M": 41.283999509509286,
+  "C_dagger": 9.562009938690146,
+  "Omega_star": 18.874042281544565,
+  "support_cr0013": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    10,
+    12,
+    16,
+    19
+  ],
+  "pol_branch": "second",
+  "support_cr0013_D": 154,
+  "C_shor_sym_cr0013": 9.189036845789548,
+  "C_ub_sos_hi": 4.014938261573984,
+  "closes_cr0013": true,
+  "extends_cr0008": true,
+  "closes_c0007_all_ic": false,
+  "clay_implication": "None. One-pol greedy-second subclass C-R-0013; not all-IC; not Clay.",
+  "notes": "C-R-0013 one-pol second: 11 shells D=154 C_Shor=9.189\u2264C_\u2020. Extends C-R-0008 (7 shells). SOS N5 (L-0065) C_ub_hi\u22484.0149. All-IC: False."
+}

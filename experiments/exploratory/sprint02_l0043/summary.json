@@ -1,0 +1,32 @@
+{
+  "support_cr0008": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8
+  ],
+  "support_cr0008_C": 8.476437931112338,
+  "onepol_123456_C": 7.684269646492112,
+  "onepol_techo_12345689_C": 9.84904582706892,
+  "C_shellblock_lo": 14.14016257489707,
+  "C_kyfan_partial": 12.649110640673522,
+  "C_dagger": 9.562009938690146,
+  "closes_cr0008": true,
+  "closes_c0007_all_ic": false,
+  "certificate_ok": true,
+  "checks": {
+    "cr0008_le_Cdagger": true,
+    "cr0008_matches": true,
+    "support_frozen": true,
+    "onepol_techo_above": true,
+    "techo_matches": true,
+    "shellblock_above": true,
+    "kyfan_above": true,
+    "closes_cr": true,
+    "all_ic_false": true
+  },
+  "not_a_clay_claim": true
+}

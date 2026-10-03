@@ -1,0 +1,17 @@
+{
+  "lemma_id": "L-0004",
+  "route": "B",
+  "status": "proved_restricted",
+  "evidence_level": "N7",
+  "hypothesis": "|k|<= 3 shell on N=12 grid (dealias=True)",
+  "K": 3.0,
+  "M": 123,
+  "E0": 0.5,
+  "nu": 0.1,
+  "t": 0.02,
+  "L0001_short": 45.114428703603465,
+  "L0003_uniform": 18449.999999999996,
+  "best_cap": 45.114428703603465,
+  "clay_implication": "None. Support-restricted finite Galerkin only.",
+  "notes": "Shell-restricted: K=3, M=123. L-0001@t=0.02: 4.511443e+01; L-0003 uniform: 1.845000e+04."
+}

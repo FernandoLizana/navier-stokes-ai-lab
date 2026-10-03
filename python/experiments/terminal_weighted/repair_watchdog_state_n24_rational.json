@@ -1,0 +1,10 @@
+{
+  "workers": 3,
+  "status": "running",
+  "attempt": 1,
+  "n_completed": 24,
+  "rational_coefficients": true,
+  "avail_ram_gb": 8.29,
+  "last_error": null,
+  "updated_at": "2026-08-07T21:47:45Z"
+}

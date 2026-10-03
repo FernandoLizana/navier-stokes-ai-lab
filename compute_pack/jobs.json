@@ -1,0 +1,168 @@
+{
+  "version": 1,
+  "notes": "CPU-heavy C-0008 jobs. All state under compute_pack/data/. Use ./run.sh ram for worker count. High-RAM: export C0008_WORKERS_MAX=48 before run.",
+  "jobs": [
+    {
+      "id": "rational_full_n24",
+      "title": "Full dealias n=24, rational MPFR coefficients (87 shells)",
+      "priority": 1,
+      "estimated_hours": 22,
+      "resume_from": "27/87 shells",
+      "depends_on": [],
+      "workers_default": 32,
+      "stale_minutes": 25,
+      "heartbeat": "repair_one_inf_heartbeat_n24_rational.txt",
+      "complete_check": {"type": "repair_progress", "n": 24, "rational": true},
+      "command": [
+        "scripts/regenerate_c0008_full_dealias_one_inf.py",
+        "--n", "24", "--rational", "--watchdog"
+      ],
+      "post_commands": [
+        ["scripts/build_c0008_repair_full_certificate.py", "--n", "24", "--rational"]
+      ]
+    },
+    {
+      "id": "cluster_rational_n24",
+      "title": "L-0073R cluster manifest + cert from rational shell manifest",
+      "priority": 2,
+      "estimated_hours": 6,
+      "depends_on": ["rational_full_n24"],
+      "workers_default": 12,
+      "stale_minutes": 30,
+      "command": [
+        "scripts/build_c0008_repair_cluster_manifest.py",
+        "--n", "24", "--rational", "--workers", "12"
+      ],
+      "post_commands": [
+        ["scripts/build_c0008_repair_cluster_certificate.py", "--n", "24"]
+      ]
+    },
+    {
+      "id": "rational_full_n20",
+      "title": "Full dealias n=20 rational (87 shells, N ladder)",
+      "priority": 3,
+      "estimated_hours": 10,
+      "depends_on": [],
+      "workers_default": 32,
+      "stale_minutes": 25,
+      "heartbeat": "repair_one_inf_heartbeat_n20_rational.txt",
+      "complete_check": {"type": "repair_progress", "n": 20, "rational": true},
+      "command": [
+        "scripts/regenerate_c0008_full_dealias_one_inf.py",
+        "--n", "20", "--rational", "--watchdog"
+      ],
+      "post_commands": [
+        ["scripts/build_c0008_repair_full_certificate.py", "--n", "20", "--rational"]
+      ]
+    },
+    {
+      "id": "rational_full_n16",
+      "title": "Full dealias n=16 rational (87 shells)",
+      "priority": 4,
+      "estimated_hours": 8,
+      "depends_on": [],
+      "workers_default": 32,
+      "stale_minutes": 25,
+      "heartbeat": "repair_one_inf_heartbeat_n16_rational.txt",
+      "complete_check": {"type": "repair_progress", "n": 16, "rational": true},
+      "command": [
+        "scripts/regenerate_c0008_full_dealias_one_inf.py",
+        "--n", "16", "--rational", "--watchdog"
+      ],
+      "post_commands": [
+        ["scripts/build_c0008_repair_full_certificate.py", "--n", "16", "--rational"]
+      ]
+    },
+    {
+      "id": "rational_full_n12",
+      "title": "Full dealias n=12 rational (87 shells)",
+      "priority": 5,
+      "estimated_hours": 6,
+      "depends_on": [],
+      "workers_default": 32,
+      "stale_minutes": 25,
+      "heartbeat": "repair_one_inf_heartbeat_n12_rational.txt",
+      "complete_check": {"type": "repair_progress", "n": 12, "rational": true},
+      "command": [
+        "scripts/regenerate_c0008_full_dealias_one_inf.py",
+        "--n", "12", "--rational", "--watchdog"
+      ],
+      "post_commands": [
+        ["scripts/build_c0008_repair_full_certificate.py", "--n", "12", "--rational"]
+      ]
+    },
+    {
+      "id": "float_full_n20",
+      "title": "Full dealias n=20 float one_inf (per-n ladder, optional)",
+      "priority": 6,
+      "estimated_hours": 10,
+      "depends_on": [],
+      "workers_default": 32,
+      "stale_minutes": 25,
+      "heartbeat": "repair_one_inf_heartbeat_n20.txt",
+      "complete_check": {"type": "repair_progress", "n": 20, "rational": false},
+      "command": [
+        "scripts/regenerate_c0008_full_dealias_one_inf.py",
+        "--n", "20", "--watchdog"
+      ]
+    },
+    {
+      "id": "float_full_n16",
+      "title": "Full dealias n=16 float one_inf (optional)",
+      "priority": 7,
+      "estimated_hours": 8,
+      "depends_on": [],
+      "workers_default": 32,
+      "stale_minutes": 25,
+      "heartbeat": "repair_one_inf_heartbeat_n16.txt",
+      "complete_check": {"type": "repair_progress", "n": 16, "rational": false},
+      "command": [
+        "scripts/regenerate_c0008_full_dealias_one_inf.py",
+        "--n", "16", "--watchdog"
+      ]
+    },
+    {
+      "id": "float_full_n12",
+      "title": "Full dealias n=12 float one_inf (optional)",
+      "priority": 8,
+      "estimated_hours": 6,
+      "depends_on": [],
+      "workers_default": 32,
+      "stale_minutes": 25,
+      "heartbeat": "repair_one_inf_heartbeat_n12.txt",
+      "complete_check": {"type": "repair_progress", "n": 12, "rational": false},
+      "command": [
+        "scripts/regenerate_c0008_full_dealias_one_inf.py",
+        "--n", "12", "--watchdog"
+      ]
+    },
+    {
+      "id": "cluster_float_n24_rebuild",
+      "title": "Rebuild L-0073R cluster manifest float (sanity / compare)",
+      "priority": 9,
+      "estimated_hours": 5,
+      "depends_on": [],
+      "workers_default": 12,
+      "stale_minutes": 30,
+      "command": [
+        "scripts/build_c0008_repair_cluster_manifest.py",
+        "--n", "24", "--workers", "12"
+      ],
+      "post_commands": [
+        ["scripts/audit_l0073r_cluster_certificate.py"]
+      ]
+    },
+    {
+      "id": "band_rational_n24",
+      "title": "Band {1..6} rational manifest (smoke/regression)",
+      "priority": 10,
+      "estimated_hours": 0.1,
+      "depends_on": [],
+      "workers_default": 1,
+      "stale_minutes": 10,
+      "command": [
+        "scripts/regenerate_c0008_band_manifest.py", "--rational"
+      ]
+    }
+  ]
+}

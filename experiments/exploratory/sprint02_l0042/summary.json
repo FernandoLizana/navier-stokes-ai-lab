@@ -1,0 +1,21 @@
+{
+  "C_sym_12345": 9.014802641581605,
+  "C_sym_123456": 11.344112520990302,
+  "C_triangle_123456": 80.48658937992259,
+  "C_hybrid_AB": 16.211284518064165,
+  "C_rank1_lo_123456": 0.22525863551389566,
+  "C_dagger": 9.562009938690146,
+  "closes_123456": false,
+  "closes_c0007_all_ic": false,
+  "certificate_ok": true,
+  "checks": {
+    "sym_above_Cdagger": true,
+    "sym_matches": true,
+    "triangle_worse_than_sym": true,
+    "hybrid_above_Cdagger": true,
+    "rank1_below_Cdagger": true,
+    "closes_false": true,
+    "all_ic_false": true
+  },
+  "not_a_clay_claim": true
+}

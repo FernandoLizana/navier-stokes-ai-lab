@@ -1,0 +1,19 @@
+{
+  "C_dagger": 9.562009938690146,
+  "C_fullsym": 1.36986977843755,
+  "C_ub": 0.8940401324113963,
+  "D": 64,
+  "TS": "MD",
+  "beats_fullsym": true,
+  "beta": 3.3806810347104825,
+  "clay_implication": "None",
+  "closes_vs_Cdagger": true,
+  "dir": "data/band_1234",
+  "evidence": "N2_float_SDP",
+  "method": "TSSOS tssos order=2 TS=MD Clarabel sphere equality",
+  "not_a_theorem": true,
+  "opt_neg": -0.3160909201405086,
+  "opt_pos": -0.3160909201405086,
+  "order": 2,
+  "ub_raw_abs": 0.3160909201405086
+}

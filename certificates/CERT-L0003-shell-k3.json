@@ -1,0 +1,20 @@
+{
+  "certificate_id": "CERT-L0003-shell-k3",
+  "lemma_ref": "L-0003 (uniform-in-time), truncated Galerkin (hard shell |k|\u22643)",
+  "route": "B",
+  "evidence_level": "N5",
+  "support": "shell",
+  "n": 12,
+  "k_shell": 3,
+  "K_squared_int": 9,
+  "M": 123,
+  "E0": 0.5,
+  "nu": 0.1,
+  "Omega0_hi": 4.500000000000002,
+  "Omega_eq_hi": 18450.000000000025,
+  "Omega_bound_hi": 18450.000000000025,
+  "closes": true,
+  "clay_implication": "None. Uniform in time for fixed finite support only; \u03a9_eq \u223c M/\u03bd\u00b2 \u2192 \u221e as resolution \u2192 \u221e. Not continuum NS.",
+  "payload_sha256": "a4497243b7747de160fa4e58409e3c12d12e4cca11d08c67cf14046f8e048c18",
+  "notes": "Outward enclosure: \u03a9(t)\u2264max(K\u00b2E0, 6ME0\u00b2/\u03bd\u00b2)\u22641.845000e+04 for all t\u22650 under hard shell |k|\u22643. \u03a90_hi=4.500000e+00, \u03a9_eq_hi=1.845000e+04."
+}

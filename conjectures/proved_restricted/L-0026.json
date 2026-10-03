@@ -1,0 +1,21 @@
+{
+  "lemma_id": "L-0026",
+  "route": "B",
+  "status": "proved_restricted",
+  "evidence_level": "N7",
+  "n": 24,
+  "E0": 0.5,
+  "nu": 0.1,
+  "T": 0.02,
+  "c0007_M": 41.283999509509286,
+  "Stokes_floor": 40.82462307930434,
+  "L0024_majorant": 41.74337593971423,
+  "Omega_star": 18.874042281544565,
+  "Omega_T_at_star": 41.28399950948664,
+  "low_slab_L0024_worst": 41.74337593971423,
+  "high_slab_closes": true,
+  "closes_c0007": false,
+  "monotone_in_Omega0": true,
+  "clay_implication": "None. Case-split techo on L-0024 majorant only; C-0007 still open; not continuum; not Clay.",
+  "notes": "C-0007 M=41.284000; L-0024 majorant=41.743376; Stokes floor=40.824623. Monotone in \u03a90: True. \u03a9\u2605=18.874042 with \u03a9(T)=41.284000\u2264M. High slab [18.8740, K\u00b2E0] worst=41.284000 closes=True. Low slab still L-0024-worst=41.743376>M; C-0007 open. Techo: tightening/clamping N worsens or stays above M; inflating N is not a valid sharper majorant."
+}

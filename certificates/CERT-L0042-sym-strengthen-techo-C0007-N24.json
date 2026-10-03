@@ -1,0 +1,14 @@
+{
+  "cert_id": "CERT-L0042-sym-strengthen-techo-C0007-N24",
+  "lemma_id": "L-0042",
+  "n": 24,
+  "c0007_M": 41.283999509509286,
+  "C_dagger": 9.562009938690146,
+  "C_sym_123456": 11.344112520990302,
+  "C_triangle_123456": 80.48658937992259,
+  "C_hybrid_AB": 16.211284518064165,
+  "C_rank1_lo_123456": 0.22525863551389566,
+  "closes_123456": false,
+  "closes_c0007_all_ic": false,
+  "clay_implication": "None. Techo on strengthenings of Sym Shor for {1..6}; not continuum; not Clay."
+}

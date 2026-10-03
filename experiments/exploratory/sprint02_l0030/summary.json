@@ -1,0 +1,24 @@
+{
+  "R_star": 3148,
+  "n_triads": 4816686,
+  "N_triad_at_equipartition": 56.10704055642215,
+  "N_young_at_E0": 78.689262291624,
+  "C_from_Rstar": 158.694675399019,
+  "C_dagger": 9.562009938690146,
+  "low_slab_hybrid_worst": 144.16215015612033,
+  "closes_c0007": false,
+  "certificate_ok": true,
+  "checks": {
+    "R_star_matches": true,
+    "n_triads_matches": true,
+    "R_star_lt_M": true,
+    "R_star_positive": true,
+    "C_from_R_matches": true,
+    "N_triad_beats_young_at_eq": true,
+    "N_values_match": true,
+    "hybrid_above_M": true,
+    "C_above_Cdagger": true,
+    "closes_false": true
+  },
+  "not_a_clay_claim": true
+}

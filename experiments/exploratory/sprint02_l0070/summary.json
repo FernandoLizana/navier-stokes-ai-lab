@@ -1,0 +1,11 @@
+{
+  "lemma_id": "L-0070",
+  "proved_bound_M": 41.74337593971423,
+  "sharp_target_M": 41.283999509509286,
+  "closes_c0007_all_ic": true,
+  "closes_c0008_sharp": false,
+  "c0007_status": "proved_restricted",
+  "c0008_status": "exploring",
+  "certificate": "CERT-L0070-all-ic-C0007-N24",
+  "pytest_ok": true
+}

@@ -1,0 +1,25 @@
+{
+  "verify_ok": true,
+  "verify_issues": [],
+  "scope": "repair_full",
+  "n_shells": 87,
+  "D": 6748,
+  "bound_method": "one_inf_only",
+  "I_hi_repair": "170.5871515665858369747011687095425020673",
+  "I_star_lo": "1.299312755660737460865658664044760608352",
+  "I_star_hi_cert": "1.2993140549735054",
+  "omega_T_hi_repair": "101.1362889073194569953400748478992335277",
+  "M_target": "41.28399950950928598558675730600953102112",
+  "closes_strict": false,
+  "closes_omega": false,
+  "closes_c0008": false,
+  "gap_I_over_I_star": 131.29029236678082,
+  "gap_omega_over_M": 2.4497696470523382,
+  "historical_comparison": {
+    "L-0073_historical_I_hi": 37.91955812524674,
+    "L-0073_historical_valid": false,
+    "note": "Historical cluster-best NOT rigorous (invalid B_C*max(phi), fro/min bound)."
+  },
+  "conjecture_C0008": "exploring",
+  "verdict": "NO-GO: repair full-dealias one_inf bound is rigorous (verify PASS) but I_hi=170.5871515665858369747011687095425020673 >> I_*\u22481.299312755660737460865658664044760608352 (~131.3x); C-0008 not closed."
+}

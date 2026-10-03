@@ -1,0 +1,211 @@
+{
+  "lemma_id": "L-0051",
+  "route": "B",
+  "status": "exploring",
+  "evidence_level": "N2",
+  "n": 24,
+  "C_dagger": 9.562009938690146,
+  "C_rank1_full": 3.4463930313736206,
+  "C_fullsym_full": 25.925922025377965,
+  "C_greedy_41_shells": 9.5037,
+  "sos_scale_rows": [
+    {
+      "radii": [
+        1,
+        2,
+        3
+      ],
+      "D": 52,
+      "C_fullsym": 1.36986977843755,
+      "C_ub": 0.843822489307523,
+      "ratio": 0.616
+    },
+    {
+      "radii": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "D": 64,
+      "C_fullsym": 1.36986977843755,
+      "C_ub": 0.8940401324113963,
+      "ratio": 0.653
+    },
+    {
+      "radii": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "D": 112,
+      "C_fullsym": 2.148097061972368,
+      "C_ub": 1.3052615184180565,
+      "ratio": 0.608
+    },
+    {
+      "radii": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "D": 160,
+      "C_fullsym": 2.9933259094191538,
+      "C_ub": 1.7009322214824112,
+      "ratio": 0.568
+    },
+    {
+      "radii": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "D": 184,
+      "C_fullsym": 3.2876874682501214,
+      "C_ub": 1.8518343630712857,
+      "ratio": 0.563
+    },
+    {
+      "radii": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "D": 244,
+      "C_fullsym": 3.991247855265094,
+      "C_ub": 2.223426008475949,
+      "ratio": 0.557
+    },
+    {
+      "radii": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "D": 292,
+      "C_fullsym": 4.260132170346936,
+      "C_ub": 2.4401954034218707,
+      "ratio": 0.573
+    },
+    {
+      "radii": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "D": 356,
+      "C_fullsym": 4.912140950058888,
+      "C_ub": 2.782805118332653,
+      "ratio": 0.566
+    }
+  ],
+  "ratio_median_large": 0.567,
+  "C_ub_sos_extrapolated_full": 14.699997788389304,
+  "brute_sos_closes_all_ic": false,
+  "structured_routes": [
+    {
+      "id": "greedy-sos-scan",
+      "target": "greedy C-R-0012 SOS feasibility (D~1772)",
+      "D_est": 1772,
+      "C_bound_est": 5.3885979,
+      "resource": "cluster est. ~M vars, ~100h+; laptop infeasible",
+      "closes_all_ic": false,
+      "status": "techo_laptop",
+      "note": "L-0055: extrap SOS~5.39<C_dagger but SDP too large for laptop."
+    },
+    {
+      "id": "greedy-41",
+      "target": "C-R-0012 greedy 41 shells (physical fullsym Shor)",
+      "D_est": null,
+      "C_bound_est": 9.5037,
+      "resource": "Python streaming, ~GB RAM",
+      "closes_all_ic": false,
+      "status": "proved_restricted",
+      "note": "C\u22489.50\u2264C_\u2020; largest closed Hermitian subclass without SOS."
+    },
+    {
+      "id": "onepol-cr0008",
+      "target": "one-pol Sym shells [1, 2, 3, 4, 5, 6, 8] (C-R-0008)",
+      "D_est": 92,
+      "C_bound_est": 8.476437931112338,
+      "resource": "Python SVD, seconds",
+      "closes_all_ic": false,
+      "status": "proved_restricted",
+      "note": "C\u22488.48\u2264C_\u2020; fixed polarization \u2014 structured subclass."
+    },
+    {
+      "id": "rank1-full",
+      "target": "full-dealias rank-1 power (L-0049)",
+      "D_est": 6748,
+      "C_bound_est": 3.4463930313736206,
+      "resource": "Python sparse matvec, minutes",
+      "closes_all_ic": false,
+      "status": "exploring",
+      "note": "Lower bound only; does not refute C-0007."
+    },
+    {
+      "id": "sos-tiny",
+      "target": "TSSOS order-2 on {1,2,3} Hermitian (L-0050)",
+      "D_est": 52,
+      "C_bound_est": 0.843822489307523,
+      "resource": "Julia Clarabel, ~1 min",
+      "closes_all_ic": false,
+      "status": "validated",
+      "note": "Beats Shor; N5 Gram cert L-0052 (band {1,2,3})."
+    },
+    {
+      "id": "sos-onepol-d92",
+      "target": "one-pol SOS on C-R-0008 support (D=92)",
+      "D_est": 92,
+      "C_bound_est": 3.3560651946371607,
+      "resource": "Julia Clarabel, ~5 min (302s measured)",
+      "closes_all_ic": false,
+      "status": "validated",
+      "note": "SOS C\u22483.356 \u226a Shor\u22488.48 (ratio\u22480.396); N5 Gram L-0053."
+    },
+    {
+      "id": "sos-brute-scale",
+      "target": "consecutive Hermitian bands to full dealias",
+      "D_est": 6748,
+      "C_bound_est": 14.699997788389304,
+      "resource": "Julia COSMO, 10+ GB RAM, hours",
+      "closes_all_ic": false,
+      "status": "techo",
+      "note": "Ratio\u22480.567 on D\u2265112 \u21d2 extrapolated C_ub\u224814.70 > C_\u2020\u22489.56. Abandon laptop brute scaling."
+    }
+  ],
+  "clay_implication": "None. Synthesis of finite Galerkin bounds; not continuum; not Clay.",
+  "notes": "Ladder: C_rank1~3.45 << C_ub,SOS,band << C_fullsym,full~25.93. Median SOS/Shor ratio~0.567 on D>=112 => extrapolated all-IC SOS~14.70 > C_dagger~9.56. Pivot: proved subclasses (C-R-0008 one-pol Shor~8.48, SOS~3.36), targeted low-D SOS, N5 rationalization — not D=500+ brute. L-0056 closure map documents viable paths."
+}

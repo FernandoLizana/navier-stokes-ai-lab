@@ -1,0 +1,21 @@
+{
+  "certificate_id": "CERT-L0023-cubic-dissipation-N24",
+  "lemma_ref": "L-0023 cubic-dissipation ODE C_\u2605 for C-0005",
+  "route": "B",
+  "evidence_level": "N5",
+  "n": 24,
+  "E0": 0.5,
+  "nu": 0.1,
+  "T": 0.02,
+  "K2": 147,
+  "Omega0_cap": 73.5,
+  "c0005_M": 61.23693461895651,
+  "C_star": 2.153875713868075,
+  "Omega_at_Cstar": 61.23693461895651,
+  "C_emp_max": 0.020063495421016313,
+  "emp_closes": true,
+  "proved_closes_c0005": false,
+  "clay_implication": "None. ODE reduction only; stretch constant C\u2264C_\u2605 not proved; not continuum; not Clay.",
+  "payload_sha256": "600afc970e4517076eee290481f4577c404b9e8955345b39185809cac16e8927",
+  "notes": "ODE z'=-(\u03bd/E0)z\u00b3+(C/2)z\u00b2 from \u03a90\u226473.5. C_\u2605=2.15388 \u21d2 \u03a9(T)\u226461.2369 (M=61.2369). C_emp\u22480.0200635; emp_closes=True. Proved C\u2264C_\u2605: False."
+}

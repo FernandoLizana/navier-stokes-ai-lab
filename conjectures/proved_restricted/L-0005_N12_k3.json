@@ -1,0 +1,18 @@
+{
+  "lemma_id": "L-0005",
+  "route": "B",
+  "status": "proved_restricted",
+  "evidence_level": "N7",
+  "k_shell": 3,
+  "n": 12,
+  "E0": 0.5,
+  "nu": 0.1,
+  "t": 0.02,
+  "K": 3.0,
+  "M": 123,
+  "Omega_bound_short": 45.114428703603465,
+  "Omega_bound_uniform": 18449.999999999996,
+  "Omega_bound": 45.114428703603465,
+  "clay_implication": "None. Bound for shell-truncated Galerkin ODE only; not full NS on T^3.",
+  "notes": "For Galerkin truncation |k|\u22643 on N=12: \u03a9(t)\u22644.511443e+01 for all t\u2208[0,0.02] (via L-0001\u2229L-0004). K=3, M=123."
+}

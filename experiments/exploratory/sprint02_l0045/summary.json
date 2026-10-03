@@ -1,0 +1,42 @@
+{
+  "support_cr0010": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    24,
+    25
+  ],
+  "C_fullsym_rmax25": 9.118850375286184,
+  "C_fullsym_rmax26": 9.778921867385824,
+  "C_dagger": 9.562009938690146,
+  "closes_cr0010": true,
+  "closes_c0007_all_ic": false,
+  "certificate_ok": true,
+  "checks": {
+    "r25_le_Cdagger": true,
+    "r25_matches": true,
+    "r26_above": true,
+    "r26_matches": true,
+    "support_frozen": true,
+    "closes_cr": true,
+    "all_ic_false": true
+  },
+  "not_a_clay_claim": true
+}

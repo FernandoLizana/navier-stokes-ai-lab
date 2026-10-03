@@ -1,0 +1,17 @@
+{
+  "cert_id": "CERT-L0030-triad-N-C0007-N24",
+  "lemma_id": "L-0030",
+  "n": 24,
+  "M_modes": 3374,
+  "R_star": 3148,
+  "n_triads": 4816686,
+  "rho_star": 6192.0,
+  "C_dagger": 9.562009938690146,
+  "C_from_Rstar": 158.694675399019,
+  "N_triad_at_equipartition": 56.10704055642215,
+  "N_young_at_E0": 78.689262291624,
+  "low_slab_hybrid_worst": 144.16215015612033,
+  "c0007_M": 41.283999509509286,
+  "closes_c0007": false,
+  "clay_implication": "None. Full-mask triad counting for \u2016N\u2016 only; C_\u2020 not reached; not continuum; not Clay."
+}

@@ -1,0 +1,14 @@
+{
+  "cert_id": "CERT-L0038-band-svd-C0007-N24",
+  "lemma_id": "L-0038",
+  "n": 24,
+  "c0007_M": 41.283999509509286,
+  "C_dagger": 9.562009938690146,
+  "band_123_C": 9.16515138991168,
+  "band_1234_C": 10.066445913694333,
+  "band_12_C": 6.6332495807108005,
+  "band_125_C": 9.549869109050658,
+  "closes_cr0004": true,
+  "closes_c0007_all_ic": false,
+  "clay_implication": "None. Exact SVD Shor on low-shell bands; C-R-0004 subclass only; not all-IC; not continuum; not Clay."
+}

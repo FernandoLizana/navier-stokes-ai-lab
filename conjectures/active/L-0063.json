@@ -1,0 +1,16 @@
+{
+  "lemma_id": "L-0063",
+  "route": "B",
+  "status": "cluster_export_ready",
+  "evidence_level": "N7",
+  "n": 24,
+  "n_shells": 41,
+  "greedy_D": 1772,
+  "export_dir": "tools\\sos_julia\\data\\greedy_cr0012",
+  "export_complete": true,
+  "nnz_M": 1521532,
+  "C_ub_sos_extrap": 5.3885979,
+  "cluster_runbook": "tools/sos_julia/cluster/greedy_cr0012/README.md",
+  "clay_implication": "None. Greedy export prep only; not Clay.",
+  "notes": "Greedy C-R-0012 export: 41 shells, D\u22481772. Extrap SOS C_ub\u22485.389. Export done \u2192 cluster SLURM (L-0057)."
+}

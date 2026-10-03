@@ -1,0 +1,28 @@
+{
+  "id": "C-R-0006",
+  "route": "B",
+  "status": "proved_restricted",
+  "evidence_level": "N7",
+  "lemma": "L-0040+L-0026+L-0027",
+  "domain": "Pseudospectral T^3, N<=24, 2/3 dealias, Fourier support in shells |k|^2 in {1,2,3,4,5}. NOT continuum.",
+  "nu": 0.1,
+  "energy": 0.5,
+  "t_end": 0.02,
+  "n_max": 24,
+  "proposed_bound_M": 41.283999509509286,
+  "shells": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "C_shor_sym": 9.014802641581605,
+  "C_dagger": 9.562009938690146,
+  "D": 112,
+  "Omega_star": 18.874042281544565,
+  "parent_open": "C-0007",
+  "statement": "For divergence-free fields on N\u226424 with Fourier support only on shells |k|\u00b2\u2208{1,2,3,4,5}, dealiased Galerkin NS (\u03bd=0.1, E\u22640.5) satisfies \u03a9(0.02)\u226441.28399951. Proof: Sym-restricted SVD Shor gives C\u22649.01480264\u2264C_\u2020 \u21d2 L-0027; high slab via L-0026. FINITE only.",
+  "clay_implication": "None. Consecutive low-shell subclass only; not all-IC C-0007; not Clay.",
+  "notes": "Unrestricted Shor on {1..4} already exceeded C_\u2020; Sym restriction closes {1..5}."
+}

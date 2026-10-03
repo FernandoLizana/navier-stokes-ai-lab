@@ -1,0 +1,138 @@
+{
+  "route": "B",
+  "purpose": "sprint02_partial_validation_before_adversarial",
+  "residuals": [
+    {
+      "name": "abc_beltrami_nonlinear",
+      "n": 16,
+      "dealias": true,
+      "residual_l2": 1.2105522013566452e-15,
+      "residual_rel": 6.989126393213532e-16,
+      "divergence_l2": 0.0,
+      "energy": 1.5,
+      "notes": "Continuum expects residual=0; nonzero = dealiasing/FFT roundoff.",
+      "evidence_level": "N2",
+      "route": "B"
+    },
+    {
+      "name": "abc_beltrami_nonlinear",
+      "n": 16,
+      "dealias": false,
+      "residual_l2": 1.6759777281324234e-15,
+      "residual_rel": 9.67626192493072e-16,
+      "divergence_l2": 0.0,
+      "energy": 1.5,
+      "notes": "Continuum expects residual=0; nonzero = dealiasing/FFT roundoff.",
+      "evidence_level": "N2",
+      "route": "B"
+    },
+    {
+      "name": "manufactured_linear_mode",
+      "n": 16,
+      "dealias": true,
+      "residual_l2": 9.199760500100244e-19,
+      "residual_rel": 6.518236480086877e-16,
+      "divergence_l2": 0.0,
+      "energy": 9.96007989343993e-07,
+      "notes": "Exact viscous decay of one mode; nonlinear negligible at tiny amplitude.",
+      "evidence_level": "N2",
+      "route": "B"
+    },
+    {
+      "name": "abc_beltrami_nonlinear",
+      "n": 32,
+      "dealias": true,
+      "residual_l2": 2.4449154422856475e-15,
+      "residual_rel": 1.4115725887494917e-15,
+      "divergence_l2": 0.0,
+      "energy": 1.5,
+      "notes": "Continuum expects residual=0; nonzero = dealiasing/FFT roundoff.",
+      "evidence_level": "N2",
+      "route": "B"
+    },
+    {
+      "name": "abc_beltrami_nonlinear",
+      "n": 32,
+      "dealias": false,
+      "residual_l2": 3.593349374257658e-15,
+      "residual_rel": 2.0746212285200322e-15,
+      "divergence_l2": 0.0,
+      "energy": 1.5,
+      "notes": "Continuum expects residual=0; nonzero = dealiasing/FFT roundoff.",
+      "evidence_level": "N2",
+      "route": "B"
+    },
+    {
+      "name": "manufactured_linear_mode",
+      "n": 32,
+      "dealias": true,
+      "residual_l2": 9.199760500100244e-19,
+      "residual_rel": 6.518236480086877e-16,
+      "divergence_l2": 0.0,
+      "energy": 9.96007989343993e-07,
+      "notes": "Exact viscous decay of one mode; nonlinear negligible at tiny amplitude.",
+      "evidence_level": "N2",
+      "route": "B"
+    }
+  ],
+  "parseval": {
+    "name": "parseval_spectral_vs_physical",
+    "n": 24,
+    "energy_spectral": 0.25,
+    "energy_physical": 0.25,
+    "rel_diff": 0.0,
+    "div_l2": 1.3220076469662481e-31,
+    "notes": "Must agree up to roundoff under NS-MRL Fourier convention.",
+    "evidence_level": "N2",
+    "route": "B"
+  },
+  "embedded_2d_operator": {
+    "n": 24,
+    "operator_rel_diff": 0.0,
+    "energy_channel_3d": 1.1359865118624416e-18,
+    "energy_channel_2d": 1.1359865118624416e-18,
+    "div_l2": 1.3220076469662481e-31,
+    "evidence_level": "N2",
+    "route": "B",
+    "notes": "2D embedded subclass only \u2014 does not imply 3D regularity."
+  },
+  "energy_decay": {
+    "n": 16,
+    "delta_E": -0.001992021290734669,
+    "minus_integrated_dissipation_proxy": -0.001992220499503988,
+    "mean_abs_step_residual": 4.980219232147975e-09,
+    "max_abs_step_residual": 4.999666680660653e-09,
+    "ens0": 0.5,
+    "evidence_level": "N2",
+    "route": "B",
+    "notes": "Step residual mixes time-discretization error with dealiasing; not a proof."
+  },
+  "enstrophy_gradient_gate": {
+    "n_low": 12,
+    "n_high": 24,
+    "t_end": 0.02,
+    "nu": 0.1,
+    "energy_target": 0.5,
+    "seed": 0,
+    "directional_deriv_low": -0.2437105253250138,
+    "directional_deriv_high": -0.25123320000375315,
+    "relative_agreement": 0.01519905050567598,
+    "gate_passed": true,
+    "gate_tol": 0.35,
+    "objective_low": 5.339782349600456,
+    "objective_high": 5.345082522656559,
+    "evidence_level": "N2",
+    "route": "B",
+    "notes": "FD directional derivative of enstrophy(T); not adjoint-exact."
+  },
+  "ascent": {
+    "performed": true,
+    "J0": 5.339782349600456,
+    "J1": 5.368708527221857,
+    "delta_J": 0.028926177621401372,
+    "n": 12,
+    "evidence_level": "N2",
+    "notes": "Single FD ascent step after gate pass; not a maximizer."
+  },
+  "not_a_clay_claim": true
+}

@@ -1,0 +1,33 @@
+{
+  "certificate_id": "CERT-L0067-sos-onepol-greedy-second-r24-N24",
+  "lemma_ref": "L-0067 N5 interval COSMO one-pol 12 shells",
+  "route": "B",
+  "evidence_level": "N5",
+  "n": 24,
+  "support_radii": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    10,
+    12,
+    16,
+    19,
+    24
+  ],
+  "pol_branch": "second",
+  "D": 178,
+  "C_dagger": 9.562009938690146,
+  "C_shor_sym": 9.3130311111074,
+  "C_ub_float": 4.076082500265736,
+  "C_ub_hi": 4.0760825002657395,
+  "ub_raw_hi": 1.4411127883068597,
+  "closes_vs_Cdagger": true,
+  "proposed_cr": "C-R-0014",
+  "clay_implication": "None. N5 interval on one-pol 12-shell witness; not all-IC; not Clay.",
+  "payload_sha256": "682ee8df024323ee064e64b5a2fd3293f179cc094c9120e1842d5449d51969d2",
+  "notes": "One-pol greedy-second+24: 12 shells D=178. COSMO C_ub\u22484.0761; N5 C_ub_hi\u22484.076083 < C_dagger\u22489.5620 < C_shor\u22489.3130. Extends C-R-0013. Proposed C-R-0014."
+}

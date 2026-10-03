@@ -1,0 +1,17 @@
+{
+  "cert_id": "CERT-L0026-c0007-techo-N24",
+  "lemma_id": "L-0026",
+  "n": 24,
+  "E0": 0.5,
+  "nu": 0.1,
+  "T": 0.02,
+  "c0007_M": 41.283999509509286,
+  "Stokes_floor": 40.82462307930434,
+  "L0024_majorant": 41.74337593971423,
+  "Omega_star": 18.874042281544565,
+  "Omega_T_at_star": 41.28399950948664,
+  "high_slab_closes": true,
+  "closes_c0007": false,
+  "monotone_in_Omega0": true,
+  "clay_implication": "None. Case-split techo on L-0024 majorant only; C-0007 still open; not continuum; not Clay."
+}

@@ -1,0 +1,38 @@
+{
+  "sprint": "C0008_hybrid_low_slab",
+  "C_dagger": 9.562009938690146,
+  "C_emp_max": 0.009311348515766146,
+  "C_fullsym_all_ic": 25.925922025377965,
+  "Omega_star": 18.874042281544565,
+  "M_c0007": 41.283999509509286,
+  "M_sharp_c0008": 41.283999509509286,
+  "L0073_terminal_omega_hi": 54.231,
+  "candidates": {
+    "triad_hybrid_ode": 144.16215015612033,
+    "triad_min_defect_ode": 51.00248179971093,
+    "weighted_min_defect_ode": 57.29672631688392,
+    "sos_band123_cubic_ode": 17.53629267515974,
+    "sos_greedy_onepol_cubic_ode": 21.709838044645107
+  },
+  "best_label": "sos_band123_cubic_ode",
+  "best_low_slab_omega_T": 17.53629267515974,
+  "best_all_ic_label": "triad_min_defect_ode",
+  "best_all_ic_low_slab_omega_T": 51.00248179971093,
+  "best_is_subclass_sos": true,
+  "closes_c0007_low_slab_all_ic": false,
+  "closes_c0008_sharp": false,
+  "closes_c0008_sharp_subclass_low_slab_only": true,
+  "gap_vs_M_sharp_all_ic": 9.718482290201642,
+  "gap_vs_M_sharp": -23.747706834349547,
+  "best_sos_band_C_ub": 0.8438224893075237,
+  "best_sos_greedy_C_ub": 3.3560651946371634,
+  "sos_cert_count": 11,
+  "all_ic_closes_C_dagger": false,
+  "verdict": "low_slab_beats_terminal_sketch",
+  "subclass_sos_verdict": "subclass_sos_low_slab_below_M",
+  "viable_next": [
+    "Prove all-IC C <= C_dagger (fullsym techo blocks naive Shor)",
+    "Terminal non-partition structure (L-0074 refuted finer clusters)",
+    "Cluster greedy SOS D=1772 (subclass, ~113h deferred)"
+  ]
+}

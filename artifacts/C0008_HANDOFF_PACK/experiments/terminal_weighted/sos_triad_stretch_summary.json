@@ -1,0 +1,49 @@
+{
+  "sprint": "C0008_SOS_TRIAD_STRETCH",
+  "C_dagger": 9.562009938690146,
+  "C_emp_max": 0.009311348515766146,
+  "C_fullsym_all_ic": 25.925922025377965,
+  "C_from_triad_Rstar": 158.694675399019,
+  "R_star": 3148,
+  "N_triad_at_equipartition": 56.10704055642215,
+  "low_slab_triad_hybrid_worst": 144.16215015612033,
+  "low_slab_min_defect_worst": 51.00248179971093,
+  "best_sos_C_ub_hi": 0.8438224893075237,
+  "sos_rows": [
+    {
+      "lemma": "CERT-L0052-sos-gram-band123-N24",
+      "C_ub_hi": 0.8438224893075237,
+      "closes_vs_Cdagger": true,
+      "D": 52,
+      "source": "CERT-L0052-sos-gram-band123-N24.json"
+    },
+    {
+      "lemma": "CERT-L0053-sos-gram-onepol-cr0008-N24",
+      "C_ub_hi": 3.3560651946371634,
+      "closes_vs_Cdagger": true,
+      "D": 92,
+      "source": "CERT-L0053-sos-gram-onepol-cr0008-N24.json"
+    },
+    {
+      "lemma": "CERT-L0054-sos-gram-band1234-N24",
+      "C_ub_hi": 0.8940401324113961,
+      "closes_vs_Cdagger": null,
+      "D": 64,
+      "source": "CERT-L0054-sos-gram-band1234-N24.json"
+    },
+    {
+      "lemma": "CERT-L0058-sos-gram-band12345-N24",
+      "C_ub_hi": 1.3052615184195027,
+      "closes_vs_Cdagger": true,
+      "D": 112,
+      "source": "CERT-L0058-sos-gram-band12345-N24.json"
+    }
+  ],
+  "all_ic_closes_C_dagger": false,
+  "verdict": "sos_subclass_only",
+  "next_targets": [
+    "Weighted triad / SOS flattening (L-0030 notes)",
+    "Extend N5 SOS one-pol greedy beyond C-R-0014",
+    "Hybrid min(triad, defect, SOS) on low slab ODE"
+  ]
+}

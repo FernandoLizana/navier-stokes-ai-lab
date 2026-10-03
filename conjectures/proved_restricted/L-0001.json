@@ -1,0 +1,15 @@
+{
+  "lemma_id": "L-0001",
+  "route": "B",
+  "status": "proved_restricted",
+  "evidence_level": "N7",
+  "K": 5.196152422706632,
+  "M": 343,
+  "E0": 0.5,
+  "t": 0.02,
+  "alpha": 333.36466519413847,
+  "Omega0_cap": 13.5,
+  "Omega_t_cap": 10614.571323895754,
+  "clay_implication": "None. Constants blow up as K,M\u2192\u221e; no continuum regularity.",
+  "notes": "Crude exponential bound dropping viscosity; valid for Galerkin with |k|\u2264K and M spatial modes (\u221a(3M) vector CS). For E0=0.5, t=0.02: \u03a9(t)\u22641.061457e+04. Grid N=12, dealias=True, K=5.19615, M=343."
+}

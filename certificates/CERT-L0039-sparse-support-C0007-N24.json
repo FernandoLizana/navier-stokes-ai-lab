@@ -1,0 +1,29 @@
+{
+  "cert_id": "CERT-L0039-sparse-support-C0007-N24",
+  "lemma_id": "L-0039",
+  "n": 24,
+  "c0007_M": 41.283999509509286,
+  "C_dagger": 9.562009938690146,
+  "quad_1346_C": 8.485281374238571,
+  "support_A": [
+    1,
+    2,
+    3,
+    10,
+    12,
+    19,
+    27,
+    35,
+    43,
+    58,
+    69,
+    73,
+    123,
+    147
+  ],
+  "support_A_C": 9.51928560059199,
+  "support_B_C": 9.547725180378421,
+  "closes_cr0005": true,
+  "closes_c0007_all_ic": false,
+  "clay_implication": "None. Sparse-SVD Shor on enlarged shell supports; C-R-0005 only; not all-IC; not continuum; not Clay."
+}

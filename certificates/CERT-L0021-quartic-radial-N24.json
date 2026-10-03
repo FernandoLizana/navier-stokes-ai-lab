@@ -1,0 +1,20 @@
+{
+  "certificate_id": "CERT-L0021-quartic-radial-N24",
+  "lemma_ref": "L-0021 mono-radial quartic Gram + L-0020 Duhamel",
+  "route": "B",
+  "evidence_level": "N5",
+  "n": 24,
+  "E0": 0.5,
+  "nu": 0.1,
+  "T": 0.02,
+  "alpha_star": 14.000000000000002,
+  "r_star": 74,
+  "n_shells": 87,
+  "Omega_radial_H1": 71.72774945123018,
+  "envelope_cap": 73.5,
+  "beats_envelope": true,
+  "radial_M": 71.72774945123018,
+  "clay_implication": "None. Mono-radial Galerkin quartic Gram + Duhamel only; not all-IC; not continuum; not Clay.",
+  "payload_sha256": "42337cad444513f0fdf70d5a7820f8d64f0d3f2f6cacae0d32834c1fc2a8fe93",
+  "notes": "\u03b1_\u2605=14 at r=74 over 87 shells. Mono-radial Duhamel \u03a9\u226471.7277 (envelope 73.5). Closes C-0005 M=61.24: False."
+}

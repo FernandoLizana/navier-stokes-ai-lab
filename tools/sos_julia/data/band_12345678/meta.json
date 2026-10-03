@@ -1,0 +1,21 @@
+{
+  "n": 24,
+  "radii": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "D": 184,
+  "nnz_A": 40896,
+  "C_dagger": 9.562009938690146,
+  "beta": 3.3806810347104825,
+  "C_fullsym": 3.2876874682501214,
+  "format": "dense_fullsym_A_coo",
+  "objective": "max A(z,z,z) s.t. ||z||^2 = 1; need ub < beta",
+  "clay_implication": "None. Finite Galerkin only."
+}

@@ -1,0 +1,23 @@
+{
+  "id": "C-R-0003",
+  "route": "B",
+  "status": "proved_restricted",
+  "evidence_level": "N7",
+  "lemma": "L-0020+L-0021(\u03b1=0)+L-0031/33",
+  "domain": "Pseudospectral T^3, N<=24, 2/3 dealias, mono-radial IC on a shell with quartic alpha_r=0 (no self-triads). NOT continuum.",
+  "nu": 0.1,
+  "energy": 0.5,
+  "t_end": 0.02,
+  "n_max": 24,
+  "proposed_bound_M": 41.283999509509286,
+  "zero_alpha_shells": [
+    48,
+    108,
+    147
+  ],
+  "proved_bound_Omega_T": 40.82462307930434,
+  "parent_open": "C-0007",
+  "statement": "For mono-radial ICs on shells r\u2208[48, 108, 147] (\u03b1_r=0), dealiased Galerkin NS (N\u226424, \u03bd=0.1, E\u22640.5) satisfies \u03a9(0.02)\u226440.82462308\u226441.28399951 (Stokes\u2013Duhamel with N_*=0). FINITE-DIMENSIONAL only.",
+  "clay_implication": "None. Mono-radial \u03b1=0 subclass only; not all-IC C-0007; not Clay.",
+  "notes": "Shells with vanishing L-0021 quartic \u03b1 (no dealias self-triads). Duhamel collapses to Stokes floor."
+}

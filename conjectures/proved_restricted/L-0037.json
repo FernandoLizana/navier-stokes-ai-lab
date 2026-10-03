@@ -1,0 +1,25 @@
+{
+  "lemma_id": "L-0037",
+  "route": "B",
+  "status": "proved_restricted",
+  "evidence_level": "N7",
+  "n": 24,
+  "c0007_M": 41.283999509509286,
+  "C_dagger": 9.562009938690146,
+  "mono_stretch_zero": true,
+  "C_near_pair": 6.6329277566406155,
+  "near_pair": [
+    1,
+    2
+  ],
+  "C_far_pair": 32.68610319003966,
+  "far_pair": [
+    2,
+    134
+  ],
+  "C_bishell_shor_max_sample": 32.68610319003966,
+  "n_pairs_scanned": 100,
+  "closes_c0007": false,
+  "clay_implication": "None. Shell-diff mono stretch=0 and bi-shell Shor sample; uniform C_\u2020 not reached; not continuum; not Clay.",
+  "notes": "Mono-radial stretch=0 (shell-diff). Bi-shell Shor: near(1, 2) C\u22736.633; far(2, 134) C\u227332.69; sample max C\u227332.69 over 100 pairs (C_\u2020=9.562). Closes C-0007: False."
+}

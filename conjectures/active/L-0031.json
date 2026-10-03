@@ -1,0 +1,18 @@
+{
+  "lemma_id": "L-0031",
+  "route": "B",
+  "status": "exploring",
+  "evidence_level": "N7",
+  "n": 24,
+  "R_star_unweighted": 3148,
+  "R_star_weighted": 100.77601567975361,
+  "weight_scheme": "inv_sqrt_rp_rq",
+  "C_dagger": 9.562009938690146,
+  "C_from_Rstar": 158.694675399019,
+  "C_from_weighted_R": 28.393804349506052,
+  "low_slab_weighted_worst": 209.48664911324008,
+  "low_slab_hybrid_weighted_worst": 57.29672631688392,
+  "closes_c0007": false,
+  "clay_implication": "None. Weighted triad sketch; not all-IC proof; not Clay.",
+  "notes": "Weighted triad (inv_sqrt_rp_rq): R_w=100.8 vs R_\u2605=3148. C\u22642\u221a2\u221aR_w=28.39 (unweighted 158.7, C_\u2020=9.562). Low-slab weighted \u03a9(T)\u2264209.5, min(hybrid_w,defect)\u226457.3 (M=41.28); closes: False."
+}

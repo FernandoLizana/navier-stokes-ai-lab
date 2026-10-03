@@ -1,0 +1,20 @@
+{
+  "lemma_id": "L-0002",
+  "route": "B",
+  "status": "proved_restricted",
+  "evidence_level": "N7",
+  "K": 5.196152422706632,
+  "M": 343,
+  "E0": 0.5,
+  "nu": 0.1,
+  "t": 0.02,
+  "C_stretch": 90.73036977771005,
+  "a": 45.365184888855026,
+  "z0": 3.6742346141747673,
+  "Omega0_cap": 13.5,
+  "Omega_t_cap": null,
+  "finite_time_blowup_of_estimate": true,
+  "t_star_estimate": 0.006001236461296834,
+  "clay_implication": "None. M grows with resolution; estimate may even 'blow up' while true ODE stays smooth.",
+  "notes": "Comparison ODE estimate blows at t*=6.001236e-03 \u2264 t=0.02; no finite upper bound from this differential inequality alone. Does NOT prove PDE/Galerkin blow-up. Grid N=12, dealias=True, K=5.19615, M=343."
+}

@@ -1,0 +1,24 @@
+{
+  "C_dagger": 9.562009938690146,
+  "validate": {
+    "dense_C": 2.9933259094191538,
+    "sparse_C": 2.993325909419154,
+    "rel_err": 1.483597921805437e-16,
+    "nnz": 18801,
+    "D": 160,
+    "ok": true
+  },
+  "full_dealias": {
+    "n": 24,
+    "D": 6748,
+    "nnz": 37818119,
+    "L_op": 9.166197636329214,
+    "C_fullsym": 25.925922025377965,
+    "method": "sparse_csr_gram"
+  },
+  "closes_c0007_all_ic": false,
+  "n_shells": 87,
+  "not_a_clay_claim": true,
+  "evidence_level": "N2",
+  "notes": "Sparse CSR Gram of physical fullsym on all dealias shells. If C>C_\u2020: fullsym Shor techo for all-IC."
+}

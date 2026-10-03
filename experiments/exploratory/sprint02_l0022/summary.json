@@ -1,0 +1,17 @@
+{
+  "gamma_crit": 1.746882907641106,
+  "Ncrit": 9.666194264843458,
+  "N_emp_max": 37.273862194750464,
+  "gamma_emp_max": 11.88611316513487,
+  "Omega_T_emp_max": 37.37628973340516,
+  "uniform_hypothesis_holds_empirically": false,
+  "proved_closes_c0005": false,
+  "certificate_ok": true,
+  "checks": {
+    "Ncrit": true,
+    "gamma_crit": true,
+    "gamma_matches_formula": true,
+    "not_proved_closed": true
+  },
+  "not_a_clay_claim": true
+}

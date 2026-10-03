@@ -1,0 +1,162 @@
+{
+  "sprint": "weighted_triad_sos",
+  "C_dagger": 9.562009938690146,
+  "C_fullsym_all_ic": 25.925922025377965,
+  "R_star_unweighted": 3148,
+  "R_star_weighted_inv_sqrt": 3148.0,
+  "R_star_weighted_inv_sqrt_rp_rq": 100.77601567975361,
+  "C_from_weighted_triad_rp_rq": 28.393804349506052,
+  "C_from_unweighted_triad": 158.694675399019,
+  "C_from_weighted_triad": 158.694675399019,
+  "low_slab_weighted_worst": 51.00248179971093,
+  "best_sos_C_ub_hi": 0.8438224893075237,
+  "largest_sos_C_ub_hi": 4.0760825002657395,
+  "sos_extrap_D6748": 17.456003902611066,
+  "sos_cert_count": 11,
+  "sos_rows": [
+    {
+      "cert": "CERT-L0052-sos-gram-band123-N24.json",
+      "C_ub_hi": 0.8438224893075237,
+      "D": 52,
+      "closes_vs_Cdagger": true,
+      "subclass": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "cert": "CERT-L0053-sos-gram-onepol-cr0008-N24.json",
+      "C_ub_hi": 3.3560651946371634,
+      "D": 92,
+      "closes_vs_Cdagger": true,
+      "subclass": "one_pol_cr0008"
+    },
+    {
+      "cert": "CERT-L0054-sos-gram-band1234-N24.json",
+      "C_ub_hi": 0.8940401324113961,
+      "D": 64,
+      "closes_vs_Cdagger": null,
+      "subclass": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "cert": "CERT-L0058-sos-gram-band12345-N24.json",
+      "C_ub_hi": 1.3052615184195027,
+      "D": 112,
+      "closes_vs_Cdagger": true,
+      "subclass": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "cert": "CERT-L0060-sos-gram-band123456-N24.json",
+      "C_ub_hi": 1.7009322214824125,
+      "D": 160,
+      "closes_vs_Cdagger": true,
+      "subclass": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "cert": "CERT-L0061-sos-band12345678-N24.json",
+      "C_ub_hi": 1.851834363071287,
+      "D": 184,
+      "closes_vs_Cdagger": true,
+      "subclass": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "cert": "CERT-L0062-sos-band123456789-N24.json",
+      "C_ub_hi": 2.223426008475951,
+      "D": 244,
+      "closes_vs_Cdagger": true,
+      "subclass": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "cert": "CERT-L0062-sos-band1to10-N24.json",
+      "C_ub_hi": 2.440195403421873,
+      "D": 292,
+      "closes_vs_Cdagger": true,
+      "subclass": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "cert": "CERT-L0062-sos-band1to12-N24.json",
+      "C_ub_hi": 2.782805118332655,
+      "D": 356,
+      "closes_vs_Cdagger": true,
+      "subclass": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "cert": "CERT-L0065-sos-onepol-greedy-second-N24.json",
+      "C_ub_hi": 4.014938261573984,
+      "D": 154,
+      "closes_vs_Cdagger": true,
+      "subclass": null
+    },
+    {
+      "cert": "CERT-L0067-sos-onepol-greedy-second-r24-N24.json",
+      "C_ub_hi": 4.0760825002657395,
+      "D": 178,
+      "closes_vs_Cdagger": true,
+      "subclass": null
+    }
+  ],
+  "all_ic_closes_C_dagger": false,
+  "verdict": "all_ic_open"
+}

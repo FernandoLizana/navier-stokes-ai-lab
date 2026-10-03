@@ -1,0 +1,21 @@
+{
+  "lemma_id": "L-0028",
+  "route": "B",
+  "status": "proved_restricted",
+  "evidence_level": "N7",
+  "n": 24,
+  "C_dagger": 9.562009938690146,
+  "M_star": 3.80966808615038,
+  "M_full": 3374,
+  "C_full_L0002": 284.5628225893186,
+  "M_shell_r1": 6,
+  "C_shell_r1": 12.0,
+  "M_hard_R2": 18,
+  "C_hard_R2": 20.784609690826528,
+  "embedding_can_meet_Cdagger": false,
+  "C_emp_max": 0.043669203839111756,
+  "emp_below_Cdagger": true,
+  "proved_closes_c0007": false,
+  "clay_implication": "None. Embedding techo for stretch C only; C_\u2020 still unproved; not continuum; not Clay.",
+  "notes": "C_\u2020=9.56201 needs M\u2264M_\u2605=3.8097 for L-0002 embedding. Full mask M=3374, C=284.5628; r=1 shell M=6, C=12.0000; |k|\u00b2\u22642 M=18, C=20.7846. Embedding meets C_\u2020: False. C_emp\u22480.0436692. Triad-aware bound required for low-slab closure."
+}

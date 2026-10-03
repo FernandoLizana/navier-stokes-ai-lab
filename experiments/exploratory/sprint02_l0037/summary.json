@@ -1,0 +1,26 @@
+{
+  "mono_stretch_zero": true,
+  "C_near_pair": 6.6329277566406155,
+  "near_pair": [
+    1,
+    2
+  ],
+  "C_far_pair": 32.68610319003966,
+  "far_pair": [
+    2,
+    134
+  ],
+  "C_bishell_shor_max_sample": 32.68610319003966,
+  "C_dagger": 9.562009938690146,
+  "n_pairs_scanned": 100,
+  "closes_c0007": false,
+  "certificate_ok": true,
+  "checks": {
+    "mono_zero": true,
+    "near_le_Cdagger": true,
+    "far_above_Cdagger": true,
+    "sample_max_above_Cdagger": true,
+    "closes_false": true
+  },
+  "not_a_clay_claim": true
+}

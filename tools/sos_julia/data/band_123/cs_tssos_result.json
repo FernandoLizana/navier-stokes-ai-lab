@@ -1,0 +1,21 @@
+{
+  "C_dagger": 9.562009938690146,
+  "C_fullsym": 1.36986977843755,
+  "C_ub": 0.8438222693842106,
+  "D": 52,
+  "TS": "MD",
+  "beats_fullsym": true,
+  "beta": 3.3806810347104825,
+  "clay_implication": "None",
+  "closes_vs_Cdagger": true,
+  "constraint": "ball_inequality",
+  "dir": "data/band_123",
+  "evidence": "N2_float_SDP",
+  "loose": false,
+  "merge": false,
+  "method": "CS-TSSOS order=2 TS=MD merge=false Clarabel ball inequality",
+  "not_a_theorem": true,
+  "opt_pos": -0.29833622439889845,
+  "order": 2,
+  "ub_raw_abs": 0.29833622439889845
+}

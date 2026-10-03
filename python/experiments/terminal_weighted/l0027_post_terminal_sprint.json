@@ -1,0 +1,19 @@
+{
+  "sprint": "C0008_L0027_post_terminal",
+  "C_dagger": 9.562009938690146,
+  "C_emp_max": 0.009311348515766146,
+  "emp_closes_low_slab": true,
+  "C_fullsym_all_ic": 25.925922025377965,
+  "fullsym_closes_C_dagger": false,
+  "proved_subclasses": null,
+  "best_n5_sos_hi": null,
+  "greedy_sos_extrap": null,
+  "terminal_route_refuted": null,
+  "terminal_route_msgs": [],
+  "viable_paths": [
+    "L-0027 stretch: prove all-IC C <= C_dagger (fullsym techo ~25.9 refutes naive Shor)",
+    "N5 SOS one-pol subclasses C-R-0002..0014 (proved)",
+    "Terminal block/cluster bounds (prototype; L-0072 per-shell refuted)"
+  ],
+  "C-0008_status": "exploring"
+}

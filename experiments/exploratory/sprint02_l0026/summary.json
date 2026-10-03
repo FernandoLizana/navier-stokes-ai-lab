@@ -1,0 +1,20 @@
+{
+  "C0007_M": 41.283999509509286,
+  "L0024_majorant": 41.74337593971423,
+  "Omega_star": 18.874042281544565,
+  "high_slab_closes": true,
+  "closes_c0007": false,
+  "certificate_ok": true,
+  "checks": {
+    "M_matches": true,
+    "floor_matches": true,
+    "majorant_matches": true,
+    "Omega_star_matches": true,
+    "Omega_T_at_star_le_M": true,
+    "high_slab_le_M": true,
+    "closes_c0007_false": true,
+    "high_slab_closes_true": true,
+    "gap_nontrivial": true
+  },
+  "not_a_clay_claim": true
+}

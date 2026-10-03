@@ -1,0 +1,18 @@
+{
+  "seed": 1,
+  "n": 12,
+  "n_verify": 24,
+  "J0": 5.138742676693692,
+  "J_after_ascent": 5.166639305113164,
+  "J_etd_n": 5.1657607532504874,
+  "J_rk4_n": 5.165760748817007,
+  "J_etd_2n": 5.166371910411944,
+  "integrator_rel_diff_n": 4.2912171732895504e-10,
+  "resolution_rel_diff_etd": 5.9151114426341066e-05,
+  "div_l2": 1.241974151265567e-16,
+  "energy": 0.5,
+  "accepted": true,
+  "reject_reason": "",
+  "evidence_level": "N2",
+  "route": "B"
+}

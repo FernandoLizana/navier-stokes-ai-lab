@@ -1,0 +1,117 @@
+{
+  "mode": "band",
+  "ns": [
+    12,
+    16,
+    20,
+    24
+  ],
+  "M_target": 41.283999509509286,
+  "n_domination": {
+    "n_max": 24,
+    "K2": 147,
+    "M_modes": 3375,
+    "wavevector_subsets": [
+      {
+        "n_small": 12,
+        "n_large": 24,
+        "modes_small": 342,
+        "modes_large": 3374,
+        "subset": true,
+        "only_large": 3032
+      },
+      {
+        "n_small": 16,
+        "n_large": 24,
+        "modes_small": 1330,
+        "modes_large": 3374,
+        "subset": true,
+        "only_large": 2044
+      },
+      {
+        "n_small": 20,
+        "n_large": 24,
+        "modes_small": 2196,
+        "modes_large": 3374,
+        "subset": true,
+        "only_large": 1178
+      },
+      {
+        "n_small": 24,
+        "n_large": 24,
+        "modes_small": 3374,
+        "modes_large": 3374,
+        "subset": true,
+        "only_large": 0
+      }
+    ],
+    "all_subset": true,
+    "conclusion": "Wavevectors at n=12,16 embed in n=24 dealias shell lists. Certifying full-dealias at N=24 majorant dominates embedded truncations n<=24 IF the terminal functional L-0071 is applied on the same n grid and majorant sup increases with mode-set inclusion. NOT automatic for different n indexing without embedding proof (N7 sketch).",
+    "evidence_level": "N7_sketch",
+    "requires_per_n_cert": false
+  },
+  "rows": [
+    {
+      "n": 12,
+      "mode": "band",
+      "D": 160,
+      "n_shells": 6,
+      "K2": 27,
+      "M_modes": 343,
+      "wavevectors_embed_in_n24": true,
+      "I_term_hi": "2.410063682262581701283335317079517400041",
+      "omega_T_hi": "41.67670926571398426989240829528117920598",
+      "closes_c0008": false,
+      "I_star_lo": "1.299312755657915943535353700029000225351",
+      "beats_I_star": false,
+      "runtime_s": 11.18
+    },
+    {
+      "n": 16,
+      "mode": "band",
+      "D": 160,
+      "n_shells": 6,
+      "K2": 75,
+      "M_modes": 1331,
+      "wavevectors_embed_in_n24": true,
+      "I_term_hi": "2.410063682262581701283335317079517400041",
+      "omega_T_hi": "41.67670926571398426989240829528117920598",
+      "closes_c0008": false,
+      "I_star_lo": "1.299312755657915943535353700029000225351",
+      "beats_I_star": false,
+      "runtime_s": 12.96
+    },
+    {
+      "n": 20,
+      "mode": "band",
+      "D": 160,
+      "n_shells": 6,
+      "K2": 108,
+      "M_modes": 2197,
+      "wavevectors_embed_in_n24": true,
+      "I_term_hi": "2.410063682262581701283335317079517400041",
+      "omega_T_hi": "41.67670926571398426989240829528117920598",
+      "closes_c0008": false,
+      "I_star_lo": "1.299312755657915943535353700029000225351",
+      "beats_I_star": false,
+      "runtime_s": 12.06
+    },
+    {
+      "n": 24,
+      "mode": "band",
+      "D": 160,
+      "n_shells": 6,
+      "K2": 147,
+      "M_modes": 3375,
+      "wavevectors_embed_in_n24": true,
+      "I_term_hi": "2.410063682262581701283335317079517400041",
+      "omega_T_hi": "41.67670926571398426989240829528117920598",
+      "closes_c0008": false,
+      "I_star_lo": "1.299312755657915943535353700029000225351",
+      "beats_I_star": false,
+      "runtime_s": 13.58
+    }
+  ],
+  "total_runtime_s": 49.84,
+  "note": "Band pilot per n; full-dealias at n<24 deferred (cost). Wavevector embedding into n=24 verified for domination sketch."
+}

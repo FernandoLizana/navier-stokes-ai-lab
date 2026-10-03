@@ -1,0 +1,26 @@
+{
+  "lemma_id": "L-0044",
+  "route": "B",
+  "status": "proved_restricted",
+  "evidence_level": "N7",
+  "n": 24,
+  "c0007_M": 41.283999509509286,
+  "C_dagger": 9.562009938690146,
+  "Omega_star": 18.874042281544565,
+  "support_cr0009": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "support_cr0009_D": 160,
+  "C_sym_123456": 11.34411252099031,
+  "C_fullsym_123456": 2.9933259094191538,
+  "fft_tensor_err": 5.1514348342607263e-14,
+  "closes_cr0009": true,
+  "closes_c0007_all_ic": false,
+  "clay_implication": "None. Physical Hermitian fullsym Shor on shells {1..6}; C-R-0009 only; not all-IC; not continuum; not Clay.",
+  "notes": "Physical Hermitian stretch on [1, 2, 3, 4, 5, 6]: C_fullsym=2.993\u2264C_\u2020; C_sym=11.34>C_\u2020; FFT\u2194tensor err=5.15e-14. C-R-0009. All-IC: False."
+}

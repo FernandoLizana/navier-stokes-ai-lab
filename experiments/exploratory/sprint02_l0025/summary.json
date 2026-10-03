@@ -1,0 +1,17 @@
+{
+  "C0006_M": 67.76869768024548,
+  "C0006_Omega_T_worst": 46.14921309237629,
+  "C0006_proved": true,
+  "C0007_M": 41.283999509509286,
+  "C0007_open": true,
+  "certificate_ok": true,
+  "checks": {
+    "no_self_triads": true,
+    "K2": true,
+    "gap": true,
+    "Omega_T": true,
+    "closes": true,
+    "M": true
+  },
+  "not_a_clay_claim": true
+}

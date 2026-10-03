@@ -1,0 +1,22 @@
+name = "NSGalerkinTSSOS"
+uuid = "c8d1e4f2-5b63-4a9e-8d2e-b3c4d5e6f708"
+version = "0.1.0"
+
+[deps]
+COSMO = "1e616198-aa4e-51ec-90a2-23f7fbd31d8d"
+Clarabel = "61c947e1-3e6d-4ee4-985a-eec8c727bd6e"
+DynamicPolynomials = "7c1d4256-1411-5781-91ec-d7bc3513ac07"
+JSON = "682c06a0-de6a-54ab-a142-c8b1cf79cde6"
+JuMP = "4076af6c-e467-56ae-b986-b466b2749572"
+NPZ = "15e1cf62-19b3-5cfa-8e77-841668bca605"
+TSSOS = "81648402-ffe6-11e9-2394-0de17a9afdad"
+
+[compat]
+COSMO = "0.8.11"
+Clarabel = "0.11.1"
+DynamicPolynomials = "0.6.6"
+JSON = "1.6.1"
+JuMP = "1.30.1"
+NPZ = "0.4.3"
+TSSOS = "1.5.3"
+julia = "1.10"

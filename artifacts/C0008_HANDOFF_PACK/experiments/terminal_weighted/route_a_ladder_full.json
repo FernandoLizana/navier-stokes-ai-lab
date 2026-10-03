@@ -1,0 +1,74 @@
+{
+  "mode": "full",
+  "rows": [
+    {
+      "label": "equal_12",
+      "strategy": "equal",
+      "n_clusters": 11,
+      "route_a_I_hi": "37.91955812524674097702040111940917993968",
+      "route_d_I_hi": "62.48487303734750009397403522843881454152",
+      "best_route": "A",
+      "best_I_hi": "37.91955812524674097702040111940917993968",
+      "omega_T_hi": 54.23121142428405,
+      "closes_c0008": false,
+      "runtime_s": 4311.76,
+      "manifest_path": "experiments/terminal_weighted/route_a_manifest_equal_12.json"
+    },
+    {
+      "label": "equal_24",
+      "strategy": "equal",
+      "n_clusters": 22,
+      "route_a_I_hi": "63.8527408703192652078501601220893073634",
+      "route_d_I_hi": "65.57757518497120567463870579585867205347",
+      "best_route": "A",
+      "best_I_hi": "63.8527408703192652078501601220893073634",
+      "omega_T_hi": 63.39997611267942,
+      "closes_c0008": false,
+      "runtime_s": 4505.77,
+      "manifest_path": "experiments/terminal_weighted/route_a_manifest_equal_24.json"
+    },
+    {
+      "label": "equal_48",
+      "strategy": "equal",
+      "n_clusters": 44,
+      "route_a_I_hi": "103.8653989334916782514947909236031343041",
+      "route_d_I_hi": "70.49600996203482351279161794561521079287",
+      "best_route": "D",
+      "best_I_hi": "70.49600996203482351279161794561521079287",
+      "omega_T_hi": 65.74872642467895,
+      "closes_c0008": false,
+      "runtime_s": 4306.37,
+      "manifest_path": "experiments/terminal_weighted/route_a_manifest_equal_48.json"
+    },
+    {
+      "label": "fine_low",
+      "strategy": "fine_low",
+      "n_clusters": 19,
+      "route_a_I_hi": "40.13184169851716505183362166119122015748",
+      "route_d_I_hi": "62.27444601751300632009922456539010737141",
+      "best_route": "A",
+      "best_I_hi": "40.13184169851716505183362166119122015748",
+      "omega_T_hi": 55.01337178256761,
+      "closes_c0008": false,
+      "runtime_s": 5116.58,
+      "manifest_path": "experiments/terminal_weighted/route_a_manifest_fine_low.json"
+    }
+  ],
+  "best": {
+    "label": "equal_12",
+    "strategy": "equal",
+    "n_clusters": 11,
+    "route_a_I_hi": "37.91955812524674097702040111940917993968",
+    "route_d_I_hi": "62.48487303734750009397403522843881454152",
+    "best_route": "A",
+    "best_I_hi": "37.91955812524674097702040111940917993968",
+    "omega_T_hi": 54.23121142428405,
+    "closes_c0008": false,
+    "runtime_s": 4311.76,
+    "manifest_path": "experiments/terminal_weighted/route_a_manifest_equal_12.json"
+  },
+  "best_manifest": "experiments/terminal_weighted/shell_manifest_route_a_best_full.json",
+  "I_star_lo": "1.299312755657915943535353700029000225351",
+  "M_target": 41.283999509509286,
+  "complete": true
+}

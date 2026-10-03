@@ -1,0 +1,43 @@
+Phase D mode=full radii=87
+L-0048 audit...
+  raw updates=179136 cap=1048576
+  raw updates=179136 cap=1048576
+Building shell manifest (MPFR Frobenius per shell)...
+  combined pass Frobenius+1-inf (87 shells)...
+    pairs 250000/45535504
+    pairs 500000/45535504
+    pairs 750000/45535504
+    pairs 1000000/45535504
+    pairs 1250000/45535504
+python : Traceback (most recent call last):
+En <TEMP>\ps-script-beb32952-56c8-461d-b1bc-26fed810a2e1.ps1: 107 Carácter: 53
++ ... astardus2"; python -m ns_exploration.experiments.sprint_c0008_phase_d ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last)::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "<REPO_ROOT>\python\ns_exploration\experiments\sprint_c0008_phase_d.py", line 
+157, in <module>
+    main()
+  File "<REPO_ROOT>\python\ns_exploration\experiments\sprint_c0008_phase_d.py", line 
+64, in main
+    manifest = build_shell_manifest(
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "<REPO_ROOT>\python\ns_exploration\terminal_weighted\shell_decomposition.py", 
+line 84, in build_shell_manifest
+    blocks_data = certified_shell_blocks(n, radii, prec=prec, workers=workers, bound_method=bound_method)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<REPO_ROOT>\python\ns_exploration\terminal_weighted\opnorm_certified.py", 
+line 586, in certified_shell_blocks
+    _accumulate_frobenius_all_shells_single_pass(n, radii, prec=prec, workers=workers)
+  File "<REPO_ROOT>\python\ns_exploration\terminal_weighted\opnorm_certified.py", 
+line 501, in _accumulate_frobenius_all_shells_single_pass
+    fro_full, fro_by, n_full = _flush_entry_batch(
+                               ^^^^^^^^^^^^^^^^^^^
+  File "<REPO_ROOT>\python\ns_exploration\terminal_weighted\opnorm_certified.py", 
+line 156, in _flush_entry_batch
+    cs[col] = add_up(cs.get(col, mpfr(0, precision=prec)), ad)
+    ~~^^^^^
+MemoryError

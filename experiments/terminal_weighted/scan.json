@@ -1,0 +1,396 @@
+{
+  "n": 24,
+  "nu": 0.1,
+  "T": 0.02,
+  "step": 0.001,
+  "n_times": 21,
+  "band_radii": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "integral_threshold": 1.2993127556607498,
+  "uniform_threshold": 64.9656377830375,
+  "max_grid_bound": 3.2876874682501214,
+  "t_at_max": 0.02,
+  "dominant": {
+    "t": 0.02,
+    "C_ub": 3.2876874682501214,
+    "shell_note": "band [1, 2, 3, 4, 5, 6, 7, 8]"
+  },
+  "trapezoid_estimate": 0.06483974521300888,
+  "left_riemann_estimate": 0.06479427922697578,
+  "right_riemann_estimate": 0.06488521119904196,
+  "margin_vs_threshold": 1.2344730104477408,
+  "closes_integral_exploratory": true,
+  "closes_uniform_exploratory": true,
+  "band_at_T": 3.2876874682501214,
+  "l0045_band_at_T": 3.2876874682501214,
+  "band_T_regression_rel_err": 0.0,
+  "grid": [
+    {
+      "t": 0.0,
+      "C_ub_band_exact": 3.1967554961839446,
+      "L_op": 1.1302237445735168,
+      "band_radii": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "method": "streaming_fullsym_band",
+      "evidence_level": "N2"
+    },
+    {
+      "t": 0.001,
+      "C_ub_band_exact": 3.201235498365987,
+      "L_op": 1.1318076645348432,
+      "band_radii": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "method": "streaming_fullsym_band",
+      "evidence_level": "N2"
+    },
+    {
+      "t": 0.002,
+      "C_ub_band_exact": 3.2057224427661017,
+      "L_op": 1.1333940389409072,
+      "band_radii": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "method": "streaming_fullsym_band",
+      "evidence_level": "N2"
+    },
+    {
+      "t": 0.003,
+      "C_ub_band_exact": 3.210216340627445,
+      "L_op": 1.134982871766765,
+      "band_radii": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "method": "streaming_fullsym_band",
+      "evidence_level": "N2"
+    },
+    {
+      "t": 0.004,
+      "C_ub_band_exact": 3.21471720321161,
+      "L_op": 1.1365741669939908,
+      "band_radii": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "method": "streaming_fullsym_band",
+      "evidence_level": "N2"
+    },
+    {
+      "t": 0.005,
+      "C_ub_band_exact": 3.2192250417986585,
+      "L_op": 1.1381679286106892,
+      "band_radii": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "method": "streaming_fullsym_band",
+      "evidence_level": "N2"
+    },
+    {
+      "t": 0.006,
+      "C_ub_band_exact": 3.2237398676871503,
+      "L_op": 1.1397641606115037,
+      "band_radii": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "method": "streaming_fullsym_band",
+      "evidence_level": "N2"
+    },
+    {
+      "t": 0.007,
+      "C_ub_band_exact": 3.22826169219417,
+      "L_op": 1.1413628669976281,
+      "band_radii": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "method": "streaming_fullsym_band",
+      "evidence_level": "N2"
+    },
+    {
+      "t": 0.008,
+      "C_ub_band_exact": 3.2327905266553607,
+      "L_op": 1.1429640517768178,
+      "band_radii": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "method": "streaming_fullsym_band",
+      "evidence_level": "N2"
+    },
+    {
+      "t": 0.009,
+      "C_ub_band_exact": 3.2373263824249534,
+      "L_op": 1.1445677189633994,
+      "band_radii": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "method": "streaming_fullsym_band",
+      "evidence_level": "N2"
+    },
+    {
+      "t": 0.01,
+      "C_ub_band_exact": 3.2418692708757937,
+      "L_op": 1.146173872578281,
+      "band_radii": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "method": "streaming_fullsym_band",
+      "evidence_level": "N2"
+    },
+    {
+      "t": 0.011,
+      "C_ub_band_exact": 3.2464192033993733,
+      "L_op": 1.1477825166489632,
+      "band_radii": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "method": "streaming_fullsym_band",
+      "evidence_level": "N2"
+    },
+    {
+      "t": 0.012,
+      "C_ub_band_exact": 3.250976191405864,
+      "L_op": 1.149393655209551,
+      "band_radii": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "method": "streaming_fullsym_band",
+      "evidence_level": "N2"
+    },
+    {
+      "t": 0.013,
+      "C_ub_band_exact": 3.25554024632414,
+      "L_op": 1.1510072923007613,
+      "band_radii": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "method": "streaming_fullsym_band",
+      "evidence_level": "N2"
+    },
+    {
+      "t": 0.014,
+      "C_ub_band_exact": 3.260111379601819,
+      "L_op": 1.1526234319699384,
+      "band_radii": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "method": "streaming_fullsym_band",
+      "evidence_level": "N2"
+    },
+    {
+      "t": 0.015,
+      "C_ub_band_exact": 3.2646896027052783,
+      "L_op": 1.154242078271059,
+      "band_radii": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "method": "streaming_fullsym_band",
+      "evidence_level": "N2"
+    },
+    {
+      "t": 0.016,
+      "C_ub_band_exact": 3.2692749271196955,
+      "L_op": 1.1558632352647462,
+      "band_radii": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "method": "streaming_fullsym_band",
+      "evidence_level": "N2"
+    },
+    {
+      "t": 0.017,
+      "C_ub_band_exact": 3.273867364349078,
+      "L_op": 1.1574869070182812,
+      "band_radii": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "method": "streaming_fullsym_band",
+      "evidence_level": "N2"
+    },
+    {
+      "t": 0.018,
+      "C_ub_band_exact": 3.2784669259162884,
+      "L_op": 1.159113097605611,
+      "band_radii": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "method": "streaming_fullsym_band",
+      "evidence_level": "N2"
+    },
+    {
+      "t": 0.019,
+      "C_ub_band_exact": 3.283073623363079,
+      "L_op": 1.160741811107361,
+      "band_radii": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "method": "streaming_fullsym_band",
+      "evidence_level": "N2"
+    },
+    {
+      "t": 0.02,
+      "C_ub_band_exact": 3.2876874682501214,
+      "L_op": 1.1623730516108464,
+      "band_radii": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "method": "streaming_fullsym_band",
+      "evidence_level": "N2"
+    }
+  ],
+  "evidence_level": "N2",
+  "honesty": "Band {1..8} scan only; full dealias all-IC needs shell-sum or interval cover (Phase D). Not a C-0008 certificate."
+}

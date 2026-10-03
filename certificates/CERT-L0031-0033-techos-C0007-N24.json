@@ -1,0 +1,22 @@
+{
+  "cert_id": "CERT-L0031-0033-techos-C0007-N24",
+  "lemma_id": "L-0031+L-0032+L-0033",
+  "n": 24,
+  "c0007_M": 41.283999509509286,
+  "C_dagger": 9.562009938690146,
+  "compatible_worst_OmT": 41.824753513640154,
+  "L0024_majorant": 41.74337593971423,
+  "S_max_full": 169574.0,
+  "N_from_Smax": 411.79363763904854,
+  "N_young": 78.689262291624,
+  "cubic_F": 3179.1833291680364,
+  "C_from_cubic_F": 8992.08836275977,
+  "zero_alpha_shells": [
+    48,
+    108,
+    147
+  ],
+  "zero_alpha_duhamel_OmT": 40.82462307930434,
+  "closes_c0007": false,
+  "clay_implication": "None. Techos on compatible-S / full S_max / absolute cubic; plus \u03b1=0 mono-radial subclass; not continuum; not Clay."
+}

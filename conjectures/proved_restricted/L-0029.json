@@ -1,0 +1,22 @@
+{
+  "lemma_id": "L-0029",
+  "route": "B",
+  "status": "proved_restricted",
+  "evidence_level": "N7",
+  "n": 24,
+  "C_dagger": 9.562009938690146,
+  "Omega_star": 18.874042281544565,
+  "lambda_star": 37.74808456308913,
+  "M_full": 3374,
+  "C_F_full": 164.2924222233028,
+  "C_L0002_full": 284.5628225893186,
+  "improvement_factor": 1.7320508075688772,
+  "M_star_F": 11.42900425845114,
+  "M_shell_r1": 6,
+  "C_F_shell_r1": 6.928203230275509,
+  "shell_r1_meets_Cdagger": true,
+  "shell_r1_reaches_low_slab_edge": false,
+  "frobenius_closes_c0007": false,
+  "clay_implication": "None. Frobenius stretch embedding techo only; C_\u2020 still unproved on the full dealias class; not continuum; not Clay.",
+  "notes": "C_F=2\u221a(2M): full M=3374 \u21d2 C_F=164.292 (L-0002 C=284.563, factor \u221a3\u22481.7321). C_\u2020=9.56201 needs M\u2264M_\u2020^F=11.4290. r=1: M=6, C_F=6.9282 meets C_\u2020=True, \u03bb_max=1 vs \u03bb\u2605=37.7481 reaches edge=False. Full-mask Frobenius closes C-0007: False."
+}

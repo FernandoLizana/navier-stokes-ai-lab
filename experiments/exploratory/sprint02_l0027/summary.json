@@ -1,0 +1,21 @@
+{
+  "C_R_0002_M": 41.283999509509286,
+  "Omega_star": 18.874042281544565,
+  "C_dagger": 9.562009938690146,
+  "C_emp_max": 0.043669203839111756,
+  "emp_closes_low_slab": true,
+  "all_ic_cubic_C0_floor": 46.284634761995605,
+  "closes_c0007": false,
+  "certificate_ok": true,
+  "checks": {
+    "M_matches": true,
+    "Omega_star_matches": true,
+    "C_dagger_matches": true,
+    "Omega_T_le_M": true,
+    "spots_le_M": true,
+    "all_ic_C0_exceeds_M": true,
+    "proved_closes_false": true,
+    "C_dagger_positive": true
+  },
+  "not_a_clay_claim": true
+}

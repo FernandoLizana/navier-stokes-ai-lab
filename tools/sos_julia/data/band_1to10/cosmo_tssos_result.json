@@ -1,0 +1,19 @@
+{
+  "C_dagger": 9.562009938690146,
+  "C_fullsym": 4.260132170346936,
+  "C_ub": 2.4401954034218707,
+  "D": 292,
+  "TS": "MD",
+  "beats_fullsym": true,
+  "beta": 3.3806810347104825,
+  "clay_implication": "None",
+  "closes_vs_Cdagger": true,
+  "dir": "data/band_1to10",
+  "evidence": "N2_float_SDP",
+  "merge": false,
+  "method": "TSSOS+COSMO(decompose) order=2 TS=MD merge=false sphere eq",
+  "not_a_theorem": true,
+  "opt": -0.8627393585899239,
+  "order": 2,
+  "ub_raw_abs": 0.8627393585899239
+}

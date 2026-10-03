@@ -1,0 +1,10 @@
+name = "NSGalerkin"
+version = "0.1.0"
+defaultTargets = ["nsgalerkin"]
+
+[[lean_lib]]
+name = "NSGalerkin"
+
+[[lean_exe]]
+name = "nsgalerkin"
+root = "Main"

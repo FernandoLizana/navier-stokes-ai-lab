@@ -1,0 +1,252 @@
+{
+  "claim": "C-0008",
+  "status": "repair_cluster_sketch",
+  "scope": "repair_full_cluster_sketch",
+  "parameters": {
+    "nu": "0.1",
+    "E0": "0.5",
+    "T": "0.02",
+    "N_max": 24,
+    "M_target": "41.283999509509286"
+  },
+  "bound_method": "one_inf_only",
+  "mode_set": {
+    "n": 24,
+    "D": 6748,
+    "n_shells": 87,
+    "n_clusters": 11,
+    "radii_mode": "full"
+  },
+  "repair_complete": true,
+  "arithmetic_backend": {
+    "name": "gmpy2_mpfr",
+    "version": "2.3.1",
+    "precision_bits": 128,
+    "rounding_up": "RoundUp",
+    "rounding_down": "RoundDown",
+    "platform": "Windows-10-10.0.26200-SP0"
+  },
+  "stokes_floor_interval": [
+    40.82462307930434,
+    40.824623079304345
+  ],
+  "i_star_interval": [
+    "1.2993114563479942",
+    "1.2993140549735054"
+  ],
+  "method": "repair_route_A_prime_L0073R_cluster_sketch",
+  "integral_interval": [
+    "0",
+    "38.52070418061784400998627504709430098648"
+  ],
+  "omega_T_interval": [
+    "0",
+    "54.44374865040227655005163118334424410403"
+  ],
+  "coverage_complete": true,
+  "source_hashes": {
+    "cluster_manifest": "69d5db09ca3aaba1c7652459966657d8e00db6046eed0df6ba2f193724a64648",
+    "shell_manifest": "d3990bdb5ecb304dae4f010b6c3c58320a9cf240a62d52d99ef2f7d1668cd8aa"
+  },
+  "route_A_prime": {
+    "method": "cluster_integral_route_A_prime",
+    "n": 24,
+    "evidence_level": "N5",
+    "integral_hi": "38.52070418061784400998627504709430098648",
+    "I_star_lo": "1.299312755660737460865658664044760608352",
+    "closes_strict": false,
+    "omega_T_hi": "54.44374865040227222739971375005496065399",
+    "M_target_lo": "41.28399950950928598558675730600953102112",
+    "closes_c0008": false,
+    "full_dealias": true,
+    "n_clusters": 11,
+    "per_cluster": [
+      {
+        "cluster_id": 0,
+        "shells": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          8,
+          9
+        ],
+        "contrib_hi": "1.44577987699632759518884719160733129957",
+        "per_shell_integral_hi": "5.163368688906378593826530221955021940517",
+        "cluster_integral_hi": "1.435482469311522177417414370790839909724"
+      },
+      {
+        "cluster_id": 1,
+        "shells": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          16,
+          17,
+          18
+        ],
+        "contrib_hi": "2.637815915469286572691447595281954144801",
+        "per_shell_integral_hi": "10.50409469929910092626018658488136616175",
+        "cluster_integral_hi": "2.608143530987350745967189089037630393556"
+      },
+      {
+        "cluster_id": 2,
+        "shells": [
+          19,
+          20,
+          21,
+          22,
+          24,
+          25,
+          26,
+          27
+        ],
+        "contrib_hi": "3.260599710092947143059260553193234422938",
+        "per_shell_integral_hi": "14.02974359228869809716297929278859113083",
+        "cluster_integral_hi": "3.224596533332821010024377152200763454907"
+      },
+      {
+        "cluster_id": 3,
+        "shells": [
+          29,
+          30,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37
+        ],
+        "contrib_hi": "3.354934980668189966443667173829381564514",
+        "per_shell_integral_hi": "16.41006788921331637153548663644024556566",
+        "cluster_integral_hi": "3.314720374412056327758612057888526717124"
+      },
+      {
+        "cluster_id": 4,
+        "shells": [
+          38,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46
+        ],
+        "contrib_hi": "4.053936617013083657305366755834749964941",
+        "per_shell_integral_hi": "18.41247594267789434681162163761652349564",
+        "cluster_integral_hi": "4.014903326471420776148331053602171452851"
+      },
+      {
+        "cluster_id": 5,
+        "shells": [
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          56
+        ],
+        "contrib_hi": "4.682568593289365071384042144621664100608",
+        "per_shell_integral_hi": "19.56584951067945423650473075529242708314",
+        "cluster_integral_hi": "4.641888440053385922544537252238630029752"
+      },
+      {
+        "cluster_id": 6,
+        "shells": [
+          57,
+          58,
+          59,
+          61,
+          62,
+          65,
+          66,
+          67
+        ],
+        "contrib_hi": "4.786428637907752320532166939067996136915",
+        "per_shell_integral_hi": "19.80424510697279843233971156656160680039",
+        "cluster_integral_hi": "4.715140736548005704666632592961551763925"
+      },
+      {
+        "cluster_id": 7,
+        "shells": [
+          68,
+          69,
+          70,
+          72,
+          73,
+          74,
+          75,
+          76
+        ],
+        "contrib_hi": "3.758773045171390312766749688827830317227",
+        "per_shell_integral_hi": "18.57525786397652191548359799305696759459",
+        "cluster_integral_hi": "3.711187719498531470618494971689080517664"
+      },
+      {
+        "cluster_id": 8,
+        "shells": [
+          77,
+          78,
+          81,
+          83,
+          85,
+          86,
+          88,
+          89
+        ],
+        "contrib_hi": "4.103744207408111720137522088070416722739",
+        "per_shell_integral_hi": "18.14402358840779617889267012105613616406",
+        "cluster_integral_hi": "4.0404602550815119469535373472287144524"
+      },
+      {
+        "cluster_id": 9,
+        "shells": [
+          90,
+          94,
+          97,
+          98,
+          99,
+          101,
+          102,
+          107
+        ],
+        "contrib_hi": "3.515017179120849123478661465745438522532",
+        "per_shell_integral_hi": "17.24093401936117956982370316003647368429",
+        "cluster_integral_hi": "3.451958729206636005493120798226800564543"
+      },
+      {
+        "cluster_id": 10,
+        "shells": [
+          108,
+          110,
+          114,
+          121,
+          123,
+          134,
+          147
+        ],
+        "contrib_hi": "2.921105417480540526998543451014303789326",
+        "per_shell_integral_hi": "12.73709066480270038452272282692742255317",
+        "cluster_integral_hi": "2.761076010343498889428154433544470682525"
+      }
+    ],
+    "manifest_sha256": "69d5db09ca3aaba1c7652459966657d8e00db6046eed0df6ba2f193724a64648",
+    "honesty": "Per-cluster min(per-shell best sum, B_C max f(r)); B_C from one_inf_only cluster combined bound. Triangle across clusters remains."
+  },
+  "limitations": [
+    "Route A' cluster sketch \u2014 L-0073R residual reweight.",
+    "Declared bound uses cluster contrib_hi sum (verifier-recomputable).",
+    "Route A shell-sum cert remains primary repair_full certificate.",
+    "N<=24 inclusion: L-0076 N7_sketch."
+  ],
+  "closes_c0008": false,
+  "closes_strict": false,
+  "honesty": "Cluster L-0073R sketch; does NOT supersede Route A shell cert. See reports/L0073R_CLUSTER_AUDIT.md \u2014 closes_c0008 never true until audit PASS."
+}

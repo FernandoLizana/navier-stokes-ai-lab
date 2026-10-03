@@ -1,0 +1,31 @@
+{
+  "certificate_id": "CERT-L0058-sos-gram-band12345-N24",
+  "lemma_ref": "L-0058 TSSOS order-2 + rational Gram on Hermitian {1..5}",
+  "route": "B",
+  "evidence_level": "N5",
+  "n": 24,
+  "band_radii": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "D": 112,
+  "C_dagger": 9.562009938690146,
+  "C_fullsym": 2.148097061972368,
+  "C_ub_float": 1.3052615184195018,
+  "C_ub_hi": 1.3052615184195027,
+  "ub_raw_hi": 0.46147963544813975,
+  "gram_denom": 100000000,
+  "n_gram_blocks": 6245,
+  "min_psd_eig": -6.174894842430442e-10,
+  "max_rationalization_error": 4.999179540818299e-09,
+  "beats_fullsym": true,
+  "closes_vs_Cdagger": true,
+  "closes_all_ic": false,
+  "related_cr": "C-R-0006",
+  "clay_implication": "None. N5 Gram on Hermitian band {1..5} only; not all-IC; not Clay.",
+  "payload_sha256": "d93c23c7d8935c6c3782a7c72639d42ea4e8327ab2a77f591534d84df9b91e9e",
+  "notes": "N5 Gram on Hermitian {1..5} D=112: 6245 PSD blocks, denom=100000000. C_ub_hi\u22481.305262 < C_dagger\u22489.5620 < C_fullsym\u22482.1481. Band subclass; adjacent to Sym C-R-0006; not all initial conditions."
+}

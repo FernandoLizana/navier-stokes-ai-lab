@@ -1,0 +1,33 @@
+{
+  "lemma_id": "L-0068",
+  "route": "B",
+  "status": "proved_restricted",
+  "evidence_level": "N7",
+  "n": 24,
+  "c0007_M": 41.283999509509286,
+  "C_dagger": 9.562009938690146,
+  "Omega_star": 18.874042281544565,
+  "support_cr0014": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    10,
+    12,
+    16,
+    19,
+    24
+  ],
+  "pol_branch": "second",
+  "support_cr0014_D": 178,
+  "C_shor_sym_cr0014": 9.3130311111074,
+  "C_ub_sos_hi": 4.0760825002657395,
+  "closes_cr0014": true,
+  "extends_cr0013": true,
+  "closes_c0007_all_ic": false,
+  "clay_implication": "None. One-pol C-R-0014; not all-IC; not Clay.",
+  "notes": "C-R-0014: 12 shells D=178 C_Shor=9.313\u2264C_\u2020 (margin\u22480.2490). Extends C-R-0013 by shell 24. SOS N5\u22484.0761."
+}

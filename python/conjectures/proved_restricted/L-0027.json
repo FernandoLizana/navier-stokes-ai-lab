@@ -1,0 +1,21 @@
+{
+  "lemma_id": "L-0027",
+  "route": "B",
+  "status": "proved_restricted",
+  "evidence_level": "N7",
+  "n": 24,
+  "E0": 0.5,
+  "nu": 0.1,
+  "T": 0.02,
+  "c0007_M": 41.283999509509286,
+  "Omega_star": 18.874042281544565,
+  "C_dagger": 9.562009938690146,
+  "Omega_T_at_Cdagger": 41.283999509509215,
+  "C_emp_max": 0.009311348515766146,
+  "emp_closes_low_slab": true,
+  "all_ic_cubic_C0_floor": 46.284634761995605,
+  "all_ic_cubic_closes_c0007": false,
+  "proved_closes_c0007": false,
+  "clay_implication": "None. Low-slab cubic conditional only; C\u2264C_\u2020 not proved; not continuum; not Clay.",
+  "notes": "Low slab \u03a90\u2264\u03a9\u2605=18.874042: C_\u2020=9.56201 \u21d2 \u03a9(T)\u226441.284 (M=41.284). C_emp\u22480.00931135; emp_closes=True. All-IC cubic at C=0 already has floor=46.2846>M (high slab needs L-0024/L-0026). Proved C\u2264C_\u2020: False."
+}

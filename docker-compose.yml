@@ -1,0 +1,9 @@
+services:
+  ns-mrl-python:
+    build:
+      context: .
+      dockerfile: scripts/setup/Dockerfile
+    volumes:
+      - .:/workspace
+    working_dir: /workspace
+    command: pytest python/ns_exploration/tests -v

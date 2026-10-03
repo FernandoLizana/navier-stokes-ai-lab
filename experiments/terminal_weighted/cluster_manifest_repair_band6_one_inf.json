@@ -1,0 +1,269 @@
+{
+  "n": 24,
+  "D_full": 160,
+  "n_clusters": 3,
+  "n_shells": 6,
+  "bound_method": "one_inf_only",
+  "partition": "equal",
+  "partition_strategy": "equal",
+  "clusters": [
+    {
+      "cluster_id": 0,
+      "shells": [
+        1,
+        2
+      ]
+    },
+    {
+      "cluster_id": 1,
+      "shells": [
+        3,
+        4
+      ]
+    },
+    {
+      "cluster_id": 2,
+      "shells": [
+        5,
+        6
+      ]
+    }
+  ],
+  "blocks": [
+    {
+      "shell": 1,
+      "n": 24,
+      "D": 160,
+      "frobenius_sq_hi": "",
+      "L_op_hi": "4.283857987856393560239351872666524519031",
+      "C_term_hi": "12.11658013141365857267748120371920878831",
+      "n_updates": 45216,
+      "method": "route_a_prime_L-0073R_min_one_inf_only",
+      "evidence_level": "N4",
+      "payload_sha256": "2907a13ac581a1ed06e4b22b5ae1cd127b0d8ba05c5090ae9e175932baf793ef",
+      "cluster_id": 0,
+      "shells": [
+        1,
+        2
+      ],
+      "B_cluster_hi": "12.11658013141365857267748120371920878831",
+      "B_cluster_frobenius_hi": "15.16520513918555868801406986873367474211",
+      "max_factor_hi": "0.01996005328004263865092515930062342293978",
+      "per_shell_integral_hi": "0.2985868702741916393238453806803348543624",
+      "cluster_integral_hi": "0.2418475849949226614610013448758601586403",
+      "contrib_hi": "0.24151983586772860530527277790044798105",
+      "per_shell_detail": [
+        {
+          "shell": 1,
+          "factor_hi": "0.01996005328004263865092515930062342293978",
+          "B_r_hi": "3.890022370279705574100523229399694786673"
+        },
+        {
+          "shell": 2,
+          "factor_hi": "0.01992021290734842455892472346489318826663",
+          "B_r_hi": "11.09133810619800659486051313868640909026"
+        }
+      ],
+      "cluster_residual_L0073R": {
+        "shells": [
+          1,
+          2
+        ],
+        "legacy_invalid_hi": "0.2418475849949226614610013448758601586403",
+        "residual_candidates": [
+          {
+            "alpha": "min",
+            "contrib_hi": "0.2415198358677286053052727779004479810493"
+          },
+          {
+            "alpha": "max",
+            "contrib_hi": "0.2422894680387511287618631237293202102303"
+          },
+          {
+            "alpha": "midpoint",
+            "contrib_hi": "0.2415198358677286053052727779004479810493"
+          },
+          {
+            "alpha": "central_shell",
+            "contrib_hi": "0.2415198358677286053052727779004479810493"
+          },
+          {
+            "alpha": "shell_1",
+            "contrib_hi": "0.2422894680387511287618631237293202102303"
+          },
+          {
+            "alpha": "shell_2",
+            "contrib_hi": "0.2415198358677286053052727779004479810493"
+          }
+        ],
+        "best_residual": {
+          "alpha": "min",
+          "contrib_hi": "0.2415198358677286053052727779004479810493"
+        },
+        "residual_tighter_than_legacy": true,
+        "alpha_scan": "knots_at_each_shell_phi_plus_heuristic_midpoints"
+      },
+      "B_cluster_one_inf_hi": "12.11658013141365857267748120371920878831"
+    },
+    {
+      "shell": 3,
+      "n": 24,
+      "D": 160,
+      "frobenius_sq_hi": "",
+      "L_op_hi": "4.329519565134740298006773185535509384795",
+      "C_term_hi": "12.24573057514642880046182456281685544418",
+      "n_updates": 34080,
+      "method": "route_a_prime_L-0073R_min_one_inf_only",
+      "evidence_level": "N4",
+      "payload_sha256": "41d368e1e5af13a2eea008db2ecabb73fe83d645a32ee0590398b9dcb9fc02b0",
+      "cluster_id": 1,
+      "shells": [
+        3,
+        4
+      ],
+      "B_cluster_hi": "12.24573057514642880046182456281685544418",
+      "B_cluster_frobenius_hi": "22.07742336012565591331006127682628849228",
+      "max_factor_hi": "0.0198804785634491002361520133506852714705",
+      "per_shell_integral_hi": "0.3842020264838601353598870393115415524184",
+      "cluster_integral_hi": "0.243450984192971798846739299166109029056",
+      "contrib_hi": "0.2434139582077631435684178010561436863558",
+      "per_shell_detail": [
+        {
+          "shell": 3,
+          "factor_hi": "0.0198804785634491002361520133506852714705",
+          "B_r_hi": "11.31140650638614414065241990981352697009"
+        },
+        {
+          "shell": 4,
+          "factor_hi": "0.01984084993089360639983104577344966272607",
+          "B_r_hi": "8.030192883174329169773969102418054284218"
+        }
+      ],
+      "cluster_residual_L0073R": {
+        "shells": [
+          3,
+          4
+        ],
+        "legacy_invalid_hi": "0.243450984192971798846739299166109029056",
+        "residual_candidates": [
+          {
+            "alpha": "min",
+            "contrib_hi": "0.2434139582077631435684178010561436863558"
+          },
+          {
+            "alpha": "max",
+            "contrib_hi": "0.2437692097560888559803269768325396539547"
+          },
+          {
+            "alpha": "midpoint",
+            "contrib_hi": "0.2434139582077631435684178010561436863558"
+          },
+          {
+            "alpha": "central_shell",
+            "contrib_hi": "0.2434139582077631435684178010561436863558"
+          },
+          {
+            "alpha": "shell_3",
+            "contrib_hi": "0.2437692097560888559803269768325396539547"
+          },
+          {
+            "alpha": "shell_4",
+            "contrib_hi": "0.2434139582077631435684178010561436863558"
+          }
+        ],
+        "best_residual": {
+          "alpha": "min",
+          "contrib_hi": "0.2434139582077631435684178010561436863558"
+        },
+        "residual_tighter_than_legacy": true,
+        "alpha_scan": "knots_at_each_shell_phi_plus_heuristic_midpoints"
+      },
+      "B_cluster_one_inf_hi": "12.24573057514642880046182456281685544418"
+    },
+    {
+      "shell": 5,
+      "n": 24,
+      "D": 160,
+      "frobenius_sq_hi": "",
+      "L_op_hi": "8.865447667902798600581224955317214240368",
+      "C_term_hi": "25.07527265691412901800320309605894210243",
+      "n_updates": 99840,
+      "method": "route_a_prime_L-0073R_min_one_inf_only",
+      "evidence_level": "N4",
+      "payload_sha256": "c096b1dd6b7713d76617c65089a79c82c5cb1ba10bbac4546ed09b8ddfd39c51",
+      "cluster_id": 2,
+      "shells": [
+        5,
+        6
+      ],
+      "B_cluster_hi": "25.07527265691412901800320309605894210243",
+      "B_cluster_frobenius_hi": "50.08644300446484989975643089525858196495",
+      "max_factor_hi": "0.01980132669324469817632026686820565042114",
+      "per_shell_integral_hi": "0.5611609190072995252157435865497426195246",
+      "cluster_integral_hi": "0.4965236658017426474229130432280588953436",
+      "contrib_hi": "0.4960743075632089524125407349467867426029",
+      "per_shell_detail": [
+        {
+          "shell": 5,
+          "factor_hi": "0.01980132669324469817632026686820565042114",
+          "B_r_hi": "13.67549500607363165938580848470079660987"
+        },
+        {
+          "shell": 6,
+          "factor_hi": "0.01976190853507557246950881906342465392641",
+          "B_r_hi": "14.69331639627937113219176755455831485659"
+        }
+      ],
+      "cluster_residual_L0073R": {
+        "shells": [
+          5,
+          6
+        ],
+        "legacy_invalid_hi": "0.4965236658017426474229130432280588953436",
+        "residual_candidates": [
+          {
+            "alpha": "min",
+            "contrib_hi": "0.4960743075632089524125407349467867426014"
+          },
+          {
+            "alpha": "max",
+            "contrib_hi": "0.497102849271480195807267400958505218712"
+          },
+          {
+            "alpha": "midpoint",
+            "contrib_hi": "0.4960743075632089524125407349467867426014"
+          },
+          {
+            "alpha": "central_shell",
+            "contrib_hi": "0.4960743075632089524125407349467867426014"
+          },
+          {
+            "alpha": "shell_5",
+            "contrib_hi": "0.497102849271480195807267400958505218712"
+          },
+          {
+            "alpha": "shell_6",
+            "contrib_hi": "0.4960743075632089524125407349467867426014"
+          }
+        ],
+        "best_residual": {
+          "alpha": "min",
+          "contrib_hi": "0.4960743075632089524125407349467867426014"
+        },
+        "residual_tighter_than_legacy": true,
+        "alpha_scan": "knots_at_each_shell_phi_plus_heuristic_midpoints"
+      },
+      "B_cluster_one_inf_hi": "25.07527265691412901800320309605894210243"
+    }
+  ],
+  "arithmetic_backend": {
+    "name": "gmpy2_mpfr",
+    "version": "2.3.1",
+    "precision_bits": 128,
+    "rounding_up": "RoundUp",
+    "rounding_down": "RoundDown",
+    "platform": "Windows-10-10.0.26200-SP0"
+  },
+  "convention": "Route A': per cluster C, I_C from L-0073R residual when bound_method=one_inf_only; else legacy min(per-shell, B_C*max f). B_C from one_inf_only combined-output bound.",
+  "manifest_sha256": "ff7094d3bf0ca64fad1292494bacfd56a9aac0d4128e1967c68935bf83e4d10e"
+}

@@ -1,0 +1,18 @@
+{
+  "lemma_id": "L-0048",
+  "route": "B",
+  "status": "techo",
+  "evidence_level": "N7",
+  "n": 24,
+  "c0007_M": 41.283999509509286,
+  "C_dagger": 9.562009938690146,
+  "Omega_star": 18.874042281544565,
+  "D_full": 6748,
+  "nnz_full": 37818119,
+  "C_fullsym_full": 25.925922025377965,
+  "validate_rel_err": 1.483597921805437e-16,
+  "closes_c0007_all_ic": false,
+  "fullsym_shor_all_ic_techo": true,
+  "clay_implication": "None. Full-dealias physical fullsym Shor exceeds C_\u2020 \u2014 method techo for all-IC via this majorant; not a refutation of C-0007; not Clay.",
+  "notes": "Sparse CSR Gram full dealias: C=25.9259>>C_dagger=9.5620 (D=6748, nnz=37818119). Fullsym Shor cannot close all-IC. Validate {1..6} rel=1.484e-16."
+}

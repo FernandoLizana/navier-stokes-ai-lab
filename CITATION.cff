@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+title: "Navier-Stokes AI Lab"
+message: "If you use this software or documentation, please cite it as below."
+type: software
+authors:
+  - name: "Navier-Stokes AI Lab Contributors"
+abstract: >-
+  AI-assisted exploratory pseudospectral Navier-Stokes tooling, conjecture
+  registries, and verification workflows on the torus. Historical name: NS-MRL.
+  Does not claim a solution of the Clay Millennium Problem.
+license: MIT
+version: 0.1.0
+date-released: "2026-07-16"

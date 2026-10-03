@@ -1,0 +1,23 @@
+{
+  "Stokes_floor": 40.82462307930434,
+  "I_sigma": 0.2100924089068647,
+  "Nstar_young": 78.689262291624,
+  "Omega_young_H1": 326.86166770253544,
+  "envelope_cap": 73.5,
+  "c0005_M": 61.23693461895651,
+  "Ncrit_c0005": 9.666194264843458,
+  "young_closes_c0005": false,
+  "certificate_ok": true,
+  "checks": {
+    "K2": true,
+    "rho": true,
+    "S_T": true,
+    "I_sigma": true,
+    "Nstar": true,
+    "Omega_formula": true,
+    "Ncrit": true,
+    "young_flag": true
+  },
+  "not_a_clay_claim": true,
+  "next": "Certify N_* <= Ncrit (target ~9.67; empirical ~2)."
+}

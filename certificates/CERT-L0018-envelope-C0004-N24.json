@@ -1,0 +1,16 @@
+{
+  "certificate_id": "CERT-L0018-envelope-C0004-N24",
+  "lemma_ref": "L-0018 spectral enstrophy envelope \u03a9\u2264K\u00b2E0",
+  "route": "B",
+  "evidence_level": "N5",
+  "n_max": 24,
+  "n_worst": 24,
+  "K2_worst": 147,
+  "E0": 0.5,
+  "R": 73.5,
+  "Omega_cap_hi": 73.5,
+  "closes": true,
+  "clay_implication": "None. Finite dealias Galerkin only.",
+  "payload_sha256": "f1ef8ab3c3f12efbd570c933484dacff3f032bcca7843c72f3b12d9b6c3e3c38",
+  "notes": "Exact K\u00b2(24)=147 (integer max over dealias mask). \u03a9_cap=73.5 \u2264 R=73.5: True."
+}

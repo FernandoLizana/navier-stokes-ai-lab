@@ -1,0 +1,18 @@
+{
+  "id": "C-0001",
+  "route": "B",
+  "status": "refuted",
+  "evidence_level": "N2",
+  "domain": "Galerkin/pseudospectral T^3, N<=16 (NOT continuum PDE)",
+  "nu": 0.1,
+  "energy": 0.5,
+  "t_end": 0.02,
+  "n_max": 16,
+  "proposed_bound_M": 10.994055804604205,
+  "statement": "For all divergence-free Fourier fields on the N^3 grid with N<=16, dealiased convective term, nu=0.1, kinetic energy = 0.5, evolved with ETD-RK2 (dt=1e-3) to T=0.02, the enstrophy E_ens(T) <= M with M=proposed_bound_M. This is a FINITE-DIMENSIONAL conjecture only.",
+  "clay_implication": "None. Even if true for all N, passing N->inf requires uniform estimates not provided here. Does not address Clay Routes A-D.",
+  "numerical_support_max": 13.546717499700835,
+  "refuted": true,
+  "refutation_value": 13.546717499700835,
+  "notes": "Refuted by gated polished candidate."
+}

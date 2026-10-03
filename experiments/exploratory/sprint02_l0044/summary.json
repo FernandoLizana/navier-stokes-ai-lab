@@ -1,0 +1,27 @@
+{
+  "support_cr0009": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "C_fullsym_123456": 2.9933259094191538,
+  "C_sym_123456": 11.34411252099031,
+  "fft_tensor_err": 5.1514348342607263e-14,
+  "C_dagger": 9.562009938690146,
+  "closes_cr0009": true,
+  "closes_c0007_all_ic": false,
+  "certificate_ok": true,
+  "checks": {
+    "fullsym_le_Cdagger": true,
+    "fullsym_matches": true,
+    "sym_above_Cdagger": true,
+    "support_frozen": true,
+    "fft_err_small": true,
+    "closes_cr": true,
+    "all_ic_false": true
+  },
+  "not_a_clay_claim": true
+}

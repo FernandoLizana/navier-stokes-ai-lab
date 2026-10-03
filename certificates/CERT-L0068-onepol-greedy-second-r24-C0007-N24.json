@@ -1,0 +1,25 @@
+{
+  "cert_id": "CERT-L0068-onepol-greedy-second-r24-C0007-N24",
+  "lemma_id": "L-0068",
+  "restricted_id": "C-R-0014",
+  "n": 24,
+  "support_cr0014": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    10,
+    12,
+    16,
+    19,
+    24
+  ],
+  "C_shor_sym": 9.3130311111074,
+  "C_ub_sos_hi": 4.0760825002657395,
+  "closes_cr0014": true,
+  "extends_cr0013": true,
+  "closes_c0007_all_ic": false
+}

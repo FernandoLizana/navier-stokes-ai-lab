@@ -1,0 +1,13 @@
+{
+  "mode": "full",
+  "bound_method": "best",
+  "n_clusters": 12,
+  "integral_hi": "37.91955812524674097702040111940917993949",
+  "omega_T_hi": "54.23121142428404686015338966260345918511",
+  "phase_e_per_shell_I_hi": "170.2216449621772854224677670896982305127",
+  "improvement_vs_phase_e": 0.2227657835974523,
+  "closes_c0008": false,
+  "I_star_lo": "1.299312755657915943535353700029000225351",
+  "runtime_s": 4166.68,
+  "manifest": "experiments/terminal_weighted/shell_manifest_cluster_best_full.json"
+}

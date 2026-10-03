@@ -1,0 +1,20 @@
+{
+  "id": "C-S-0001",
+  "route": "B",
+  "status": "refuted",
+  "evidence_level": "N2",
+  "domain": "Pseudospectral T^3, N<=16, IC with |k|_inf <= k_shell only (evolution may leave the shell). NOT continuum PDE.",
+  "k_shell": 4,
+  "nu": 0.1,
+  "energy": 0.5,
+  "t_end": 0.02,
+  "n_max": 16,
+  "proposed_bound_M": 8.894923676246325,
+  "parent": "C-0002",
+  "statement": "For all divergence-free Fourier ICs on N^3 (N\u226416) with |k|_\u221e \u2264 4, kinetic energy = 0.5, evolved with dealiased ETD-RK2 (\u03bd=0.1, dt=1e-3) to T=0.02, the enstrophy \u03a9(T) \u2264 M with M=8.894923676246325. FINITE-DIMENSIONAL; IC shell only (flow may excite higher modes).",
+  "clay_implication": "None. Shell-restricted IC class; does not address Clay Routes A-D.",
+  "numerical_support_max": 32.10618840068844,
+  "refuted": true,
+  "refutation_value": 32.10618840068844,
+  "notes": "Refuted by aggressive attack (abc_n16)."
+}

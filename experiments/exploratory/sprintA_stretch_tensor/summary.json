@@ -1,0 +1,23 @@
+{
+  "n": 24,
+  "radii": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "D": 160,
+  "C_dagger": 9.562009938690146,
+  "max_tensor_vs_lmat_err": 6.039613253960852e-14,
+  "max_fullsym_vs_G_err": 4.440892098500626e-14,
+  "C_sym_reproduced": 11.344112520990302,
+  "C_sym_l0040": 11.344112520990302,
+  "C_fullsym": 11.28669879808299,
+  "C_rank1_lower": 3.136261720958359,
+  "relaxation_gap_ratio": 3.5987745291340265,
+  "fullsym_le_sym": true,
+  "fullsym_closes_band": false,
+  "notes": "tensor==l0040 err=6.04e-14; fullsym==G err=4.44e-14; C_sym_repro=11.344113 (l0040 11.344113); C_fullsym=11.286699; C_rank1_lo=3.136262; C_\u2020=9.562010. relaxation gap \u22483.6\u00d7. fullsym<=sym; closes_band=False."
+}

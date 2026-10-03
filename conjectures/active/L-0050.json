@@ -1,0 +1,21 @@
+{
+  "lemma_id": "L-0050",
+  "route": "B",
+  "status": "exploring",
+  "evidence_level": "N2",
+  "n": 24,
+  "C_dagger": 9.562009938690146,
+  "band_radii": [
+    1,
+    2,
+    3
+  ],
+  "D": 52,
+  "C_ub_tssos": 0.843822489307523,
+  "C_fullsym_band": 1.36986977843755,
+  "C_fullsym_full_dealias": 25.925922025377965,
+  "beats_fullsym_on_band": true,
+  "closes_c0007_all_ic": false,
+  "clay_implication": "None. Float TSSOS on a tiny band; not all-IC; not continuum; not Clay.",
+  "notes": "TSSOS+Clarabel order-2 on {1,2,3}: C_ub\u22480.8438 < C_fullsym\u22481.3699 < C_\u2020\u22489.5620. Pipeline ready; full-dealias Shor techo C\u224825.93 still needs scaled SOS / structure."
+}

@@ -1,0 +1,193 @@
+{
+  "n": 24,
+  "n_shells": 6,
+  "radii_count": 6,
+  "bound_method": "one_inf_only",
+  "rational_coefficients": true,
+  "blocks": [
+    {
+      "shell": 1,
+      "n": 24,
+      "D": 160,
+      "frobenius_sq_hi": "",
+      "L_op_hi": "1.375330598496073360584780874521177664614",
+      "C_term_hi": "3.890022370279705574100523229399694786661",
+      "n_updates": 4992,
+      "method": "one_inf_mpfr_up",
+      "evidence_level": "N4",
+      "payload_sha256": "3fdf71fea26d3c8ea20e035c4f85346f52ac9760998733cc948466a490919677",
+      "C_term_one_inf_hi": "3.890022370279705574100523229399694786661"
+    },
+    {
+      "shell": 2,
+      "n": 24,
+      "D": 160,
+      "frobenius_sq_hi": "",
+      "L_op_hi": "3.921380193662685125737384040223615006308",
+      "C_term_hi": "11.09133810619800658575607769496216401064",
+      "n_updates": 9072,
+      "method": "one_inf_mpfr_up",
+      "evidence_level": "N4",
+      "payload_sha256": "03b881406a1ff7b5b8631a91f66199d1992b2ba99588d3047766e76135b58bf6",
+      "C_term_one_inf_hi": "11.09133810619800658575607769496216401064"
+    },
+    {
+      "shell": 3,
+      "n": 24,
+      "D": 160,
+      "frobenius_sq_hi": "",
+      "L_op_hi": "3.999186122711638620928103269071615221596",
+      "C_term_hi": "11.31140650638614418915927158417052104225",
+      "n_updates": 7248,
+      "method": "one_inf_mpfr_up",
+      "evidence_level": "N4",
+      "payload_sha256": "3ddd84cfe51a12100b5bec9e00268f5565c2350647925698ad8033ea64e096df",
+      "C_term_one_inf_hi": "11.31140650638614418915927158417052104225"
+    },
+    {
+      "shell": 4,
+      "n": 24,
+      "D": 160,
+      "frobenius_sq_hi": "",
+      "L_op_hi": "2.839101920964260781945361850210755888375",
+      "C_term_hi": "8.030192883174329169773969102418054284171",
+      "n_updates": 3264,
+      "method": "one_inf_mpfr_up",
+      "evidence_level": "N4",
+      "payload_sha256": "8561a0e309a17f9bb78f4ef291d436cdaf99117e43bf2efd09d5dc203d3ad9f6",
+      "C_term_one_inf_hi": "8.030192883174329169773969102418054284171"
+    },
+    {
+      "shell": 5,
+      "n": 24,
+      "D": 160,
+      "frobenius_sq_hi": "",
+      "L_op_hi": "4.835017627438715958743496497014666688866",
+      "C_term_hi": "13.67549500607363314077431637267230096216",
+      "n_updates": 11280,
+      "method": "one_inf_mpfr_up",
+      "evidence_level": "N4",
+      "payload_sha256": "8e0a1b00225bdd35544de241ed4170704ec51feff4fc5a6805ce7eb12b3dd684",
+      "C_term_one_inf_hi": "13.67549500607363314077431637267230096216"
+    },
+    {
+      "shell": 6,
+      "n": 24,
+      "D": 160,
+      "frobenius_sq_hi": "",
+      "L_op_hi": "5.194871830964314156850532289652606123133",
+      "C_term_hi": "14.69331639627937115587753363636307213753",
+      "n_updates": 12648,
+      "method": "one_inf_mpfr_up",
+      "evidence_level": "N4",
+      "payload_sha256": "08cbf10979d7eaf1249a97fbb75521a7a401bd942b519f4381365d90401bc5bf",
+      "C_term_one_inf_hi": "14.69331639627937115587753363636307213753"
+    }
+  ],
+  "full_at_T_one_inf": {
+    "shell": null,
+    "n": 24,
+    "D": 160,
+    "frobenius_sq_hi": "",
+    "L_op_hi": "1.375330598496073360584780874521177664614",
+    "C_term_hi": "3.890022370279705574100523229399694786661",
+    "n_updates": 4992,
+    "method": "one_inf_mpfr_up",
+    "evidence_level": "N4",
+    "payload_sha256": "14b0f8f931aa3bbe80398d330f1750184945c560429dabb4ccd5d0a023724095"
+  },
+  "full_at_T_frobenius": {
+    "shell": null,
+    "n": 24,
+    "D": 160,
+    "frobenius_sq_hi": "543.4802962962961910209353885272902519429",
+    "L_op_hi": "23.3126638610068796020447914182355558231",
+    "C_term_hi": "65.938170814562103138865267554490397979",
+    "n_updates": 180528,
+    "method": "frobenius_mpfr_up",
+    "evidence_level": "N5",
+    "payload_sha256": "df4a88fa75fc17ff37f94c36e0b7d4dc8bddd0b2d67705b97b00787bac144654"
+  },
+  "full_at_T_best": {
+    "shell": null,
+    "n": 24,
+    "D": 160,
+    "frobenius_sq_hi": "",
+    "L_op_hi": "1.375330598496073360584780874521177664614",
+    "C_term_hi": "3.890022370279705574100523229399694786661",
+    "n_updates": 4992,
+    "method": "one_inf_mpfr_up",
+    "evidence_level": "N4",
+    "payload_sha256": "14b0f8f931aa3bbe80398d330f1750184945c560429dabb4ccd5d0a023724095"
+  },
+  "arithmetic_backend": {
+    "name": "gmpy2_mpfr",
+    "version": "2.3.1",
+    "precision_bits": 128,
+    "rounding_up": "RoundUp",
+    "rounding_down": "RoundDown",
+    "platform": "Windows-10-10.0.26200-SP0"
+  },
+  "convention": "M_r: output on shell r only. Repair baseline: ||M_r||_op <= ||M_r||_{1,inf} (MPFR upward). Frobenius uses entry aggregation then |M_ij|^2 sum. Rational mpfr_leray + mpfr_vdot_real coefficients.",
+  "repair_tag": "C0008_cert_repair_phase7_rational",
+  "cluster_residual_L0073R": {
+    "shells": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "legacy_invalid_hi": "0.6504164991955863840378692382901606445508",
+    "residual_candidates": [
+      {
+        "alpha": "min",
+        "contrib_hi": "0.6490005384324308920076648918585315809021"
+      },
+      {
+        "alpha": "max",
+        "contrib_hi": "0.6577977781675694737476852055414928156066"
+      },
+      {
+        "alpha": "midpoint",
+        "contrib_hi": "0.6500247612085135186732555687699795435866"
+      },
+      {
+        "alpha": "central_shell",
+        "contrib_hi": "0.6500247612085135186732555687699795435866"
+      },
+      {
+        "alpha": "shell_1",
+        "contrib_hi": "0.6577977781675694737476852055414928156066"
+      },
+      {
+        "alpha": "shell_2",
+        "contrib_hi": "0.6543118397196016218358506735734759129533"
+      },
+      {
+        "alpha": "shell_3",
+        "contrib_hi": "0.651716592625818125802906898534456621049"
+      },
+      {
+        "alpha": "shell_4",
+        "contrib_hi": "0.6500247612085135186732555687699795435866"
+      },
+      {
+        "alpha": "shell_5",
+        "contrib_hi": "0.6489721877694592770915200254329174498493"
+      },
+      {
+        "alpha": "shell_6",
+        "contrib_hi": "0.6490005384324308920076648918585315809021"
+      }
+    ],
+    "best_residual": {
+      "alpha": "shell_5",
+      "contrib_hi": "0.6489721877694592770915200254329174498493"
+    },
+    "residual_tighter_than_legacy": true,
+    "alpha_scan": "knots_at_each_shell_phi_plus_heuristic_midpoints"
+  },
+  "B_C_combined_hi": "32.58590997078726125714208742489404695703"
+}

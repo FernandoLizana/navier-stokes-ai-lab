@@ -1,0 +1,14 @@
+{
+  "cert_id": "CERT-L0040-sym-shor-C0007-N24",
+  "lemma_id": "L-0040",
+  "n": 24,
+  "c0007_M": 41.283999509509286,
+  "C_dagger": 9.562009938690146,
+  "band_12345_C": 9.014802641581605,
+  "band_123456_C": 11.344112520990302,
+  "band_1234_C_sym": 6.110100926607786,
+  "greedy9_C": 9.501738761182967,
+  "closes_cr0006": true,
+  "closes_c0007_all_ic": false,
+  "clay_implication": "None. Sym-restricted Shor on low-shell bands; C-R-0006 only; not all-IC; not continuum; not Clay."
+}

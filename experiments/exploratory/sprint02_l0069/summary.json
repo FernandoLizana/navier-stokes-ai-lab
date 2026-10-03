@@ -1,0 +1,9 @@
+{
+  "lemma_id": "L-0069",
+  "n_proved_restricted": 14,
+  "best_onepol_cr": "C-R-0014",
+  "techo_shell": 25,
+  "cluster_greedy": "cluster_export_ready",
+  "pytest_ok": true,
+  "all_ic_open": true
+}

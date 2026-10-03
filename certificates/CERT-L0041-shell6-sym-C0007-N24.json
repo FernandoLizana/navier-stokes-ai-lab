@@ -1,0 +1,24 @@
+{
+  "cert_id": "CERT-L0041-shell6-sym-C0007-N24",
+  "lemma_id": "L-0041",
+  "n": 24,
+  "c0007_M": 41.283999509509286,
+  "C_dagger": 9.562009938690146,
+  "band_123456_C": 11.344112520990302,
+  "seed_12346_C": 8.406346808612328,
+  "support_cr0007": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    11,
+    12,
+    25
+  ],
+  "support_cr0007_C": 9.413983769277191,
+  "closes_cr0007": true,
+  "consecutive_6_techo": true,
+  "closes_c0007_all_ic": false,
+  "clay_implication": "None. Sym Shor shell-6 catalog / consecutive-6 techo; C-R-0007 only; not all-IC; not continuum; not Clay."
+}

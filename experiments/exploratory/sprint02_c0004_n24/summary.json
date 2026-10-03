@@ -1,0 +1,32 @@
+{
+  "C0004_M": 73.5,
+  "C0004_proved": true,
+  "C0005_M": 61.23693461895651,
+  "stokes_floor": 40.82462307930434,
+  "K2": 147,
+  "gap_envelope_minus_M5": 12.26306538104349,
+  "checks": {
+    "K2_matches": true,
+    "cap_formula": true,
+    "Omega_le_R": true,
+    "closes_flag": true
+  },
+  "not_a_clay_claim": true,
+  "stokes_gates": {
+    "K2": 147,
+    "Omega_ETD": 40.82462307930444,
+    "Omega_RK4": 40.82462308876035,
+    "rel_ETD_RK4": 2.3162271001385763e-10,
+    "gates_ok": true
+  },
+  "L0019_Stokes_floor": 40.82462307930434,
+  "L0019_cert_ok": true,
+  "L0019_checks": {
+    "K2_star": true,
+    "S_match": true,
+    "floor_match": true,
+    "envelope_match": true,
+    "floor_lt_c0005": true,
+    "floor_lt_envelope": true
+  }
+}

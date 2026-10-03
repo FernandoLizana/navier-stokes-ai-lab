@@ -1,0 +1,320 @@
+{
+  "claim": "C-0008",
+  "status": "candidate_certificate",
+  "lemma": "L-0073",
+  "parameters": {
+    "nu": 0.1,
+    "E0": 0.5,
+    "T": 0.02,
+    "N_max": 24,
+    "M_target": 41.283999509509286
+  },
+  "normalization": {
+    "fft": "fftn/N^3",
+    "hermitian": "sprintB_physical_tensor"
+  },
+  "mode_set": {
+    "n": 24,
+    "D": 6748,
+    "n_shells": 87,
+    "n_clusters": 11,
+    "radii_mode": "full"
+  },
+  "arithmetic_backend": {
+    "name": "gmpy2_mpfr",
+    "version": "2.3.1",
+    "precision_bits": 128,
+    "rounding_up": "RoundUp",
+    "rounding_down": "RoundDown",
+    "platform": "Windows-10-10.0.26200-SP0"
+  },
+  "stokes_floor_interval": [
+    40.82462307930434,
+    40.82462307930535
+  ],
+  "i_star_interval": [
+    "1.299312755657915943535353700029000225351",
+    "1.299312755657915943535353700029000225356"
+  ],
+  "method": "route_a_prime_cluster_best",
+  "operator_bound_method": "best",
+  "integral_interval": [
+    "0",
+    "37.91955812524674097702040111940917993949"
+  ],
+  "omega_T_interval": [
+    "0",
+    "54.23121142428404686015338966260345918511"
+  ],
+  "strict_margin": "-36.62024536958882503348504741938017971408",
+  "closes_strict": false,
+  "source_hashes": {
+    "cluster_manifest": "e27395c45e1015b2c45297424fb0e5965d0346e9c6801ba4825295af85868929"
+  },
+  "limitations": [
+    "Route A': min(per-shell Phase-E best sum, B_cluster max f) per cluster",
+    "B_cluster = min(Frobenius, 1-inf) on combined cluster output",
+    "Triangle inequality across clusters remains"
+  ],
+  "l0048_audit": {
+    "frozen_value": 25.925922025377965,
+    "classification": "a_approximate_float64_operator_norm",
+    "not_certified_as": [
+      "c_rigorous_upper",
+      "d_interval",
+      "e_analytic_lax"
+    ],
+    "computation_path": "sparse_csr -> G=M@M.T dense -> eigvalsh -> sqrt -> *2\u221a2",
+    "evidence_level_computed": "N2",
+    "analytic_majorant_holds": true,
+    "note": "True C_term(T) <= 2\u221a2 sigma_max(M). Float sigma may underestimate or overestimate; Phase D replaces with Frobenius/MPFR upper bounds.",
+    "validate_band_16_rel_err": 1.483597921805437e-16,
+    "dense_sparse_agree_band16": true,
+    "sparse_reference": {
+      "sparse_C_band16": 2.993325909419154,
+      "sparse_D": 160,
+      "dense_C": 2.9933259094191538,
+      "sparse_C": 2.993325909419154,
+      "rel_err": 1.483597921805437e-16,
+      "nnz": 18801,
+      "D": 160,
+      "ok": true
+    }
+  },
+  "n_coverage": {
+    "n_max": 24,
+    "K2": 147,
+    "M_modes": 3375,
+    "wavevector_subsets": [
+      {
+        "n_small": 12,
+        "n_large": 24,
+        "modes_small": 342,
+        "modes_large": 3374,
+        "subset": true,
+        "only_large": 3032
+      },
+      {
+        "n_small": 16,
+        "n_large": 24,
+        "modes_small": 1330,
+        "modes_large": 3374,
+        "subset": true,
+        "only_large": 2044
+      },
+      {
+        "n_small": 20,
+        "n_large": 24,
+        "modes_small": 2196,
+        "modes_large": 3374,
+        "subset": true,
+        "only_large": 1178
+      },
+      {
+        "n_small": 24,
+        "n_large": 24,
+        "modes_small": 3374,
+        "modes_large": 3374,
+        "subset": true,
+        "only_large": 0
+      }
+    ],
+    "all_subset": true,
+    "conclusion": "Wavevectors at n=12,16 embed in n=24 dealias shell lists. Certifying full-dealias at N=24 majorant dominates embedded truncations n<=24 IF the terminal functional L-0071 is applied on the same n grid and majorant sup increases with mode-set inclusion. NOT automatic for different n indexing without embedding proof (N7 sketch).",
+    "evidence_level": "N7_sketch",
+    "requires_per_n_cert": false
+  },
+  "route_a_prime": {
+    "method": "cluster_integral_route_A_prime",
+    "n": 24,
+    "evidence_level": "N5",
+    "integral_hi": "37.91955812524674097702040111940917993949",
+    "I_star_lo": "1.299312755657915943535353700029000225351",
+    "closes_strict": false,
+    "omega_T_hi": "54.23121142428404686015338966260345918511",
+    "M_target_lo": "41.28399950950928598558675730600953102112",
+    "closes_c0008": false,
+    "full_dealias": true,
+    "n_clusters": 11,
+    "per_cluster": [
+      {
+        "cluster_id": 0,
+        "shells": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          8,
+          9
+        ],
+        "contrib_hi": "1.435482469311522177417414370790839909724",
+        "per_shell_integral_hi": "4.797862084497824963130356515040470265177",
+        "cluster_integral_hi": "1.435482469311522177417414370790839909724"
+      },
+      {
+        "cluster_id": 1,
+        "shells": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          16,
+          17,
+          18
+        ],
+        "contrib_hi": "2.608143530987350745967189089037630393556",
+        "per_shell_integral_hi": "10.5040946992991009262601865848813661618",
+        "cluster_integral_hi": "2.608143530987350745967189089037630393556"
+      },
+      {
+        "cluster_id": 2,
+        "shells": [
+          19,
+          20,
+          21,
+          22,
+          24,
+          25,
+          26,
+          27
+        ],
+        "contrib_hi": "3.224596533332821010024377152200763454907",
+        "per_shell_integral_hi": "14.02974359228869809716297929278859113083",
+        "cluster_integral_hi": "3.224596533332821010024377152200763454907"
+      },
+      {
+        "cluster_id": 3,
+        "shells": [
+          29,
+          30,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37
+        ],
+        "contrib_hi": "3.314720374412056327758612057888526717124",
+        "per_shell_integral_hi": "16.41006788921331637153548663644024556566",
+        "cluster_integral_hi": "3.314720374412056327758612057888526717124"
+      },
+      {
+        "cluster_id": 4,
+        "shells": [
+          38,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46
+        ],
+        "contrib_hi": "4.014903326471420776148331053602171452851",
+        "per_shell_integral_hi": "18.41247594267789434681162163761652349564",
+        "cluster_integral_hi": "4.014903326471420776148331053602171452851"
+      },
+      {
+        "cluster_id": 5,
+        "shells": [
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          56
+        ],
+        "contrib_hi": "4.641888440053385922544537252238630029752",
+        "per_shell_integral_hi": "19.56584951067945423650473075529242708305",
+        "cluster_integral_hi": "4.641888440053385922544537252238630029752"
+      },
+      {
+        "cluster_id": 6,
+        "shells": [
+          57,
+          58,
+          59,
+          61,
+          62,
+          65,
+          66,
+          67
+        ],
+        "contrib_hi": "4.715140736548005704666632592961551763925",
+        "per_shell_integral_hi": "19.80424510697279843233971156656160680039",
+        "cluster_integral_hi": "4.715140736548005704666632592961551763925"
+      },
+      {
+        "cluster_id": 7,
+        "shells": [
+          68,
+          69,
+          70,
+          72,
+          73,
+          74,
+          75,
+          76
+        ],
+        "contrib_hi": "3.711187719498531470618494971689080517664",
+        "per_shell_integral_hi": "18.57525786397652191548359799305696759459",
+        "cluster_integral_hi": "3.711187719498531470618494971689080517664"
+      },
+      {
+        "cluster_id": 8,
+        "shells": [
+          77,
+          78,
+          81,
+          83,
+          85,
+          86,
+          88,
+          89
+        ],
+        "contrib_hi": "4.0404602550815119469535373472287144524",
+        "per_shell_integral_hi": "18.14402358840779617889267012105613616406",
+        "cluster_integral_hi": "4.0404602550815119469535373472287144524"
+      },
+      {
+        "cluster_id": 9,
+        "shells": [
+          90,
+          94,
+          97,
+          98,
+          99,
+          101,
+          102,
+          107
+        ],
+        "contrib_hi": "3.451958729206636005493120798226800564543",
+        "per_shell_integral_hi": "17.24093401936117956982370316003647368429",
+        "cluster_integral_hi": "3.451958729206636005493120798226800564543"
+      },
+      {
+        "cluster_id": 10,
+        "shells": [
+          108,
+          110,
+          114,
+          121,
+          123,
+          134,
+          147
+        ],
+        "contrib_hi": "2.761076010343498889428154433544470682525",
+        "per_shell_integral_hi": "12.73709066480270038452272282692742255317",
+        "cluster_integral_hi": "2.761076010343498889428154433544470682525"
+      }
+    ],
+    "manifest_sha256": "e27395c45e1015b2c45297424fb0e5965d0346e9c6801ba4825295af85868929",
+    "honesty": "Per-cluster min(per-shell best sum, B_C max f(r)); B_C from best cluster combined bound. Triangle across clusters remains."
+  },
+  "verification_command": "python verify_c0008_cluster_certificate.py certificates/CERT-L0073-C0008-route-a-prime-best.json experiments/terminal_weighted/shell_manifest_cluster_best_full.json"
+}

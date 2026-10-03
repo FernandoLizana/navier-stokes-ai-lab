@@ -1,0 +1,22 @@
+{
+  "C_dagger": 9.562009938690146,
+  "C_fullsym": 8.475443542120622,
+  "C_ub": 3.3560651946371607,
+  "D": 92,
+  "TS": "MD",
+  "beats_fullsym": true,
+  "beta": 3.3806810347104825,
+  "clay_implication": "None",
+  "closes_vs_Cdagger": true,
+  "dir": "data/onepol_cr0008",
+  "dualize": false,
+  "evidence": "N2_float_SDP",
+  "loose": false,
+  "merge": false,
+  "method": "TSSOS tssos order=2 TS=MD merge=false dualize=false Clarabel sphere equality",
+  "not_a_theorem": true,
+  "opt_neg": -1.1865482286160434,
+  "opt_pos": -1.1865482286160434,
+  "order": 2,
+  "ub_raw_abs": 1.1865482286160434
+}

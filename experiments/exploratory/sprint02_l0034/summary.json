@@ -1,0 +1,19 @@
+{
+  "N_at_equipartition": 2.4494897427831783,
+  "N_young": 78.689262291624,
+  "C_eff_at_equipartition": 84.0,
+  "C_eff_at_Omega_star": 71.48652979721635,
+  "low_slab_ode_worst": 87.54939282605707,
+  "C_dagger": 9.562009938690146,
+  "closes_c0007": false,
+  "certificate_ok": true,
+  "checks": {
+    "n_shells_match": true,
+    "N_eq_matches": true,
+    "beats_young_at_eq": true,
+    "C_eff_above_Cdagger": true,
+    "ode_above_M": true,
+    "closes_false": true
+  },
+  "not_a_clay_claim": true
+}

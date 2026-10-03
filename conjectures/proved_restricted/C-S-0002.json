@@ -1,0 +1,22 @@
+{
+  "id": "C-S-0002",
+  "route": "B",
+  "status": "proved_restricted",
+  "evidence_level": "N7",
+  "lemma": "L-0018",
+  "domain": "Pseudospectral T^3, N\u226416, IC |k|_inf\u22644, E=0.5, 2/3 dealias Galerkin. NOT continuum.",
+  "k_shell": 4,
+  "nu": 0.1,
+  "energy": 0.5,
+  "t_end": 0.02,
+  "n_max": 16,
+  "proposed_bound_M": 48.15928260103266,
+  "statement": "For all divergence-free Fourier ICs on N\u00b3 (N\u226416) with |k|_\u221e\u22644 and kinetic energy E0=0.5, evolved under dealiased Galerkin NS (\u03bd=0.1), one has \u03a9(t) \u2264 48.15928260103266 for all t \u2265 0 (hence on [0, 0.02]), via the spectral envelope \u03a9 \u2264 K\u00b2 E \u2264 K\u00b2(16) E0 = 37.5 (L-0018). FINITE-DIMENSIONAL only.",
+  "Omega_cap": 37.5,
+  "K2_worst": 75,
+  "n_worst": 16,
+  "margin": 10.659282601032658,
+  "parent": "C-S-0001",
+  "clay_implication": "None. Finite dealiased Galerkin spectral envelope only; does not address continuum Clay routes.",
+  "notes": "\u03a9 \u2264 K\u00b2 E0 with K\u00b2(16)=75 \u21d2 \u03a9_cap=37.5 < M=48.1593 (margin=10.6593). Closes C-S-0002 for all t\u22650 on dealiased Galerkin N\u226416."
+}

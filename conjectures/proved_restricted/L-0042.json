@@ -1,0 +1,18 @@
+{
+  "lemma_id": "L-0042",
+  "route": "B",
+  "status": "proved_restricted",
+  "evidence_level": "N7",
+  "n": 24,
+  "c0007_M": 41.283999509509286,
+  "C_dagger": 9.562009938690146,
+  "C_sym_12345": 9.014802641581605,
+  "C_sym_123456": 11.344112520990302,
+  "C_triangle_123456": 80.48658937992259,
+  "C_hybrid_AB": 16.211284518064165,
+  "C_rank1_lo_123456": 0.22525863551389566,
+  "closes_123456": false,
+  "closes_c0007_all_ic": false,
+  "clay_implication": "None. Techo on strengthenings of Sym Shor for {1..6}; not continuum; not Clay.",
+  "notes": "{1..6} Sym C=11.34>C_\u2020; triangle C=80.49; A/B hybrid C=16.21; rank1_lo C\u22730.2253. No strengthening closes {1..6}. All-IC: False."
+}

@@ -1,0 +1,21 @@
+{
+  "quad_1346_C": 8.485281374238571,
+  "support_A_C": 9.519285600591987,
+  "support_A_n": 14,
+  "support_B_C": 9.547725180378425,
+  "support_B_n": 14,
+  "C_dagger": 9.562009938690146,
+  "closes_cr0005": true,
+  "closes_c0007_all_ic": false,
+  "certificate_ok": true,
+  "checks": {
+    "quad_le_Cdagger": true,
+    "quad_matches": true,
+    "supportA_le_Cdagger": true,
+    "supportA_matches": true,
+    "supportB_le_Cdagger": true,
+    "cr0005_true": true,
+    "all_ic_false": true
+  },
+  "not_a_clay_claim": true
+}

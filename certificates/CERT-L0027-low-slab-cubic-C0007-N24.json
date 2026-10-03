@@ -1,0 +1,15 @@
+{
+  "cert_id": "CERT-L0027-low-slab-cubic-C0007-N24",
+  "lemma_id": "L-0027",
+  "n": 24,
+  "E0": 0.5,
+  "nu": 0.1,
+  "T": 0.02,
+  "c0007_M": 41.283999509509286,
+  "Omega_star": 18.874042281544565,
+  "C_dagger": 9.562009938690146,
+  "Omega_T_at_Cdagger": 41.283999509509215,
+  "all_ic_cubic_C0_floor": 46.284634761995605,
+  "proved_closes_c0007": false,
+  "clay_implication": "None. Low-slab cubic conditional only; C\u2264C_\u2020 not proved; not continuum; not Clay."
+}

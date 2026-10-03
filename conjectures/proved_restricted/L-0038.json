@@ -1,0 +1,62 @@
+{
+  "lemma_id": "L-0038",
+  "route": "B",
+  "status": "proved_restricted",
+  "evidence_level": "N7",
+  "n": 24,
+  "c0007_M": 41.283999509509286,
+  "C_dagger": 9.562009938690146,
+  "band_123_C": 9.16515138991168,
+  "band_1234_C": 10.066445913694333,
+  "band_12_C": 6.6332495807108005,
+  "band_125_C": 9.549869109050658,
+  "meets_Cdagger_bands": [
+    {
+      "radii": [
+        1,
+        2
+      ],
+      "C_shor": 6.6332495807108005,
+      "D": 36
+    },
+    {
+      "radii": [
+        1,
+        2,
+        3
+      ],
+      "C_shor": 9.16515138991168,
+      "D": 52
+    },
+    {
+      "radii": [
+        1,
+        2,
+        5
+      ],
+      "C_shor": 9.549869109050658,
+      "D": 84
+    }
+  ],
+  "fails_Cdagger_bands": [
+    {
+      "radii": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "C_shor": 10.066445913694333,
+      "D": 64
+    }
+  ],
+  "cr0004_shells": [
+    1,
+    2,
+    3
+  ],
+  "closes_c0007_all_ic": false,
+  "closes_cr0004": true,
+  "clay_implication": "None. Exact SVD Shor on low-shell bands; C-R-0004 subclass only; not all-IC; not continuum; not Clay.",
+  "notes": "Exact SVD Shor: {1,2} C=6.633; {1,2,3} C=9.165\u2264C_\u2020; {1,2,5} C=9.55\u2264C_\u2020; {1,2,3,4} C=10.07>C_\u2020=9.562. C-R-0004 on {1,2,3} via L-0026+L-0027. All-IC: False."
+}

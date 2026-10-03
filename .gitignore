@@ -1,0 +1,63 @@
+# Virtual environments
+.venv/
+venv/
+env/
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Demo / local run outputs (keep docs/assets committed figures)
+demos/out/
+*.png.tmp
+
+# Editors / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Secrets / local env
+.env
+.env.*
+!.env.example
+*.pem
+credentials*.json
+
+# Lean / Lake build products
+lean/**/.lake/
+lean/**/build/
+**/*.olean
+
+# Julia
+julia/**/Manifest.toml
+.julia/
+
+# Large regenerable / local compute (prefer LFS or external storage)
+compute_pack/data/logs/
+compute_pack/.venv/
+*.rar
+
+# Optional huge local checkpoints (do not wipe tracked scientific JSON)
+python/experiments/terminal_weighted/shell_one_inf_ck/
+python/experiments/terminal_weighted/*_partial.json
+python/experiments/terminal_weighted/repair_one_inf_heartbeat*.txt
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large regenerable scientific dumps (use LFS/release if needed)
+reports/l0049_full_M.npz
+**/*.npz
+!docs/assets/**

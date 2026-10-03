@@ -1,0 +1,22 @@
+{
+  "certificate_id": "CERT-L0008-cosh-euclidean-k2-N12",
+  "lemma_ref": "L-0008 cascade cosh bound (E_H(0)=0)",
+  "route": "B",
+  "evidence_level": "N5",
+  "n": 12,
+  "ic_kind": "euclidean",
+  "k_ic": 2,
+  "K_ic_squared": 4,
+  "K_full_squared": 27,
+  "M_full": 343,
+  "E0": 0.5,
+  "t": 0.02,
+  "B_hi": 2.000000000000001,
+  "A_hi": 32.078029864690905,
+  "alpha_hi": 166.6823325970694,
+  "Omega_bound_hi": 394.1329071736878,
+  "closes": true,
+  "clay_implication": "None. Finite Galerkin cascade estimate; not continuum NS.",
+  "payload_sha256": "d04797bcc2ed42f6d76dab4b4add2a900e8db60d41bd39d0815b3d1c456e5229",
+  "notes": "Outward: \u03a9\u2264B cosh\u00b2(\u03b1t) \u2264 3.941329e+02."
+}

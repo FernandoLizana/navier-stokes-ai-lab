@@ -1,0 +1,30 @@
+{
+  "id": "C-R-0009",
+  "route": "B",
+  "status": "proved_restricted",
+  "evidence_level": "N7",
+  "lemma": "L-0044+L-0026+L-0027",
+  "domain": "Pseudospectral T^3, N<=24, 2/3 dealias, real (Hermitian) Fourier fields with support in shells |k|^2 in [1, 2, 3, 4, 5, 6]. NOT continuum.",
+  "nu": 0.1,
+  "energy": 0.5,
+  "t_end": 0.02,
+  "n_max": 24,
+  "proposed_bound_M": 41.283999509509286,
+  "shells": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "C_fullsym": 2.9933259094191538,
+  "C_sym": 11.34411252099031,
+  "C_dagger": 9.562009938690146,
+  "D": 160,
+  "Omega_star": 18.874042281544565,
+  "parent_open": "C-0007",
+  "statement": "For real divergence-free fields on N\u226424 with Fourier support only on shells |k|\u00b2\u2208[1, 2, 3, 4, 5, 6], dealiased Galerkin NS (\u03bd=0.1, E\u22640.5) satisfies \u03a9(0.02)\u226441.283999509509286. Proof: physical Hermitian stretch tensor + full symmetrization gives C\u22642.9933259094191538\u2264C_\u2020 \u21d2 L-0027; high slab via L-0026. FINITE only.",
+  "clay_implication": "None. Low-shell Hermitian subclass only; not all-IC C-0007; not Clay.",
+  "notes": "Uses the i-factor physical triad tensor (matches stretch_inner). Exploratory: C_fullsym remains \u2264C_\u2020 at least through shells r\u226420 (D=776, C\u22487.70); dense G OOMs beyond. All-IC still open."
+}

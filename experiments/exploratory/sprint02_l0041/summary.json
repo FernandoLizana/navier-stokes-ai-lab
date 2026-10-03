@@ -1,0 +1,24 @@
+{
+  "band_123456_C": 11.344112520990302,
+  "seed_12346_C": 8.406346808612328,
+  "seed_23456_C": 8.638518391483577,
+  "seed_13456_C": 9.373816962392878,
+  "support_cr0007_C": 9.413983769277191,
+  "support_cr0007_n": 8,
+  "C_dagger": 9.562009938690146,
+  "closes_cr0007": true,
+  "consecutive_6_techo": true,
+  "closes_c0007_all_ic": false,
+  "certificate_ok": true,
+  "checks": {
+    "band6_above_Cdagger": true,
+    "band6_matches": true,
+    "cr_le_Cdagger": true,
+    "cr_matches": true,
+    "seed_le_Cdagger": true,
+    "cr0007_true": true,
+    "techo_true": true,
+    "all_ic_false": true
+  },
+  "not_a_clay_claim": true
+}

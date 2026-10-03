@@ -1,0 +1,17 @@
+{
+  "lemma_id": "L-0018",
+  "route": "B",
+  "status": "proved_restricted",
+  "evidence_level": "N7",
+  "n_max": 24,
+  "K2_worst": 147,
+  "n_worst": 24,
+  "E0": 0.5,
+  "nu": 0.1,
+  "Omega_cap": 73.5,
+  "cs0002_M": 73.5,
+  "closes_cs0002": true,
+  "margin": 0.0,
+  "clay_implication": "None. Finite dealiased Galerkin spectral envelope only; does not address continuum Clay routes.",
+  "notes": "\u03a9 \u2264 K\u00b2 E0 with K\u00b2(24)=147 \u21d2 \u03a9_cap=73.5. Closes C-0004 (M=73.5) on N\u226424."
+}

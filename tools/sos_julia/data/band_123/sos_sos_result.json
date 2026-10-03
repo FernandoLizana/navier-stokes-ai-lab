@@ -1,0 +1,19 @@
+{
+  "C_dagger": 9.562009938690146,
+  "C_fullsym": 1.36986977843755,
+  "C_ub": 5.658695649992671e10,
+  "D": 52,
+  "beats_fullsym": false,
+  "beta": 3.3806810347104825,
+  "clay_implication": "None",
+  "closes_vs_Cdagger": false,
+  "dir": "data/band_123",
+  "evidence": "N2_float_SDP",
+  "method": "SumOfSquares+Clarabel γ-f-λ(||x||^2-1) in SOSCone",
+  "not_a_theorem": true,
+  "status_neg": "INFEASIBLE",
+  "status_pos": "INFEASIBLE",
+  "ub_neg": 2.000651033390318e10,
+  "ub_pos": 2.000651033390318e10,
+  "ub_raw_abs": 2.000651033390318e10
+}

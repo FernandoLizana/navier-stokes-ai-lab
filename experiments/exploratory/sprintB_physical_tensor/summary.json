@@ -1,0 +1,21 @@
+{
+  "n": 24,
+  "radii": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "D": 160,
+  "C_dagger": 9.562009938690146,
+  "max_fft_vs_tensor_err": 2.6645352591003757e-14,
+  "max_omega_rel_err": 4.177770289841384e-16,
+  "C_sym_physical": 11.34411252099031,
+  "C_fullsym_physical": 2.9933259094191538,
+  "C_rank1_lower_physical": 0.5415025981845817,
+  "C_sym_l0040_galerkin": 11.344112520990302,
+  "physical_closes_band": true,
+  "notes": "FFT vs physical tensor err=2.66e-14; \u03a9 err=4.18e-16; C_sym_phys=11.344113; C_fullsym_phys=2.993326; C_rank1_lo=0.541503; C_\u2020=9.562010; closes=True. (l0040 Galerkin C_sym=11.344113 is a different object.)"
+}

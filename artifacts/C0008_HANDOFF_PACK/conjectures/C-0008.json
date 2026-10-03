@@ -1,0 +1,89 @@
+{
+  "id": "C-0008",
+  "route": "B",
+  "status": "exploring",
+  "evidence_level": "N6",
+  "domain": "Galerkin/pseudospectral T^3, N<=24, 2/3 dealias (NOT continuum PDE)",
+  "nu": 0.1,
+  "energy": 0.5,
+  "t_end": 0.02,
+  "n_max": 24,
+  "proposed_bound_M": 41.283999509509286,
+  "parent": "C-0007",
+  "parent_proved_M": 41.74337593971423,
+  "stokes_floor": 40.82462307930434,
+  "L0024_majorant": 41.74337593971423,
+  "envelope_cap": 73.5,
+  "statement": "Sharp refinement of C-0007: for all IC as above, \u03a9(0.02) \u2264 41.28399951 (mid Stokes floor and L-0024 majorant). C-0007 already proved at M=41.74337594; gap 0.459376 remains. Requires low-\u03a90 stretch (L-0027) or new structure. FINITE-DIMENSIONAL only.",
+  "clay_implication": "None. Finite-dimensional only; no continuum claim.",
+  "refuted": false,
+  "lemma_techo": "L-0026",
+  "notes": "Open sharp target. Best terminal: L-0073 equal_12 Omega~54.2. L-0074 partition refuted. L-0075 hybrid low-slab all-IC sketch Omega~51.0 (gap ~9.7 vs M). Subclass SOS low-slab Omega~17.5 (not all-IC). Verifier FAIL; C-0008 exploring.",
+  "related": [
+    "C-0007",
+    "L-0026",
+    "L-0027",
+    "L-0056",
+    "L-0069",
+    "L-0070",
+    "L-0071",
+    "L-0072",
+    "L-0073",
+    "L-0074",
+    "L-0075"
+  ],
+  "L0073_best_terminal": {
+    "I_hi": 37.92,
+    "omega_T_hi": 54.231,
+    "certificate": "certificates/CERT-L0073-C0008-route-a-prime-best.json",
+    "manifest": "experiments/terminal_weighted/shell_manifest_cluster_best_full.json",
+    "runtime_s": 4166.68,
+    "closes_c0008": false
+  },
+  "phase_d_certificate": "certificates/CERT-L0072-C0008-terminal-full-dealias.json",
+  "phase_d_verifier": "FAIL",
+  "phase_d_best_integral_hi": 112.839,
+  "phase_e_best_integral_hi": 78.804,
+  "phase_e_omega_T_hi": 68.686,
+  "phase_e_upgrade": "complete_87_of_87",
+  "phase_e_manifest": "experiments/terminal_weighted/shell_manifest_best_full.json",
+  "L0072_status": "route_refuted",
+  "next_sprints": [
+    "experiments/sprint_c0008_hybrid_low_slab.py",
+    "experiments/sprint_c0008_l0027_stretch.py"
+  ],
+  "route_a_prime_band": {
+    "I_hi": 1.156,
+    "omega_T_hi": 41.233,
+    "improvement_vs_per_shell": 0.929
+  },
+  "route_a_prime_full": {
+    "n_clusters": 12,
+    "I_hi": 158.045,
+    "omega_T_hi": 96.702,
+    "improvement_vs_frobenius_per_shell": 0.372,
+    "vs_phase_e_best": 2.01,
+    "closes_c0008": false
+  },
+  "route_a_prime_best_band": {
+    "I_hi": 0.837,
+    "omega_T_hi": 41.12,
+    "closes_c0008": false
+  },
+  "route_a_prime_best_full": {
+    "n_clusters": 11,
+    "I_hi": 37.92,
+    "omega_T_hi": 54.231,
+    "improvement_vs_phase_e_route_d": 0.482,
+    "runtime_s": 4166.68,
+    "closes_c0008": false
+  },
+  "weighted_triad": {
+    "R_w_inv_sqrt_rp_rq": 100.78,
+    "C_weighted": 28.39,
+    "sos_extrap_D6748": 17.46,
+    "verdict": "all_ic_open"
+  },
+  "sos_triad_verdict": "all_ic_open",
+  "best_sos_C_ub_hi": 0.844
+}

@@ -1,0 +1,303 @@
+{
+  "n": 24,
+  "n_shells": 6,
+  "radii_count": 6,
+  "bound_method": "one_inf_only",
+  "blocks": [
+    {
+      "shell": 1,
+      "n": 24,
+      "D": 160,
+      "frobenius_sq_hi": "",
+      "L_op_hi": "1.375330598496073360584780874521177664614",
+      "C_term_hi": "3.890022370279705574100523229399694786661",
+      "n_updates": 4992,
+      "method": "one_inf_mpfr_up",
+      "evidence_level": "N4",
+      "payload_sha256": "3fdf71fea26d3c8ea20e035c4f85346f52ac9760998733cc948466a490919677",
+      "C_term_one_inf_hi": "3.890022370279705574100523229399694786661"
+    },
+    {
+      "shell": 2,
+      "n": 24,
+      "D": 160,
+      "frobenius_sq_hi": "",
+      "L_op_hi": "3.921380193662685128956288060789898747816",
+      "C_term_hi": "11.09133810619800659486051313868640909026",
+      "n_updates": 9072,
+      "method": "one_inf_mpfr_up",
+      "evidence_level": "N4",
+      "payload_sha256": "65ef48fad9840520c7fffb880297f48c5c3234bfdbdac9c5b0b2a594f8d210ad",
+      "C_term_one_inf_hi": "11.09133810619800659486051313868640909026"
+    },
+    {
+      "shell": 3,
+      "n": 24,
+      "D": 160,
+      "frobenius_sq_hi": "",
+      "L_op_hi": "3.999186122711638603778341392597681511833",
+      "C_term_hi": "11.31140650638614414065241990981352697009",
+      "n_updates": 7248,
+      "method": "one_inf_mpfr_up",
+      "evidence_level": "N4",
+      "payload_sha256": "fbe944872c078bf89d6baa6155f61dfd1a8f50885d5d9db5db3337c9d5589ffb",
+      "C_term_one_inf_hi": "11.31140650638614414065241990981352697009"
+    },
+    {
+      "shell": 4,
+      "n": 24,
+      "D": 160,
+      "frobenius_sq_hi": "",
+      "L_op_hi": "2.839101920964260781945361850210755888375",
+      "C_term_hi": "8.030192883174329169773969102418054284171",
+      "n_updates": 3264,
+      "method": "one_inf_mpfr_up",
+      "evidence_level": "N4",
+      "payload_sha256": "8561a0e309a17f9bb78f4ef291d436cdaf99117e43bf2efd09d5dc203d3ad9f6",
+      "C_term_one_inf_hi": "8.030192883174329169773969102418054284171"
+    },
+    {
+      "shell": 5,
+      "n": 24,
+      "D": 160,
+      "frobenius_sq_hi": "",
+      "L_op_hi": "4.835017627438715434993566747311667746552",
+      "C_term_hi": "13.67549500607363165938580848470079660987",
+      "n_updates": 11280,
+      "method": "one_inf_mpfr_up",
+      "evidence_level": "N4",
+      "payload_sha256": "44a791b2163196912bc08b02f4e1aa7f583c65c132feaafdcc9947f45fe37d55",
+      "C_term_one_inf_hi": "13.67549500607363165938580848470079660987"
+    },
+    {
+      "shell": 6,
+      "n": 24,
+      "D": 160,
+      "frobenius_sq_hi": "",
+      "L_op_hi": "5.194871830964314148476349382631373314358",
+      "C_term_hi": "14.69331639627937113219176755455831485655",
+      "n_updates": 12624,
+      "method": "one_inf_mpfr_up",
+      "evidence_level": "N4",
+      "payload_sha256": "6acf2aac7c508ed6983ecf7929e6c6f2f80f8480a8d2e3e59517913a945f4c7f",
+      "C_term_one_inf_hi": "14.69331639627937113219176755455831485655"
+    }
+  ],
+  "full_at_T_one_inf": {
+    "shell": null,
+    "n": 24,
+    "D": 160,
+    "frobenius_sq_hi": "",
+    "L_op_hi": "1.375330598496073360584780874521177664614",
+    "C_term_hi": "3.890022370279705574100523229399694786661",
+    "n_updates": 4992,
+    "method": "one_inf_mpfr_up",
+    "evidence_level": "N4",
+    "payload_sha256": "14b0f8f931aa3bbe80398d330f1750184945c560429dabb4ccd5d0a023724095"
+  },
+  "full_at_T_frobenius": {
+    "shell": null,
+    "n": 24,
+    "D": 160,
+    "frobenius_sq_hi": "543.4802962962961852983899411535483896501",
+    "L_op_hi": "23.31266386100687947931009491396005187804",
+    "C_term_hi": "65.93817081456210279171912281430616548842",
+    "n_updates": 179136,
+    "method": "frobenius_mpfr_up",
+    "evidence_level": "N5",
+    "payload_sha256": "f1553dae5af25f29f00bd7958599848d0475ccd94221b8a17a6fd132960c1bc6"
+  },
+  "full_at_T_best": {
+    "shell": null,
+    "n": 24,
+    "D": 160,
+    "frobenius_sq_hi": "",
+    "L_op_hi": "1.375330598496073360584780874521177664614",
+    "C_term_hi": "3.890022370279705574100523229399694786661",
+    "n_updates": 4992,
+    "method": "one_inf_mpfr_up",
+    "evidence_level": "N4",
+    "payload_sha256": "14b0f8f931aa3bbe80398d330f1750184945c560429dabb4ccd5d0a023724095"
+  },
+  "arithmetic_backend": {
+    "name": "gmpy2_mpfr",
+    "version": "2.3.1",
+    "precision_bits": 128,
+    "rounding_up": "RoundUp",
+    "rounding_down": "RoundDown",
+    "platform": "Windows-10-10.0.26200-SP0"
+  },
+  "convention": "M_r: output on shell r only. Repair baseline: ||M_r||_op <= ||M_r||_{1,inf} (MPFR upward). Frobenius uses entry aggregation then |M_ij|^2 sum.",
+  "repair_tag": "C0008_cert_repair_phase7",
+  "cluster_residual_L0073R": {
+    "shells": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "legacy_invalid_hi": "0.6504164991955863840378692382901606445508",
+    "residual_candidates": [
+      {
+        "alpha": "min",
+        "contrib_hi": "0.6490005384324308920076648918585315809021"
+      },
+      {
+        "alpha": "max",
+        "contrib_hi": "0.6577977781675694737476852055414928156066"
+      },
+      {
+        "alpha": "midpoint",
+        "contrib_hi": "0.6500247612085135186732555687699795435866"
+      },
+      {
+        "alpha": "central_shell",
+        "contrib_hi": "0.6500247612085135186732555687699795435866"
+      },
+      {
+        "alpha": "shell_1",
+        "contrib_hi": "0.6577977781675694737476852055414928156066"
+      },
+      {
+        "alpha": "shell_2",
+        "contrib_hi": "0.6543118397196016218358506735734759129533"
+      },
+      {
+        "alpha": "shell_3",
+        "contrib_hi": "0.651716592625818125802906898534456621049"
+      },
+      {
+        "alpha": "shell_4",
+        "contrib_hi": "0.6500247612085135186732555687699795435866"
+      },
+      {
+        "alpha": "shell_5",
+        "contrib_hi": "0.6489721877694592770915200254329174498493"
+      },
+      {
+        "alpha": "shell_6",
+        "contrib_hi": "0.6490005384324308920076648918585315809021"
+      }
+    ],
+    "best_residual": {
+      "alpha": "shell_5",
+      "contrib_hi": "0.6489721877694592770915200254329174498493"
+    },
+    "residual_tighter_than_legacy": true,
+    "alpha_scan": "knots_at_each_shell_phi_plus_heuristic_midpoints"
+  },
+  "B_C_combined_hi": "32.58590997078726125714208742489404695703",
+  "n_coverage": {
+    "n_max": 24,
+    "K2": 147,
+    "M_modes": 3375,
+    "wavevector_subsets": [
+      {
+        "n_small": 12,
+        "n_large": 24,
+        "modes_small": 342,
+        "modes_large": 3374,
+        "subset": true,
+        "only_large": 3032
+      },
+      {
+        "n_small": 16,
+        "n_large": 24,
+        "modes_small": 1330,
+        "modes_large": 3374,
+        "subset": true,
+        "only_large": 2044
+      },
+      {
+        "n_small": 20,
+        "n_large": 24,
+        "modes_small": 2196,
+        "modes_large": 3374,
+        "subset": true,
+        "only_large": 1178
+      },
+      {
+        "n_small": 24,
+        "n_large": 24,
+        "modes_small": 3374,
+        "modes_large": 3374,
+        "subset": true,
+        "only_large": 0
+      }
+    ],
+    "all_subset": true,
+    "conclusion": "Wavevectors at n=12,16 embed in n=24 dealias shell lists. Certifying full-dealias at N=24 majorant dominates embedded truncations n<=24 IF the terminal functional L-0071 is applied on the same n grid and majorant sup increases with mode-set inclusion. NOT automatic for different n indexing without embedding proof (N7 sketch).",
+    "evidence_level": "N7_sketch",
+    "requires_per_n_cert": false,
+    "band_majorant_ladder": {
+      "radii": [
+        1,
+        2,
+        3
+      ],
+      "prec": 128,
+      "ladder": [
+        {
+          "n": 12,
+          "D": 52,
+          "C_term_sum_hi": "16.21566491579266211636141630454366042614"
+        },
+        {
+          "n": 16,
+          "D": 52,
+          "C_term_sum_hi": "16.21566491579266211636141630454366042614"
+        },
+        {
+          "n": 20,
+          "D": 52,
+          "C_term_sum_hi": "16.21566491579266211636141630454366042614"
+        },
+        {
+          "n": 24,
+          "D": 52,
+          "C_term_sum_hi": "16.21566491579266211636141630454366042614"
+        }
+      ],
+      "monotone_non_decreasing": true,
+      "evidence_level": "N7_sketch_empirical"
+    }
+  },
+  "band_majorant_ladder_16": {
+    "radii": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "prec": 128,
+    "ladder": [
+      {
+        "n": 12,
+        "D": 160,
+        "C_term_sum_hi": "62.69177126839118827096500141957679659783"
+      },
+      {
+        "n": 16,
+        "D": 160,
+        "C_term_sum_hi": "62.69177126839118827096500141957679659783"
+      },
+      {
+        "n": 20,
+        "D": 160,
+        "C_term_sum_hi": "62.69177126839118827096500141957679659783"
+      },
+      {
+        "n": 24,
+        "D": 160,
+        "C_term_sum_hi": "62.69177126839118827096500141957679659783"
+      }
+    ],
+    "monotone_non_decreasing": true,
+    "evidence_level": "N7_sketch_empirical"
+  },
+  "manifest_sha256": "c418959e594c46564e31fbd16ee7454fa4d5d4018dbf174c7f7c730679b0aba2"
+}

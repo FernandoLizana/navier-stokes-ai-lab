@@ -1,0 +1,25 @@
+{
+  "lemma_id": "L-0076",
+  "route": "terminal",
+  "status": "N7_sketch_empirical",
+  "claim": "C-0008",
+  "parent": "L-0071",
+  "n_max": 24,
+  "evidence_level": "N7_sketch_empirical",
+  "audit_report": "reports/L0076_N_INCLUSION_AUDIT.md",
+  "audit_script": "python/scripts/run_l0076_n_inclusion_audit.py",
+  "verified_empirical": {
+    "wavevector_subsets_n12_16_20_in_n24": true,
+    "band_ladder_3_monotone": true,
+    "band_ladder_6_monotone": true,
+    "repair_full_n24_route_A_complete": true
+  },
+  "formal_gap": [
+    "Constructive embed z_{n'} into z_n preserving L-0071 terminal functional",
+    "Hermitian basis index map across grids",
+    "Monotonicity sup f_n under mode-set inclusion",
+    "Per-n full-dealias repair manifests for n=12,16,20"
+  ],
+  "conditional_conclusion": "IF embedding + monotonicity hold, n=24 repair I_hi majorizes embedded n'<=24.",
+  "notes": "Band ladder flat at C_term~16.22 (band3) and ~62.69 (band6). Full dealias only n=24 complete."
+}

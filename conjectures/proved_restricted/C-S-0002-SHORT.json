@@ -1,0 +1,22 @@
+{
+  "id": "C-S-0002-SHORT",
+  "route": "B",
+  "status": "proved_restricted",
+  "evidence_level": "N7",
+  "parent": "C-S-0002",
+  "lemma": "L-0017",
+  "domain": "Pseudospectral T^3, N=16, IC |k|_inf<=4, E=0.5, full dealias. NOT continuum.",
+  "statement": "For all divergence-free Fourier ICs on N=16 with |k|_\u221e\u22644 and energy 0.5, evolved with dealiased Galerkin NS (\u03bd=0.1), one has \u03a9(t) \u2264 48.15928260103266 for all t \u2208 [0, 0.01605791], via radial Young bounds on L\u00d7L and H\u00d7L (\u03c1_\u2605=1392, \u03b3_cross=37.31) plus NS cancellation ODE. Does NOT claim T=0.02.",
+  "T_max": 0.01605791373893996,
+  "proposed_bound_M": 48.15928260103266,
+  "original_conjecture_T": 0.02,
+  "improvement_vs_L0016": 1.7615850853740602,
+  "rho_star": 1392.0,
+  "U_eff": 5.385164807134505,
+  "gamma_cross": 37.30951621235526,
+  "W_sqrt_B": 169.9882348870062,
+  "alpha": 34.80951621235526,
+  "beta": 26.38181191654584,
+  "clay_implication": "None. Short-time finite Galerkin only.",
+  "notes": "\u03b3_cross=37.3095 vs W\u221aB=169.988; U_eff=5.38516 (L-0016). alpha=34.8095, beta=26.3818. T*=0.01605791 for R=48.16 (1.76x vs L-0016). Omega(0.02)=67.6067."
+}

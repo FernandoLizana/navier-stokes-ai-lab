@@ -1,0 +1,14 @@
+{
+  "cert_id": "CERT-L0034-shell-N-C0007-N24",
+  "lemma_id": "L-0034",
+  "n": 24,
+  "c0007_M": 41.283999509509286,
+  "C_dagger": 9.562009938690146,
+  "n_shells": 87,
+  "N_at_equipartition": 2.4494897427831783,
+  "N_young": 78.689262291624,
+  "C_eff_at_equipartition": 84.0,
+  "low_slab_ode_worst": 87.54939282605707,
+  "closes_c0007": false,
+  "clay_implication": "None. Shell-factorized \u2016N\u2016 bound without triad cancellation; C_\u2020 not reached; not continuum; not Clay."
+}

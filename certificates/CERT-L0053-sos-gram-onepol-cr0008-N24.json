@@ -1,0 +1,33 @@
+{
+  "certificate_id": "CERT-L0053-sos-gram-onepol-cr0008-N24",
+  "lemma_ref": "L-0053 TSSOS order-2 + rational Gram on one-pol C-R-0008",
+  "route": "B",
+  "evidence_level": "N5",
+  "n": 24,
+  "subclass": "one_pol_cr0008",
+  "radii": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8
+  ],
+  "D": 92,
+  "C_dagger": 9.562009938690146,
+  "C_fullsym": 8.475443542120622,
+  "C_ub_float": 3.3560651946371607,
+  "C_ub_hi": 3.3560651946371634,
+  "ub_raw_hi": 1.1865482286160436,
+  "gram_denom": 100000000,
+  "n_gram_blocks": 4212,
+  "min_psd_eig": -5.335204016122412e-09,
+  "max_rationalization_error": 4.99974690815197e-09,
+  "beats_fullsym": true,
+  "closes_vs_Cdagger": true,
+  "closes_all_ic": false,
+  "clay_implication": "None. N5 Gram on one-pol C-R-0008 subclass only; not all-IC; not Clay.",
+  "payload_sha256": "f9827bad97ad256145d850a983fe2f33de4f365a4fef289ee75ef9f4ae93c407",
+  "notes": "N5 Gram on one-pol C-R-0008 D=92: 4212 PSD blocks, denom=100000000. C_ub_hi\u22483.3561 \u226a C_fullsym\u22488.4754 < C_\u2020\u22489.5620. Fixed polarization subclass; rational Gram + interval constant."
+}

@@ -1,0 +1,19 @@
+{
+  "id": "C-0002",
+  "route": "B",
+  "status": "refuted",
+  "evidence_level": "N2",
+  "domain": "Galerkin/pseudospectral T^3, N<=16 (NOT continuum PDE)",
+  "nu": 0.1,
+  "energy": 0.5,
+  "t_end": 0.02,
+  "n_max": 16,
+  "proposed_bound_M": 20.320076249551253,
+  "parent_refuted": "C-0001",
+  "statement": "For all divergence-free Fourier fields on the N^3 grid with N<=16, dealiased convective term, nu=0.1, kinetic energy = 0.5, evolved with ETD-RK2 (dt=1e-3) to T=0.02, the enstrophy E_ens(T) <= M with M=20.320076249551253. FINITE-DIMENSIONAL only. Replaces refuted C-0001 (M\u224810.99).",
+  "clay_implication": "None. Finite-dimensional only; no continuum regularity or blow-up claim.",
+  "numerical_support_max": 27.78068327556441,
+  "refuted": true,
+  "refutation_value": 27.78068327556441,
+  "notes": "Refuted by Stokes max-mode |k|\u00b2=75: \u03a9_ETD(0.02)=27.7806832756, \u03a9_exact=27.7806832756, ETD\u2194RK4 rel=7.960e-12. Prior low-mode CMA max\u224814.27 missed this IC."
+}

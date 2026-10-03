@@ -1,0 +1,59 @@
+{
+  "claim": "C-0008",
+  "status": "repair_full",
+  "scope": "repair_full",
+  "parameters": {
+    "nu": "0.1",
+    "E0": "0.5",
+    "T": "0.02",
+    "N_max": 24,
+    "M_target": "41.283999509509286"
+  },
+  "bound_method": "one_inf_only",
+  "mode_set": {
+    "n": 24,
+    "D": 6748,
+    "n_shells": 87,
+    "radii_mode": "full"
+  },
+  "repair_complete": true,
+  "arithmetic_backend": {
+    "name": "gmpy2_mpfr",
+    "version": "2.3.1",
+    "precision_bits": 128,
+    "rounding_up": "RoundUp",
+    "rounding_down": "RoundDown",
+    "platform": "Windows-10-10.0.26200-SP0"
+  },
+  "stokes_floor_interval": [
+    40.82462307930434,
+    40.824623079304345
+  ],
+  "i_star_interval": [
+    "1.2993114563479942",
+    "1.2993140549735054"
+  ],
+  "method": "repair_full_one_inf_shell_integral",
+  "integral_interval": [
+    "0",
+    "170.5871515665858369747011687095425020673"
+  ],
+  "omega_T_interval": [
+    "0",
+    "101.1362889073194569953400748478992335273"
+  ],
+  "coverage_complete": true,
+  "source_hashes": {
+    "shell_manifest": "d3990bdb5ecb304dae4f010b6c3c58320a9cf240a62d52d99ef2f7d1668cd8aa"
+  },
+  "cluster_residual_L0073R": {},
+  "B_C_combined_hi": null,
+  "limitations": [
+    "Full dealias D=6748 n_shells=87 one_inf_only per-shell pass.",
+    "Route A' cluster L-0073R optional sketch \u2014 declared bound is shell sum.",
+    "N<=24 domination remains N7_sketch (L-0076 band ladder)."
+  ],
+  "closes_c0008": false,
+  "closes_strict": false,
+  "honesty": "Repair prototype certificate for adversarial verifier regression. Does NOT close C-0008 globally."
+}

@@ -1,0 +1,41 @@
+[91m[1mERROR: [22m[39mLoadError: ReadOnlyMemoryError()
+Stacktrace:
+  [1] [0m[1mGenericMemory[22m
+[90m    @[39m [90m.\[39m[90m[4mboot.jl:588[24m[39m[90m [inlined][39m
+  [2] [0m[1mArray[22m
+[90m    @[39m [90m.\[39m[90m[4mboot.jl:647[24m[39m[90m [inlined][39m
+  [3] [0m[1mvcat[22m[0m[1m([22m::[0mVector[90m{UInt16}[39m, ::[0mVector[90m{UInt16}[39m, ::[0mVector[90m{UInt16}[39m[0m[1m)[22m
+[90m    @[39m [90mBase[39m [90m.\[39m[90m[4marray.jl:2269[24m[39m
+  [4] [0m[1msadd[22m[0m[1m([22m::[0mVector[90m{UInt16}[39m, ::[0mVararg[90m{Vector{UInt16}}[39m; [90mnb[39m::[0mInt64[0m[1m)[22m
+[90m    @[39m [35mTSSOS[39m [90m<JULIA_DEPOT>\packages\TSSOS\dONQr\src\[39m[90m[4mutils.jl:67[24m[39m
+  [5] [0m[1msadd[22m
+[90m    @[39m [90m<JULIA_DEPOT>\packages\TSSOS\dONQr\src\[39m[90m[4mutils.jl:66[24m[39m[90m [inlined][39m
+  [6] [0m[1m#113[22m
+[90m    @[39m [90m<JULIA_DEPOT>\packages\TSSOS\dONQr\src\[39m[90m[4mterm_sparsity.jl:350[24m[39m[90m [inlined][39m
+  [7] [0m[1mfindnext[22m
+[90m    @[39m [90m.\[39m[90m[4marray.jl:2393[24m[39m[90m [inlined][39m
+  [8] [0m[1mfindfirst[22m
+[90m    @[39m [90m.\[39m[90m[4marray.jl:2444[24m[39m[90m [inlined][39m
+  [9] [0m[1mget_graph[22m[0m[1m([22m[90mtsupp[39m::[0mVector[90m{Vector{UInt16}}[39m, [90msupp[39m::[0mVector[90m{Vector{UInt16}}[39m, [90mbasis[39m::[0mVector[90m{Vector{UInt16}}[39m; [90mnb[39m::[0mInt64, [90mTS[39m::[0mString, [90msignsymmetry[39m::[0mNothing[0m[1m)[22m
+[90m    @[39m [35mTSSOS[39m [90m<JULIA_DEPOT>\packages\TSSOS\dONQr\src\[39m[90m[4mterm_sparsity.jl:350[24m[39m
+ [10] [0m[1mget_graph[22m
+[90m    @[39m [90m<JULIA_DEPOT>\packages\TSSOS\dONQr\src\[39m[90m[4mterm_sparsity.jl:345[24m[39m[90m [inlined][39m
+ [11] [0m[1mget_blocks[22m[0m[1m([22m[90mineq_cons[39m::[0mVector[90m{poly{Float64}}[39m, [90meq_cons[39m::[0mVector[90m{poly{Float64}}[39m, [90mtsupp[39m::[0mVector[90m{Vector{UInt16}}[39m, [90mbasis[39m::[0mVector[90m{Vector{Vector{UInt16}}}[39m, [90mebasis[39m::[0mVector[90m{Vector{Vector{UInt16}}}[39m; [90mnb[39m::[0mInt64, [90mTS[39m::[0mString, [90meqTS[39m::[0mString, [90mQUIET[39m::[0mBool, [90mmerge[39m::[0mBool, [90mmd[39m::[0mInt64, [90msignsymmetry[39m::[0mNothing[0m[1m)[22m
+[90m    @[39m [35mTSSOS[39m [90m<JULIA_DEPOT>\packages\TSSOS\dONQr\src\[39m[90m[4mterm_sparsity.jl:395[24m[39m
+ [12] [0m[1mmacro expansion[22m
+[90m    @[39m [90m<JULIA_DEPOT>\packages\TSSOS\dONQr\src\[39m[90m[4mterm_sparsity.jl:140[24m[39m[90m [inlined][39m
+ [13] [0m[1mmacro expansion[22m
+[90m    @[39m [90m.\[39m[90m[4mtiming.jl:461[24m[39m[90m [inlined][39m
+ [14] [0m[1mtssos[22m[0m[1m([22m[90mpop[39m::[0mVector[90m{Polynomial{DynamicPolynomials.Commutative{DynamicPolynomials.CreationOrder}, Graded{LexOrder}, Float64}}[39m, [90mx[39m::[0mVector[90m{Variable{DynamicPolynomials.Commutative{DynamicPolynomials.CreationOrder}, Graded{LexOrder}}}[39m, [90md[39m::[0mInt64; [90mnb[39m::[0mInt64, [90mnumeq[39m::[0mInt64, [90mnewton[39m::[0mBool, [90mfeasibility[39m::[0mBool, [90mGroebnerBasis[39m::[0mBool, [90mbasis[39m::[0mVector[90m{Any}[39m, [90mreducebasis[39m::[0mBool, [90mTS[39m::[0mString, [90meqTS[39m::[0mString, [90mmerge[39m::[0mBool, [90mmd[39m::[0mInt64, [90mQUIET[39m::[0mBool, [90msolve[39m::[0mBool, [90mdualize[39m::[0mBool, [90mMomentOne[39m::[0mBool, [90mGram[39m::[0mBool, [90msolution[39m::[0mBool, [90mnormality[39m::[0mBool, [90mmosek_setting[39m::[0mmosek_para, [90mwritetofile[39m::[0mBool, [90mmodel[39m::[0mModel, [90mrtol[39m::[0mFloat64, [90mgtol[39m::[0mFloat64, [90mftol[39m::[0mFloat64[0m[1m)[22m
+[90m    @[39m [35mTSSOS[39m [90m<JULIA_DEPOT>\packages\TSSOS\dONQr\src\[39m[90m[4mterm_sparsity.jl:139[24m[39m
+ [15] [0m[1mmain[22m[0m[1m([22m[90margs[39m::[0mVector[90m{String}[39m[0m[1m)[22m
+[90m    @[39m [36mMain[39m [90m<REPO_ROOT>\tools\sos_julia\[39m[90m[4mrun_tssos_cosmo.jl:53[24m[39m
+ [16] top-level scope
+[90m    @[39m [90m<REPO_ROOT>\tools\sos_julia\[39m[90m[4mrun_tssos_cosmo.jl:78[24m[39m
+ [17] [0m[1minclude[22m[0m[1m([22m[90mmod[39m::[0mModule, [90m_path[39m::[0mString[0m[1m)[22m
+[90m    @[39m [90mBase[39m [90m.\[39m[90m[4mBase.jl:306[24m[39m
+ [18] [0m[1mexec_options[22m[0m[1m([22m[90mopts[39m::[0mBase.JLOptions[0m[1m)[22m
+[90m    @[39m [90mBase[39m [90m.\[39m[90m[4mclient.jl:317[24m[39m
+ [19] [0m[1m_start[22m[0m[1m([22m[0m[1m)[22m
+[90m    @[39m [90mBase[39m [90m.\[39m[90m[4mclient.jl:550[24m[39m
+in expression starting at <REPO_ROOT>\tools\sos_julia\run_tssos_cosmo.jl:78

@@ -1,0 +1,20 @@
+{
+  "certificate_id": "CERT-L0019-stokes-floor-N24",
+  "lemma_ref": "L-0019 Stokes spectral majorant (linear)",
+  "route": "B",
+  "evidence_level": "N5",
+  "n": 24,
+  "E0": 0.5,
+  "nu": 0.1,
+  "t": 0.02,
+  "K2_star": 147,
+  "S_t": 81.64924615860868,
+  "Stokes_floor": 40.82462307930434,
+  "envelope_cap": 73.5,
+  "c0005_M": 61.23693461895651,
+  "floor_lt_c0005": true,
+  "floor_lt_envelope": true,
+  "clay_implication": "None. Linear Stokes only; not nonlinear NS; not Clay.",
+  "payload_sha256": "0a36604a86325ed678f2c69396e74448f1776198cbe51f0e7ba27d21cdecaace",
+  "notes": "K\u00b2_star=147, floor=40.8246230793, gap_to_C0005=20.4123."
+}

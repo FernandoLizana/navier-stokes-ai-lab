@@ -1,0 +1,19 @@
+{
+  "id": "C-R-0002",
+  "route": "B",
+  "status": "proved_restricted",
+  "evidence_level": "N7",
+  "lemma": "L-0024+L-0026",
+  "domain": "Galerkin/pseudospectral T^3, N<=24, 2/3 dealias, IC with Omega(0)>=Omega_star. NOT continuum.",
+  "nu": 0.1,
+  "energy": 0.5,
+  "t_end": 0.02,
+  "n_max": 24,
+  "proposed_bound_M": 41.283999509509286,
+  "Omega_star": 18.874042281544565,
+  "parent_open": "C-0007",
+  "statement": "For all divergence-free Fourier fields on N\u226424 with energy \u22640.5 and \u03a9(0)\u2265\u03a9\u2605\u224818.874042, dealiased Galerkin NS (\u03bd=0.1) satisfies \u03a9(0.02)\u226441.28399951. Proved by L-0024 spectral-defect ODE (monotone in \u03a90; L-0026 case-split). FINITE-DIMENSIONAL only.",
+  "clay_implication": "None. High-\u03a90 Galerkin restriction only; not all-IC C-0007; not continuum; not Clay.",
+  "certificate": "CERT-L0026-c0007-techo-N24",
+  "notes": "\u03a9\u2605=18.874042; L-0024 majorant at \u03a9\u2605 equals M. Low slab remains open (see L-0027 cubic conditional C_\u2020\u22489.5620)."
+}

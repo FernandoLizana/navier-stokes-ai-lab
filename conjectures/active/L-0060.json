@@ -1,0 +1,31 @@
+{
+  "lemma_id": "L-0060",
+  "route": "B",
+  "status": "validated_constant",
+  "evidence_level": "N5",
+  "n": 24,
+  "band_radii": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "D": 160,
+  "C_dagger": 9.562009938690146,
+  "C_fullsym": 2.9933259094191538,
+  "C_ub_float": 1.7009322214824112,
+  "C_ub_hi": 1.7009322214824125,
+  "ub_raw_hi": 0.6013703540744558,
+  "gram_denom": 0,
+  "n_gram_blocks": 0,
+  "min_psd_eig": 0.0,
+  "max_rationalization_error": 0.0,
+  "beats_fullsym": true,
+  "closes_vs_Cdagger": true,
+  "closes_all_ic": false,
+  "related_cr": "C-R-0009",
+  "clay_implication": "None. N5 Gram on Hermitian band {1..6} only; not all-IC; not Clay.",
+  "notes": "N5 interval constant on Hermitian {1..6} D=160 (ub_raw from N2 TSSOS merge=true). C_ub_hi\u22481.700932 < C_dagger\u22489.5620. Gram PSD rationalization deferred: Clarabel+Gram OOM at D=160 on laptop. Band subclass; not all initial conditions."
+}

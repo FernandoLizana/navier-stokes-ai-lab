@@ -1,0 +1,21 @@
+{
+  "cert_id": "CERT-L0044-physical-fullsym-C0007-N24",
+  "lemma_id": "L-0044",
+  "n": 24,
+  "c0007_M": 41.283999509509286,
+  "C_dagger": 9.562009938690146,
+  "support_cr0009": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "C_fullsym_123456": 2.9933259094191538,
+  "C_sym_123456": 11.34411252099031,
+  "fft_tensor_err": 5.1514348342607263e-14,
+  "closes_cr0009": true,
+  "closes_c0007_all_ic": false,
+  "clay_implication": "None. Physical Hermitian fullsym Shor on shells {1..6}; C-R-0009 only; not all-IC; not continuum; not Clay."
+}

@@ -1,0 +1,18 @@
+{
+  "nu": 0.1,
+  "E0": 0.5,
+  "T": 0.02,
+  "N_max": 24,
+  "M_target": 41.283999509509286,
+  "initial_cells": 4,
+  "max_cells": 64,
+  "min_cell_width": 0.001,
+  "precision_bits": 128,
+  "safety_margin": 0.0,
+  "mode": "full",
+  "routes": ["A", "D", "B"],
+  "operator_bound_method": "frobenius_mpfr_up_per_shell",
+  "arithmetic_backend": "gmpy2_mpfr",
+  "workers": 4,
+  "bound_method": "frobenius"
+}

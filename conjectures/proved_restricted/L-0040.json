@@ -1,0 +1,28 @@
+{
+  "lemma_id": "L-0040",
+  "route": "B",
+  "status": "proved_restricted",
+  "evidence_level": "N7",
+  "n": 24,
+  "c0007_M": 41.283999509509286,
+  "C_dagger": 9.562009938690146,
+  "band_12345_C": 9.014802641581605,
+  "band_123456_C": 11.344112520990302,
+  "band_1234_C_sym": 6.110100926607786,
+  "greedy9_C": 9.501738761182967,
+  "greedy9_shells": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    11,
+    16,
+    24,
+    25
+  ],
+  "closes_cr0006": true,
+  "closes_c0007_all_ic": false,
+  "clay_implication": "None. Sym-restricted Shor on low-shell bands; C-R-0006 only; not all-IC; not continuum; not Clay.",
+  "notes": "Sym Shor: {1..5} C=9.015\u2264C_\u2020; {1..6} C=11.34>C_\u2020; {1..4} C=6.11; greedy9 C=9.502. C-R-0006 on {1..5}. All-IC: False."
+}

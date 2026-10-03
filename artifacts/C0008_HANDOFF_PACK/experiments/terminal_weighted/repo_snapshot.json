@@ -1,0 +1,73 @@
+{
+  "created_utc": "2026-07-28T20:27:46.988121+00:00",
+  "root": "<REPO_ROOT>",
+  "files": [
+    {
+      "path": "docs/ROADMAP.md",
+      "sha256": "9a83855eff6749a1d183a84ec7e5bd255f178c6595368483a82db183ced8f626",
+      "bytes": 3229
+    },
+    {
+      "path": "reports/PAQUETE_CHATGPT_REVIEW_COMPLETO.md",
+      "sha256": "7b9e6231dc36b687b61f89772394b66fac861b92bebf3ba07dbcd38948f04fed",
+      "bytes": 12409
+    },
+    {
+      "path": "reports/C0007_STRUCTURED_CLOSURE_MAP.md",
+      "sha256": "f04e93150a886c37072379fb247f3cb3a4765097c108d16dfcc1934bed955325",
+      "bytes": 3249
+    },
+    {
+      "path": "conjectures/active/C-0008.json",
+      "sha256": "db08e75b6c336c2ee5449ee5339fc72000f85798188d43ba43bc5ebac1a3aca9",
+      "bytes": 1120
+    },
+    {
+      "path": "conjectures/proved_restricted/C-0007.json",
+      "sha256": "bfb520e8eb11e24dbe831b0715f515fe1e79cb69f7a8f254ac44ff78885a3fce",
+      "bytes": 1447
+    },
+    {
+      "path": "conjectures/proved_restricted/L-0048.json",
+      "sha256": "35cf8f7c800dc0b3d83432e7bd327c0609325ed79cf10750997d27107dcd9239",
+      "bytes": 746
+    },
+    {
+      "path": "certificates/CERT-L0070-all-ic-C0007-N24.json",
+      "sha256": "950bb1a91ffd1d356e61fa6e2a0433b3aa79740b01f96cd4bdd717a0e7a68262",
+      "bytes": 986
+    },
+    {
+      "path": "experiments/exploratory/sprint02_l0070/summary.json",
+      "sha256": "1c4907359c843d69960d76a9d322c6ce231df570fd987405eddd23200b36315b",
+      "bytes": 316
+    },
+    {
+      "path": "tools/sos_julia/data/scale_results.json",
+      "sha256": "82838653584f4dc35f66a495d19c77752939b10209a078f4c2d27759bdeef6e4",
+      "bytes": 7723
+    },
+    {
+      "path": "python/ns_exploration/conjectures/l0048_fullsym_techo.py",
+      "sha256": "9eb94507f3a93887ea84d277432a2f742125c615dbb42ec18d98834b367ee2e7",
+      "bytes": 3644
+    },
+    {
+      "path": "python/ns_exploration/conjectures/l0048_matrixfree_fullsym.py",
+      "sha256": "8d0a24dc5ea5b14ae58785dc937e5528a7ce9930d65ab4e86aae26736f67d095",
+      "bytes": 8748
+    },
+    {
+      "path": "python/ns_exploration/conjectures/l0045_streaming_fullsym.py",
+      "sha256": "42440de9eb9f0bef418f6f5ec9989ec1ac5ebee950dfc0b870e999bcabb7f5dc",
+      "bytes": 7263
+    },
+    {
+      "path": "python/ns_exploration/experiments/sprintB_physical_tensor.py",
+      "sha256": "baede745f4d5b884e985c9e6bddd50134fa85660cf39a500aaa3cb1c0499e503",
+      "bytes": 7552
+    }
+  ],
+  "missing": [],
+  "n_ok": 13
+}

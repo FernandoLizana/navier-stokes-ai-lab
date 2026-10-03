@@ -1,0 +1,15 @@
+{
+  "certificate": "certificates/CERT-L0073-C0008-route-a-prime-best.json",
+  "manifest": "experiments/terminal_weighted/shell_manifest_cluster_best_full.json",
+  "integral_hi": "37.91955812524674097702040111940917993949",
+  "omega_T_hi": "54.23121142428404686015338966260345918511",
+  "I_star_lo": "1.299312755657915943535353700029000225351",
+  "verifier_pass": false,
+  "verifier_msgs": [
+    "FAIL: I_term_hi=37.91955812524674097702040111940917993949 >= I_star_lo=1.299312755657915943535353700029000225351",
+    "omega_T_hi >= M_target",
+    "FAIL (expected for open C-0008)"
+  ],
+  "closes_c0008": false,
+  "c0008_status": "exploring"
+}

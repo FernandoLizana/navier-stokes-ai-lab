@@ -1,0 +1,20 @@
+{
+  "id": "C-R-0001",
+  "route": "B",
+  "status": "proved_restricted",
+  "evidence_level": "N7",
+  "lemma": "L-0021+L-0020",
+  "domain": "Pseudospectral T^3, N\u226424, 2/3 dealias, IC supported on a single radial shell |k|\u00b2=r. NOT continuum.",
+  "nu": 0.1,
+  "energy": 0.5,
+  "t_end": 0.02,
+  "n_max": 24,
+  "proposed_bound_M": 71.72774945123018,
+  "statement": "For all divergence-free Fourier ICs on N\u226424 with energy \u22640.5 supported on a single radial shell, evolved under dealiased Galerkin NS (\u03bd=0.1), one has \u03a9(0.02) \u2264 71.72774945, via quartic Gram N_*\u2264\u03b1_\u2605=14 (r=74) and Stokes\u2013Duhamel H\u00b9 (L-0020/21). Beats envelope K\u00b2E0=73.5. FINITE-DIMENSIONAL only.",
+  "alpha_star": 14.000000000000002,
+  "r_star": 74,
+  "envelope_cap": 73.5,
+  "parent_open": "C-0005",
+  "clay_implication": "None. Mono-radial Galerkin quartic Gram + Duhamel only; not all-IC; not continuum; not Clay.",
+  "notes": "\u03b1_\u2605=14 at r=74 over 87 shells. Mono-radial Duhamel \u03a9\u226471.7277 (envelope 73.5). Closes C-0005 M=61.24: False."
+}

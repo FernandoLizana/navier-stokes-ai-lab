@@ -1,0 +1,30 @@
+{
+  "lemma_id": "L-0043",
+  "route": "B",
+  "status": "proved_restricted",
+  "evidence_level": "N7",
+  "n": 24,
+  "c0007_M": 41.283999509509286,
+  "C_dagger": 9.562009938690146,
+  "Omega_star": 18.874042281544565,
+  "support_cr0008": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8
+  ],
+  "support_cr0008_C": 8.476437931112338,
+  "support_cr0008_D": 92,
+  "onepol_123456_C": 7.684269646492112,
+  "onepol_techo_12345689_C": 9.84904582706892,
+  "C_shellblock_lo": 14.14016257489707,
+  "C_kyfan_partial": 12.649110640673522,
+  "closes_cr0008": true,
+  "closes_123456_twopol": false,
+  "closes_c0007_all_ic": false,
+  "clay_implication": "None. One-pol Sym subclass C-R-0008 + shell-block/Ky-Fan techos; not all-IC; not continuum; not Clay.",
+  "notes": "One-pol first: support [1, 2, 3, 4, 5, 6, 8] C=8.476\u2264C_\u2020 (C-R-0008); {1..6} one-pol C=7.684; +shell9 techo C=9.849>C_\u2020; shellblock_lo C\u227314.14; KyFan4 C\u227312.65. All-IC: False."
+}

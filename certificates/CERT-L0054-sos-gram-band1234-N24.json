@@ -1,0 +1,23 @@
+{
+  "certificate_id": "CERT-L0054-sos-gram-band1234-N24",
+  "lemma_ref": "L-0054 extension: TSSOS + rational Gram on Hermitian {1,2,3,4}",
+  "route": "B",
+  "evidence_level": "N5",
+  "n": 24,
+  "band_radii": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "D": 64,
+  "C_dagger": 9.562009938690146,
+  "C_fullsym": 1.36986977843755,
+  "C_ub_float": 0.8940401324113955,
+  "C_ub_hi": 0.8940401324113961,
+  "gram_denom": 100000000,
+  "n_gram_blocks": 2027,
+  "min_psd_eig": -1.5932023959082465e-10,
+  "clay_implication": "None. Band {1..4} only; not all-IC; not Clay.",
+  "payload_sha256": "68cb02cc0b06189ef7859b1dad75d2ab7875e5ece41eb30766436e80f8e16056"
+}

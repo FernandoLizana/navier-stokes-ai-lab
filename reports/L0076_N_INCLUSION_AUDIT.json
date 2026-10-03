@@ -1,0 +1,194 @@
+{
+  "lemma": "L-0076",
+  "evidence_level": "N7_sketch_empirical",
+  "conjecture_C0008": "exploring",
+  "wavevector_domination": {
+    "n_max": 24,
+    "K2": 147,
+    "M_modes": 3375,
+    "wavevector_subsets": [
+      {
+        "n_small": 12,
+        "n_large": 24,
+        "modes_small": 342,
+        "modes_large": 3374,
+        "subset": true,
+        "only_large": 3032
+      },
+      {
+        "n_small": 16,
+        "n_large": 24,
+        "modes_small": 1330,
+        "modes_large": 3374,
+        "subset": true,
+        "only_large": 2044
+      },
+      {
+        "n_small": 20,
+        "n_large": 24,
+        "modes_small": 2196,
+        "modes_large": 3374,
+        "subset": true,
+        "only_large": 1178
+      },
+      {
+        "n_small": 24,
+        "n_large": 24,
+        "modes_small": 3374,
+        "modes_large": 3374,
+        "subset": true,
+        "only_large": 0
+      }
+    ],
+    "all_subset": true,
+    "conclusion": "Wavevectors at n=12,16 embed in n=24 dealias shell lists. Certifying full-dealias at N=24 majorant dominates embedded truncations n<=24 IF the terminal functional L-0071 is applied on the same n grid and majorant sup increases with mode-set inclusion. NOT automatic for different n indexing without embedding proof (N7 sketch).",
+    "evidence_level": "N7_sketch",
+    "requires_per_n_cert": false,
+    "band_majorant_ladder": {
+      "radii": [
+        1,
+        2,
+        3
+      ],
+      "prec": 128,
+      "ladder": [
+        {
+          "n": 12,
+          "D": 52,
+          "C_term_sum_hi": "16.21566491579266211636141630454366042614"
+        },
+        {
+          "n": 16,
+          "D": 52,
+          "C_term_sum_hi": "16.21566491579266211636141630454366042614"
+        },
+        {
+          "n": 20,
+          "D": 52,
+          "C_term_sum_hi": "16.21566491579266211636141630454366042614"
+        },
+        {
+          "n": 24,
+          "D": 52,
+          "C_term_sum_hi": "16.21566491579266211636141630454366042614"
+        }
+      ],
+      "monotone_non_decreasing": true,
+      "evidence_level": "N7_sketch_empirical"
+    }
+  },
+  "embed_basis_checks": [
+    {
+      "n_small": 12,
+      "n_large": 24,
+      "wavevectors_small": 342,
+      "missing_in_large": 0,
+      "all_wavevectors_embedded": true,
+      "sample_missing": [],
+      "basis_index_map": "NOT_IMPLEMENTED \u2014 requires Hermitian basis sprintB index lookup",
+      "evidence_level": "N7_sketch_empirical"
+    },
+    {
+      "n_small": 16,
+      "n_large": 24,
+      "wavevectors_small": 1330,
+      "missing_in_large": 0,
+      "all_wavevectors_embedded": true,
+      "sample_missing": [],
+      "basis_index_map": "NOT_IMPLEMENTED \u2014 requires Hermitian basis sprintB index lookup",
+      "evidence_level": "N7_sketch_empirical"
+    },
+    {
+      "n_small": 20,
+      "n_large": 24,
+      "wavevectors_small": 2196,
+      "missing_in_large": 0,
+      "all_wavevectors_embedded": true,
+      "sample_missing": [],
+      "basis_index_map": "NOT_IMPLEMENTED \u2014 requires Hermitian basis sprintB index lookup",
+      "evidence_level": "N7_sketch_empirical"
+    }
+  ],
+  "all_wavevectors_embedded": true,
+  "band_majorant_ladder_3": {
+    "radii": [
+      1,
+      2,
+      3
+    ],
+    "prec": 128,
+    "ladder": [
+      {
+        "n": 12,
+        "D": 52,
+        "C_term_sum_hi": "16.21566491579266211636141630454366042614"
+      },
+      {
+        "n": 16,
+        "D": 52,
+        "C_term_sum_hi": "16.21566491579266211636141630454366042614"
+      },
+      {
+        "n": 20,
+        "D": 52,
+        "C_term_sum_hi": "16.21566491579266211636141630454366042614"
+      },
+      {
+        "n": 24,
+        "D": 52,
+        "C_term_sum_hi": "16.21566491579266211636141630454366042614"
+      }
+    ],
+    "monotone_non_decreasing": true,
+    "evidence_level": "N7_sketch_empirical"
+  },
+  "band_majorant_ladder_6": {
+    "radii": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "prec": 128,
+    "ladder": [
+      {
+        "n": 12,
+        "D": 160,
+        "C_term_sum_hi": "62.69177126839118827096500141957679659783"
+      },
+      {
+        "n": 16,
+        "D": 160,
+        "C_term_sum_hi": "62.69177126839118827096500141957679659783"
+      },
+      {
+        "n": 20,
+        "D": 160,
+        "C_term_sum_hi": "62.69177126839118827096500141957679659783"
+      },
+      {
+        "n": 24,
+        "D": 160,
+        "C_term_sum_hi": "62.69177126839118827096500141957679659783"
+      }
+    ],
+    "monotone_non_decreasing": true,
+    "evidence_level": "N7_sketch_empirical"
+  },
+  "repair_full_dealias_n24": {
+    "n": 24,
+    "n_shells": 87,
+    "repair_complete": true,
+    "D_full": 6748,
+    "I_hi_route_A": "170.5871515665858369747011687095425020673",
+    "bound_method": "one_inf_only"
+  },
+  "formal_gap": [
+    "Embedding z_{n'} into z_n preserving terminal functional (N7).",
+    "Per-n full-dealias certificates for all n<=24 (only n=24 complete).",
+    "Monotonicity of sup f_n under mode-set inclusion not proved."
+  ],
+  "conditional_conclusion": "IF mode embedding + majorant monotonicity hold, then n=24 repair full-dealias I_hi majorizes embedded n'<=24 truncations."
+}

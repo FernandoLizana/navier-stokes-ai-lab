@@ -1,0 +1,257 @@
+{
+  "lemma": "L-0073R",
+  "evidence_level": "N4_audit",
+  "n_clusters": 11,
+  "bound_method": "one_inf_only",
+  "sums": {
+    "contrib_impl": "38.52070418061784400998627504709430098648",
+    "contrib_lemma_no_outer_maxphi": "38.52070418061784400998627504709430098648",
+    "per_shell_triangle_within_clusters": "170.5871515665858390531639407966127821762",
+    "legacy_invalid_B_C_times_max_phi": "37.91955812524674097702040111940917993949"
+  },
+  "outer_maxphi_factor_detected": 0,
+  "implementation_matches_lemma": true,
+  "impl_vs_lemma": {
+    "impl_lt_lemma": false,
+    "lemma_to_impl_ratio": 1.0
+  },
+  "vs_route_A": {
+    "shell_integral_hi": "170.5871515665858369747011687095425020673",
+    "cluster_impl_sum": "38.52070418061784400998627504709430098648",
+    "cluster_lemma_sum": "38.52070418061784400998627504709430098648",
+    "impl_vs_route_A_ratio": 0.22581245906777414,
+    "lemma_vs_route_A_ratio": 0.22581245906777414
+  },
+  "verdict": [
+    "PASS: cluster partition covers 87 shells exactly once.",
+    "INFO: cluster sum is 22.6% of Route A \u2014 tighter if valid; formal gap: sum_C contrib_C <= I_total is NOT proved from per-cluster operator bounds without global combined pass or N7 triangle lemma across clusters.",
+    "Route A shell-sum (I_hi~170.59) remains primary honest repair bound.",
+    "Adversarial verify PASS on declared fields does NOT imply mathematical closure."
+  ],
+  "blocks": [
+    {
+      "cluster_id": 0,
+      "shells": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9
+      ],
+      "contrib_impl": "1.44577987699632759518884719160733129957",
+      "contrib_lemma_no_maxphi": "1.44577987699632759518884719160733129957",
+      "per_shell_integral_hi": "5.163368688906378593826530221955021940517",
+      "legacy_invalid_hi": "1.435482469311522177417414370790839909724",
+      "ratio_impl_to_per_shell": 0.28000709693704817
+    },
+    {
+      "cluster_id": 1,
+      "shells": [
+        10,
+        11,
+        12,
+        13,
+        14,
+        16,
+        17,
+        18
+      ],
+      "contrib_impl": "2.637815915469286572691447595281954144813",
+      "contrib_lemma_no_maxphi": "2.637815915469286572691447595281954144801",
+      "per_shell_integral_hi": "10.50409469929910092626018658488136616175",
+      "legacy_invalid_hi": "2.608143530987350745967189089037630393568",
+      "ratio_impl_to_per_shell": 0.25112263274295293
+    },
+    {
+      "cluster_id": 2,
+      "shells": [
+        19,
+        20,
+        21,
+        22,
+        24,
+        25,
+        26,
+        27
+      ],
+      "contrib_impl": "3.260599710092947143059260553193234422938",
+      "contrib_lemma_no_maxphi": "3.260599710092947143059260553193234422938",
+      "per_shell_integral_hi": "14.02974359228869809716297929278859113083",
+      "legacy_invalid_hi": "3.224596533332821010024377152200763454907",
+      "ratio_impl_to_per_shell": 0.23240622244052286
+    },
+    {
+      "cluster_id": 3,
+      "shells": [
+        29,
+        30,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "contrib_impl": "3.354934980668189966443667173829381564526",
+      "contrib_lemma_no_maxphi": "3.354934980668189966443667173829381564514",
+      "per_shell_integral_hi": "16.41006788921331637153548663644024556575",
+      "legacy_invalid_hi": "3.314720374412056327758612057888526717124",
+      "ratio_impl_to_per_shell": 0.20444369903389978
+    },
+    {
+      "cluster_id": 4,
+      "shells": [
+        38,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46
+      ],
+      "contrib_impl": "4.053936617013083657305366755834749964964",
+      "contrib_lemma_no_maxphi": "4.053936617013083657305366755834749964941",
+      "per_shell_integral_hi": "18.41247594267789434681162163761652349564",
+      "legacy_invalid_hi": "4.014903326471420776148331053602171452874",
+      "ratio_impl_to_per_shell": 0.22017335580689334
+    },
+    {
+      "cluster_id": 5,
+      "shells": [
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        56
+      ],
+      "contrib_impl": "4.682568593289365071384042144621664100608",
+      "contrib_lemma_no_maxphi": "4.682568593289365071384042144621664100608",
+      "per_shell_integral_hi": "19.56584951067945423650473075529242708314",
+      "legacy_invalid_hi": "4.641888440053385922544537252238630029775",
+      "ratio_impl_to_per_shell": 0.23932355151426063
+    },
+    {
+      "cluster_id": 6,
+      "shells": [
+        57,
+        58,
+        59,
+        61,
+        62,
+        65,
+        66,
+        67
+      ],
+      "contrib_impl": "4.786428637907752320532166939067996136938",
+      "contrib_lemma_no_maxphi": "4.786428637907752320532166939067996136915",
+      "per_shell_integral_hi": "19.80424510697279843233971156656160680048",
+      "legacy_invalid_hi": "4.715140736548005704666632592961551763925",
+      "ratio_impl_to_per_shell": 0.24168700256201725
+    },
+    {
+      "cluster_id": 7,
+      "shells": [
+        68,
+        69,
+        70,
+        72,
+        73,
+        74,
+        75,
+        76
+      ],
+      "contrib_impl": "3.758773045171390312766749688827830317227",
+      "contrib_lemma_no_maxphi": "3.758773045171390312766749688827830317227",
+      "per_shell_integral_hi": "18.57525786397652191548359799305696759468",
+      "legacy_invalid_hi": "3.711187719498531470618494971689080517675",
+      "ratio_impl_to_per_shell": 0.2023537478023859
+    },
+    {
+      "cluster_id": 8,
+      "shells": [
+        77,
+        78,
+        81,
+        83,
+        85,
+        86,
+        88,
+        89
+      ],
+      "contrib_impl": "4.103744207408111720137522088070416722762",
+      "contrib_lemma_no_maxphi": "4.103744207408111720137522088070416722739",
+      "per_shell_integral_hi": "18.14402358840779617889267012105613616415",
+      "legacy_invalid_hi": "4.0404602550815119469535373472287144524",
+      "ratio_impl_to_per_shell": 0.2261760842302912
+    },
+    {
+      "cluster_id": 9,
+      "shells": [
+        90,
+        94,
+        97,
+        98,
+        99,
+        101,
+        102,
+        107
+      ],
+      "contrib_impl": "3.515017179120849123478661465745438522544",
+      "contrib_lemma_no_maxphi": "3.515017179120849123478661465745438522532",
+      "per_shell_integral_hi": "17.24093401936117956982370316003647368438",
+      "legacy_invalid_hi": "3.451958729206636005493120798226800564555",
+      "ratio_impl_to_per_shell": 0.20387626187615848
+    },
+    {
+      "cluster_id": 10,
+      "shells": [
+        108,
+        110,
+        114,
+        121,
+        123,
+        134,
+        147
+      ],
+      "contrib_impl": "2.921105417480540526998543451014303789326",
+      "contrib_lemma_no_maxphi": "2.921105417480540526998543451014303789326",
+      "per_shell_integral_hi": "12.73709066480270038452272282692742255317",
+      "legacy_invalid_hi": "2.761076010343498889428154433544470682536",
+      "ratio_impl_to_per_shell": 0.22933851178060913
+    }
+  ],
+  "cross_cluster": {
+    "n_clusters": 11,
+    "n_shells_partitioned": 87,
+    "partition_covers_each_shell_once": true,
+    "each_cluster_contrib_le_per_shell_triangle": true,
+    "cluster_contrib_sum": "38.52070418061784400998627504709430098648",
+    "per_shell_sum_within_clusters": "170.5871515665858390531639407966127821762",
+    "legacy_invalid_sum": "37.91955812524674097702040111940917993949",
+    "route_A_shell_integral": "170.5871515665858369747011687095425020673",
+    "cluster_to_route_A_ratio": 0.22581245906777414,
+    "formal_gap": "sum_C contrib_C <= I_total is NOT proved from per-cluster operator bounds without global combined pass or N7 triangle lemma across clusters.",
+    "empirical": {
+      "cluster_tighter_than_route_A": true,
+      "per_shell_within_clusters_matches_route_A": true,
+      "legacy_near_cluster_sum": true
+    }
+  },
+  "cert_verify": {
+    "ok": true,
+    "issues": [],
+    "closes_c0008_declared": false
+  },
+  "audit_pass": true,
+  "paths": {
+    "cluster_manifest": "<REPO_ROOT>\\experiments\\terminal_weighted\\cluster_manifest_repair_full_n24_one_inf.json",
+    "cluster_sha256": "69d5db09ca3aaba1c7652459966657d8e00db6046eed0df6ba2f193724a64648"
+  }
+}

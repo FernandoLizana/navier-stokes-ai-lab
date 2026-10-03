@@ -1,0 +1,19 @@
+{
+  "closes_c0005": true,
+  "Omega_T_worst": 41.74337593971423,
+  "Omega0_worst": 0.5,
+  "M": 61.23693461895651,
+  "K2": 147,
+  "gap": 13,
+  "m_K": 8,
+  "certificate_ok": true,
+  "checks": {
+    "no_self_triads": true,
+    "K2": true,
+    "m_K": true,
+    "gap": true,
+    "Omega_T": true,
+    "closes": true
+  },
+  "not_a_clay_claim": true
+}

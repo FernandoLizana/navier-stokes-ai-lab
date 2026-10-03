@@ -1,0 +1,17 @@
+{
+  "lemma_id": "L-0035",
+  "route": "B",
+  "status": "proved_restricted",
+  "evidence_level": "N7",
+  "n": 24,
+  "c0007_M": 41.283999509509286,
+  "C_dagger": 9.562009938690146,
+  "C_at_equipartition": 6.928203230275508,
+  "C_max_low_slab": 36.660252288847474,
+  "Omega_c": 0.5,
+  "ginf_ode_worst": 85.29439507367843,
+  "minprod_ode_worst": 55.9056807723294,
+  "closes_c0007": false,
+  "clay_implication": "None. Shell two-point \u2016\u2207u\u2016_\u221e stretch without triad cancellation; C_\u2020 only at equipartition; not continuum; not Clay.",
+  "notes": "Shell g_\u221e two-point: C(E)=6.928\u2264C_\u2020=9.562; C_max(low)=36.66; \u03a9_c\u22480.5. ginf ODE worst=85.29, min-prod ODE worst=55.91 (M=41.28). Closes C-0007: False."
+}

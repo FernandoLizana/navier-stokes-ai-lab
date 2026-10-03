@@ -1,0 +1,16 @@
+{
+  "lemma_id": "L-0003",
+  "route": "B",
+  "status": "proved_restricted",
+  "evidence_level": "N7",
+  "K": 5.196152422706632,
+  "M": 343,
+  "E0": 0.5,
+  "nu": 0.1,
+  "Omega0_cap": 13.5,
+  "Omega_eq": 51449.99999999999,
+  "Omega_uniform_cap": 51449.99999999999,
+  "closes": true,
+  "clay_implication": "None. Uniform in time for fixed N only; \u03a9_eq \u223c M/\u03bd\u00b2 \u2192 \u221e as resolution \u2192 \u221e.",
+  "notes": "Uniform-in-time Galerkin bound: \u03a9(t)\u2264max(K\u00b2E0, 6M E0\u00b2/\u03bd\u00b2)=5.145000e+04 (\u03a9_eq=5.145000e+04, \u03a90\u22641.350000e+01). C=90.7304, a=45.3652, b=0.2. Grid N=12, dealias=True, K=5.19615, M=343."
+}

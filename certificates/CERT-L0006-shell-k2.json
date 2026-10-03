@@ -1,0 +1,19 @@
+{
+  "certificate_id": "CERT-L0006-shell-k2",
+  "lemma_ref": "L-0006 (algebraic short-time), truncated Galerkin |k|<=k_shell (L-0005 support)",
+  "route": "B",
+  "evidence_level": "N5",
+  "n": 12,
+  "k_shell": 2,
+  "K_squared_int": 4,
+  "M": 33,
+  "E0": 0.5,
+  "t": 0.02,
+  "a_lo": 14.071247279470287,
+  "a_hi": 14.071247279470292,
+  "prod_hi": 0.3979949748426484,
+  "closes": true,
+  "Omega_bound_hi": 5.5186107511733615,
+  "clay_implication": "None. Shell-truncated Galerkin ODE, finite M; not continuum NS.",
+  "payload_sha256": "d6d711d96aff5072b0ba8f3b720385ee209c705e573b9df7a47b0a0972fd7fbf"
+}

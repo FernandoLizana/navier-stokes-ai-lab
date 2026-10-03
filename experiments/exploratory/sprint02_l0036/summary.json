@@ -1,0 +1,16 @@
+{
+  "C_shor_lower_N12": 42.93743023385255,
+  "C_shor_lower_N24": 141.8297252388387,
+  "C_dagger": 9.562009938690146,
+  "L_op_lower_N12": 15.180674042540712,
+  "closes_c0007": false,
+  "certificate_ok": true,
+  "checks": {
+    "D_match": true,
+    "pairs_match": true,
+    "C_shor_above_Cdagger": true,
+    "recomputed_also_above": true,
+    "closes_false": true
+  },
+  "not_a_clay_claim": true
+}

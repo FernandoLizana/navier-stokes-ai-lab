@@ -1,0 +1,18 @@
+{
+  "lemma_id": "L-0019",
+  "route": "B",
+  "status": "proved_restricted",
+  "evidence_level": "N7",
+  "n": 24,
+  "E0": 0.5,
+  "nu": 0.1,
+  "t": 0.02,
+  "K2_star": 147,
+  "S_t": 81.64924615860868,
+  "Stokes_floor": 40.82462307930434,
+  "envelope_cap": 73.5,
+  "c0005_M": 61.23693461895651,
+  "below_c0005": true,
+  "clay_implication": "None. Stokes (linear) majorant on finite dealias Galerkin only; does not bound nonlinear NS; not Clay.",
+  "notes": "Stokes majorant S(0.02)=81.6492 at |k|\u00b2=147; floor=S\u00b7E0=40.8246. Envelope=73.5. floor < C-0005 M=61.2369 < envelope: True. Nonlinear NS not controlled."
+}

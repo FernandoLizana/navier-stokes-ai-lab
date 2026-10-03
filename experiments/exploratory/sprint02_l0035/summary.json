@@ -1,0 +1,20 @@
+{
+  "C_at_equipartition": 6.928203230275508,
+  "C_max_low_slab": 36.660252288847474,
+  "Omega_c": 0.5,
+  "C_dagger": 9.562009938690146,
+  "ginf_ode_worst": 85.29439507367843,
+  "minprod_ode_worst": 55.9056807723294,
+  "closes_c0007": false,
+  "certificate_ok": true,
+  "checks": {
+    "C_eq_matches": true,
+    "C_eq_le_Cdagger": true,
+    "C_max_above_Cdagger": true,
+    "Omega_c_near_E0": true,
+    "ginf_ode_above_M": true,
+    "minprod_ode_above_M": true,
+    "closes_false": true
+  },
+  "not_a_clay_claim": true
+}

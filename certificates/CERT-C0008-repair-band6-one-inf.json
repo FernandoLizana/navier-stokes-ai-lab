@@ -1,0 +1,253 @@
+{
+  "claim": "C-0008",
+  "status": "repair_band_prototype",
+  "scope": "repair_band",
+  "parameters": {
+    "nu": "0.1",
+    "E0": "0.5",
+    "T": "0.02",
+    "N_max": 24,
+    "M_target": "41.283999509509286"
+  },
+  "bound_method": "one_inf_only",
+  "mode_set": {
+    "n": 24,
+    "D": 160,
+    "n_shells": 6,
+    "radii_mode": "band",
+    "radii": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ]
+  },
+  "repair_complete": false,
+  "arithmetic_backend": {
+    "name": "gmpy2_mpfr",
+    "version": "2.3.1",
+    "precision_bits": 128,
+    "rounding_up": "RoundUp",
+    "rounding_down": "RoundDown",
+    "platform": "Windows-10-10.0.26200-SP0"
+  },
+  "stokes_floor_interval": [
+    40.82462307930434,
+    40.824623079304345
+  ],
+  "i_star_interval": [
+    "1.2993114563479942",
+    "1.2993140549735054"
+  ],
+  "method": "repair_band_prototype",
+  "integral_interval": [
+    "0",
+    "1.24394981576535127475448371919651700072"
+  ],
+  "omega_T_interval": [
+    "0",
+    "41.26442575439606058890301157112552394052"
+  ],
+  "coverage_complete": true,
+  "source_hashes": {
+    "shell_manifest": "c418959e594c46564e31fbd16ee7454fa4d5d4018dbf174c7f7c730679b0aba2",
+    "cluster_manifest": "ff7094d3bf0ca64fad1292494bacfd56a9aac0d4128e1967c68935bf83e4d10e"
+  },
+  "cluster_residual_L0073R": {
+    "shells": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "legacy_invalid_hi": "0.6504164991955863840378692382901606445508",
+    "residual_candidates": [
+      {
+        "alpha": "min",
+        "contrib_hi": "0.6490005384324308920076648918585315809021"
+      },
+      {
+        "alpha": "max",
+        "contrib_hi": "0.6577977781675694737476852055414928156066"
+      },
+      {
+        "alpha": "midpoint",
+        "contrib_hi": "0.6500247612085135186732555687699795435866"
+      },
+      {
+        "alpha": "central_shell",
+        "contrib_hi": "0.6500247612085135186732555687699795435866"
+      },
+      {
+        "alpha": "shell_1",
+        "contrib_hi": "0.6577977781675694737476852055414928156066"
+      },
+      {
+        "alpha": "shell_2",
+        "contrib_hi": "0.6543118397196016218358506735734759129533"
+      },
+      {
+        "alpha": "shell_3",
+        "contrib_hi": "0.651716592625818125802906898534456621049"
+      },
+      {
+        "alpha": "shell_4",
+        "contrib_hi": "0.6500247612085135186732555687699795435866"
+      },
+      {
+        "alpha": "shell_5",
+        "contrib_hi": "0.6489721877694592770915200254329174498493"
+      },
+      {
+        "alpha": "shell_6",
+        "contrib_hi": "0.6490005384324308920076648918585315809021"
+      }
+    ],
+    "best_residual": {
+      "alpha": "shell_5",
+      "contrib_hi": "0.6489721877694592770915200254329174498493"
+    },
+    "residual_tighter_than_legacy": true,
+    "alpha_scan": "knots_at_each_shell_phi_plus_heuristic_midpoints"
+  },
+  "B_C_combined_hi": "32.58590997078726125714208742489404695703",
+  "limitations": [
+    "Partial: 6/87 shells \u2014 NOT full-dealias closure.",
+    "Repair certificate: one_inf_only per-shell bounds; L-0073R on Route A'.",
+    "Historical L-0072/L-0073 manifests are NOT superseded until adversarial PASS.",
+    "N<=24 inclusion: N7_sketch (L-0076 empirical ladder)."
+  ],
+  "closes_c0008": false,
+  "closes_strict": true,
+  "honesty": "Repair prototype certificate for adversarial verifier regression. Does NOT close C-0008 globally.",
+  "routes": {
+    "A": {
+      "method": "shell_integral_route_A",
+      "integral_hi": "1.243949815765351299899476006541619026307",
+      "omega_T_hi": "41.26442575439605627514119141746881958637",
+      "closes_strict": true
+    },
+    "A_prime": {
+      "method": "cluster_integral_route_A_prime",
+      "integral_hi": "0.9810081016387007012862313139033784100109",
+      "omega_T_hi": "41.17146181983817164667660356055330349484",
+      "closes_strict": true
+    },
+    "B": {
+      "method": "adaptive_lipschitz_route_B",
+      "integral_hi": "3.526466748347375569050860434076668257722",
+      "omega_T_hi": "42.07141735499699413909295817195825054196",
+      "closes_strict": false
+    }
+  },
+  "best_route": "A_prime",
+  "best_route_sketch": {
+    "integral_hi": "0.9810081016387007012862313139033784100109",
+    "omega_T_hi": "41.17146181983817164667660356055330349484",
+    "note": "Sketch only \u2014 declared integral_interval is Route A shell sum (verifier-recomputable)."
+  },
+  "n_coverage": {
+    "n_max": 24,
+    "K2": 147,
+    "M_modes": 3375,
+    "wavevector_subsets": [
+      {
+        "n_small": 12,
+        "n_large": 24,
+        "modes_small": 342,
+        "modes_large": 3374,
+        "subset": true,
+        "only_large": 3032
+      },
+      {
+        "n_small": 16,
+        "n_large": 24,
+        "modes_small": 1330,
+        "modes_large": 3374,
+        "subset": true,
+        "only_large": 2044
+      },
+      {
+        "n_small": 20,
+        "n_large": 24,
+        "modes_small": 2196,
+        "modes_large": 3374,
+        "subset": true,
+        "only_large": 1178
+      },
+      {
+        "n_small": 24,
+        "n_large": 24,
+        "modes_small": 3374,
+        "modes_large": 3374,
+        "subset": true,
+        "only_large": 0
+      }
+    ],
+    "all_subset": true,
+    "conclusion": "Wavevectors at n=12,16 embed in n=24 dealias shell lists. Certifying full-dealias at N=24 majorant dominates embedded truncations n<=24 IF the terminal functional L-0071 is applied on the same n grid and majorant sup increases with mode-set inclusion. NOT automatic for different n indexing without embedding proof (N7 sketch).",
+    "evidence_level": "N7_sketch",
+    "requires_per_n_cert": false,
+    "band_majorant_ladder": {
+      "radii": [
+        1,
+        2,
+        3
+      ],
+      "prec": 128,
+      "ladder": [
+        {
+          "n": 12,
+          "D": 52,
+          "C_term_sum_hi": "16.21566491579266211636141630454366042614"
+        },
+        {
+          "n": 16,
+          "D": 52,
+          "C_term_sum_hi": "16.21566491579266211636141630454366042614"
+        },
+        {
+          "n": 20,
+          "D": 52,
+          "C_term_sum_hi": "16.21566491579266211636141630454366042614"
+        },
+        {
+          "n": 24,
+          "D": 52,
+          "C_term_sum_hi": "16.21566491579266211636141630454366042614"
+        }
+      ],
+      "monotone_non_decreasing": true,
+      "evidence_level": "N7_sketch_empirical"
+    }
+  },
+  "l0048_audit": {
+    "frozen_value": 25.925922025377965,
+    "classification": "a_approximate_float64_operator_norm",
+    "not_certified_as": [
+      "c_rigorous_upper",
+      "d_interval",
+      "e_analytic_lax"
+    ],
+    "computation_path": "sparse_csr -> G=M@M.T dense -> eigvalsh -> sqrt -> *2\u221a2",
+    "evidence_level_computed": "N2",
+    "analytic_majorant_holds": true,
+    "note": "True C_term(T) <= 2\u221a2 sigma_max(M). Float sigma may underestimate or overestimate; Phase D replaces with Frobenius/MPFR upper bounds.",
+    "validate_band_16_rel_err": 1.483597921805437e-16,
+    "dense_sparse_agree_band16": true,
+    "sparse_reference": {
+      "sparse_C_band16": 2.993325909419154,
+      "sparse_D": 160,
+      "dense_C": 2.9933259094191538,
+      "sparse_C": 2.993325909419154,
+      "rel_err": 1.483597921805437e-16,
+      "nnz": 18801,
+      "D": 160,
+      "ok": true
+    }
+  }
+}

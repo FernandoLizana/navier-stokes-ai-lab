@@ -1,0 +1,164 @@
+{
+  "lemma_id": "L-0056",
+  "route": "B",
+  "status": "validated",
+  "evidence_level": "N7",
+  "n": 24,
+  "C_dagger": 9.562009938690146,
+  "c0007_M": 41.74337593971423,
+  "c0008_sharp_M": 41.283999509509286,
+  "all_ic_open": false,
+  "sharp_open": true,
+  "n_proved_restricted": 14,
+  "n_proved_subclasses": 11,
+  "n_open_subclasses": 1,
+  "C_rank1_full": 3.4463930313736206,
+  "best_n5_sos_hi": 0.8438224893075237,
+  "best_structured_sos_hi": 3.3560651946371634,
+  "greedy_sos_extrap": 5.3885979,
+  "full_dealias_shor": 25.925922025377965,
+  "cr_rows": [
+    {
+      "id": "C-R-0001",
+      "status": "proved_restricted",
+      "evidence": "N7",
+      "stretch_C": null,
+      "closes_vs_Cdagger": null,
+      "closes_c0007_subclass": true,
+      "lemma": "L-0021+L-0020",
+      "notes": "\u03b1_\u2605=14 at r=74 over 87 shells. Mono-radial Duhamel \u03a9\u226471.7277 (envelope 73.5). Closes C-0005 M=61.24: False."
+    },
+    {
+      "id": "C-R-0002",
+      "status": "proved_restricted",
+      "evidence": "N7",
+      "stretch_C": null,
+      "closes_vs_Cdagger": null,
+      "closes_c0007_subclass": true,
+      "lemma": "L-0024+L-0026",
+      "notes": "\u03a9\u2605=18.874042; L-0024 majorant at \u03a9\u2605 equals M. Low slab remains open (see L-0027 cubic conditional C_\u2020\u22489.5620)."
+    },
+    {
+      "id": "C-R-0003",
+      "status": "proved_restricted",
+      "evidence": "N7",
+      "stretch_C": null,
+      "closes_vs_Cdagger": null,
+      "closes_c0007_subclass": true,
+      "lemma": "L-0020+L-0021(\u03b1=0)+L-0031/33",
+      "notes": "Shells with vanishing L-0021 quartic \u03b1 (no dealias self-triads). Duhamel collapses to Stokes floor."
+    },
+    {
+      "id": "C-R-0004",
+      "status": "proved_restricted",
+      "evidence": "N7",
+      "stretch_C": 9.16515138991168,
+      "closes_vs_Cdagger": true,
+      "closes_c0007_subclass": true,
+      "lemma": "L-0038+L-0026+L-0027",
+      "notes": "L-0038 SVD on D=52 polarization modes. Larger consecutive band {1,2,3,4} fails C_\u2020."
+    },
+    {
+      "id": "C-R-0005",
+      "status": "proved_restricted",
+      "evidence": "N7",
+      "stretch_C": 9.51928560059199,
+      "closes_vs_Cdagger": true,
+      "closes_c0007_subclass": true,
+      "lemma": "L-0039+L-0026+L-0027",
+      "notes": "Greedy enlargement of C-R-0004={1,2,3}. Alternate support B also \u2264C_\u2020."
+    },
+    {
+      "id": "C-R-0006",
+      "status": "proved_restricted",
+      "evidence": "N7",
+      "stretch_C": 9.014802641581605,
+      "closes_vs_Cdagger": true,
+      "closes_c0007_subclass": true,
+      "lemma": "L-0040+L-0026+L-0027",
+      "notes": "Unrestricted Shor on {1..4} already exceeded C_\u2020; Sym restriction closes {1..5}."
+    },
+    {
+      "id": "C-R-0007",
+      "status": "proved_restricted",
+      "evidence": "N7",
+      "stretch_C": 9.413983769277191,
+      "closes_vs_Cdagger": true,
+      "closes_c0007_subclass": true,
+      "lemma": "L-0041+L-0026+L-0027",
+      "notes": "Consecutive {1..6} fails Sym Shor (L-0041 techo). Witness grown from seed {1,2,3,4,6}."
+    },
+    {
+      "id": "C-R-0008",
+      "status": "proved_restricted",
+      "evidence": "N7",
+      "stretch_C": 8.476437931112338,
+      "closes_vs_Cdagger": true,
+      "closes_c0007_subclass": true,
+      "lemma": "L-0043+L-0026+L-0027",
+      "notes": "Two-pol Sym on {1..6} fails (L-0040/41). One-pol extends consecutive band through shell 8; adding shell 9 exceeds C_\u2020 (L-0043 techo)."
+    },
+    {
+      "id": "C-R-0009",
+      "status": "proved_restricted",
+      "evidence": "N7",
+      "stretch_C": 2.9933259094191538,
+      "closes_vs_Cdagger": true,
+      "closes_c0007_subclass": true,
+      "lemma": "L-0044+L-0026+L-0027",
+      "notes": "Uses the i-factor physical triad tensor (matches stretch_inner). Exploratory: C_fullsym remains \u2264C_\u2020 at least through shells r\u226420 (D=776, C\u22487.70); dense G OOMs beyond. All-IC still open."
+    },
+    {
+      "id": "C-R-0010",
+      "status": "proved_restricted",
+      "evidence": "N7",
+      "stretch_C": 9.118850375286184,
+      "closes_vs_Cdagger": true,
+      "closes_c0007_subclass": true,
+      "lemma": "L-0045+L-0026+L-0027",
+      "notes": "Techo: r\u226426 gives C_fullsym=9.779>C_\u2020. Full dealias (D\u22486748) still open."
+    },
+    {
+      "id": "C-R-0011",
+      "status": "proved_restricted",
+      "evidence": "N7",
+      "stretch_C": 9.31728931342025,
+      "closes_vs_Cdagger": true,
+      "closes_c0007_subclass": true,
+      "lemma": "L-0046+L-0026+L-0027",
+      "notes": "Grown greedily from C-R-0010 by adding smallest high shells under an 8GB dense-M memory cap. All-IC still open."
+    },
+    {
+      "id": "C-R-0012",
+      "status": "proved_restricted",
+      "evidence": "N7",
+      "stretch_C": 9.503745310428652,
+      "closes_vs_Cdagger": true,
+      "closes_c0007_subclass": true,
+      "lemma": "L-0047+L-0026+L-0027",
+      "notes": "Grown greedily from C-R-0011 by batch-adding high shells under a 12GB float32 dense-M cap + Gram op-norm. Rejected 85,97,107 (C>C_\u2020); remaining mid shells skipped by RAM at D\u22481772. All-IC still open."
+    },
+    {
+      "id": "C-R-0013",
+      "status": "proved_restricted",
+      "evidence": "N7+N5",
+      "stretch_C": 9.189036845789548,
+      "closes_vs_Cdagger": true,
+      "closes_c0007_subclass": true,
+      "lemma": "L-0066+L-0026+L-0027+L-0065",
+      "notes": "Discovered by L-0064 one-pol scan; largest one-pol second-branch witness under greedy growth (r\u226420). Extends C-R-0008 by shells [10, 12, 16, 19]."
+    },
+    {
+      "id": "C-R-0014",
+      "status": "proved_restricted",
+      "evidence": "N7+N5",
+      "stretch_C": 9.3130311111074,
+      "closes_vs_Cdagger": true,
+      "closes_c0007_subclass": true,
+      "lemma": "L-0068+L-0026+L-0027+L-0067",
+      "notes": "L-0064 greedy-second growth; adds shell 24 to C-R-0013 witness."
+    }
+  ],
+  "clay_implication": "None. Closure map for finite Galerkin only; not Clay.",
+  "notes": "C-0007 all-IC PROVED at M~41.74 (L-0070/L-0024). C-0008 sharp OPEN (M~41.28). C-R-0002..0014 proved restricted. Stretch ladder: rank1~3.45 < best N5 SOS~0.844 < one-pol N5~3.356 < greedy Shor~9.50 (SOS extrap~5.39, cluster) < C_dagger~9.56 < fullsym~25.9. Low-slab subclasses attack C-0008 sharp gap; not needed for C-0007 all-IC."
+}

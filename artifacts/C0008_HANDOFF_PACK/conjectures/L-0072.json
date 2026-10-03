@@ -1,0 +1,33 @@
+{
+  "lemma_id": "L-0072",
+  "route": "terminal",
+  "status": "route_refuted",
+  "evidence_level": "N5",
+  "n": 24,
+  "parent": "L-0071",
+  "claim": "C-0008",
+  "parameters": {
+    "nu": 0.1,
+    "E0": 0.5,
+    "T": 0.02,
+    "M_target": 41.283999509509286
+  },
+  "full_dealias": {
+    "D": 6748,
+    "n_shells": 87,
+    "radii_mode": "full"
+  },
+  "phase_d_frobenius_route_D_I_hi": 112.839,
+  "phase_e_best_route_D_I_hi": 78.804,
+  "phase_e_omega_T_hi": 68.686,
+  "I_star_lo": 1.2993127556579159,
+  "verifier": "FAIL",
+  "certificate": "certificates/CERT-L0072-C0008-terminal-full-dealias.json",
+  "manifest_best": "experiments/terminal_weighted/shell_manifest_best_full.json",
+  "manifest_sha256": "4aaa7fff19b157bc2d07d4f34cbb8027b5393d0e2c6c215b2f579ee5086d798d",
+  "refutation_type": "route_refuted",
+  "refutes_conjecture": false,
+  "closes_c0008": false,
+  "clay_implication": "None. Route refutation on finite Galerkin relaxation only; not Clay.",
+  "notes": "Full-dealias N5: per-shell triangle + min(Frobenius,1-inf) cannot close C-0008 sharp M. Phase E complete 87/87. Verifier FAIL ~61x I_star. C-0008 remains exploring; stretch route (L-0027) or block bounds needed."
+}

@@ -1,0 +1,23 @@
+{
+  "lemma_id": "L-0073",
+  "route": "terminal",
+  "status": "best_known_bound",
+  "evidence_level": "N5",
+  "n": 24,
+  "parent": "L-0071",
+  "claim": "C-0008",
+  "method": "route_a_prime_cluster_best",
+  "n_clusters": 11,
+  "n_shells": 87,
+  "I_term_hi": 37.92,
+  "omega_T_hi": 54.231,
+  "phase_e_route_d_I_hi": 78.804,
+  "improvement_vs_phase_e_route_d": 0.482,
+  "verifier": "FAIL",
+  "closes_c0008": false,
+  "certificate": "certificates/CERT-L0073-C0008-route-a-prime-best.json",
+  "manifest": "experiments/terminal_weighted/shell_manifest_cluster_best_full.json",
+  "runtime_s": 4166.68,
+  "clay_implication": "None. Best terminal relaxation to date; does not close sharp M.",
+  "notes": "Cluster min(F,1-inf) combined pass + Phase E per-shell best. I_hi~37.9 vs Phase D~78.8. Verifier FAIL expected; C-0008 exploring."
+}

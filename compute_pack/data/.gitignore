@@ -1,0 +1,4 @@
+# Portable compute outputs — safe to copy entire compute_pack/data/ back to main machine
+*
+!.gitignore
+!README.txt

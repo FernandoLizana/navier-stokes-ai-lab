@@ -1,0 +1,111 @@
+{
+  "route": "B",
+  "purpose": "L0003_uniform_and_polish_C0001",
+  "lemma_table": {
+    "8": {
+      "L0001_short_time": 87.79820376968911,
+      "L0002_closes": false,
+      "L0002_cap": null,
+      "L0003_uniform": 18749.999999999996,
+      "L0003_eq": 18749.999999999996,
+      "best_of_closing": 87.79820376968911
+    },
+    "12": {
+      "L0001_short_time": 10614.571323895754,
+      "L0002_closes": false,
+      "L0002_cap": null,
+      "L0003_uniform": 51449.99999999999,
+      "L0003_eq": 51449.99999999999,
+      "best_of_closing": 10614.571323895754
+    },
+    "16": {
+      "L0001_short_time": 120397493238.00143,
+      "L0002_closes": false,
+      "L0002_cap": null,
+      "L0003_uniform": 199649.99999999997,
+      "L0003_eq": 199649.99999999997,
+      "best_of_closing": 199649.99999999997
+    }
+  },
+  "cma_source": {
+    "source": "datasets/candidates/cmaes_best.npz"
+  },
+  "polish_cma": {
+    "J_start": 10.235954725151558,
+    "J_polished_semi": 13.550013633724028,
+    "J_etd": 13.546717499700835,
+    "J_rk4": 13.546717491995317,
+    "J_etd_2n": 13.552326423188582,
+    "integrator_rel": 2.8440535516466234e-10,
+    "resolution_rel": 0.00020697864853488795,
+    "gates_passed": true,
+    "exceeded_M": true,
+    "M_target": 10.994055804604205,
+    "div_l2": 2.62631277065188e-16,
+    "energy": 0.49999999999999994,
+    "n": 12,
+    "evidence_level": "N2",
+    "route": "B"
+  },
+  "polish_random": {
+    "J_start": 5.540765731839478,
+    "J_polished_semi": 6.849919169609345,
+    "J_etd": 6.849452339911942,
+    "J_rk4": 6.849452326260044,
+    "J_etd_2n": 6.8448460881968805,
+    "integrator_rel": 9.965685376323596e-10,
+    "resolution_rel": 0.0003363627380579327,
+    "gates_passed": true,
+    "exceeded_M": false,
+    "M_target": 10.994055804604205,
+    "div_l2": 1.5872514872896826e-16,
+    "energy": 0.5,
+    "n": 12,
+    "evidence_level": "N2",
+    "route": "B"
+  },
+  "best_gated": [
+    "cma_polished",
+    13.546717499700835
+  ],
+  "best_any_etd": 13.546717499700835,
+  "refuted": true,
+  "conjecture_C0001": {
+    "id": "C-0001",
+    "route": "B",
+    "status": "refuted",
+    "evidence_level": "N2",
+    "domain": "Galerkin/pseudospectral T^3, N<=16 (NOT continuum PDE)",
+    "nu": 0.1,
+    "energy": 0.5,
+    "t_end": 0.02,
+    "n_max": 16,
+    "proposed_bound_M": 10.994055804604205,
+    "statement": "For all divergence-free Fourier fields on the N^3 grid with N<=16, dealiased convective term, nu=0.1, kinetic energy = 0.5, evolved with ETD-RK2 (dt=1e-3) to T=0.02, the enstrophy E_ens(T) <= M with M=proposed_bound_M. This is a FINITE-DIMENSIONAL conjecture only.",
+    "clay_implication": "None. Even if true for all N, passing N->inf requires uniform estimates not provided here. Does not address Clay Routes A-D.",
+    "numerical_support_max": 13.546717499700835,
+    "refuted": true,
+    "refutation_value": 13.546717499700835,
+    "notes": "Refuted by gated polished candidate."
+  },
+  "conjecture_C0002": {
+    "id": "C-0002",
+    "route": "B",
+    "status": "exploring",
+    "evidence_level": "N6",
+    "domain": "Galerkin/pseudospectral T^3, N<=16 (NOT continuum PDE)",
+    "nu": 0.1,
+    "energy": 0.5,
+    "t_end": 0.02,
+    "n_max": 16,
+    "proposed_bound_M": 20.320076249551253,
+    "parent_refuted": "C-0001",
+    "statement": "For all divergence-free Fourier fields on the N^3 grid with N<=16, dealiased convective term, nu=0.1, kinetic energy = 0.5, evolved with ETD-RK2 (dt=1e-3) to T=0.02, the enstrophy E_ens(T) <= M with M=20.320076249551253. FINITE-DIMENSIONAL only. Replaces refuted C-0001.",
+    "clay_implication": "None. Finite-dimensional only; no continuum regularity or blow-up claim.",
+    "numerical_support_max": 13.546717499700835,
+    "refuted": false,
+    "refutation_value": null,
+    "notes": "Successor of refuted C-0001. Seeded M=1.5\u00d7 gated polish max 13.546717. L-0003 uniform ceiling (N=12)\u22485.145e+04; L-0001 t=0.02 ceiling\u22481.061e+04."
+  },
+  "not_a_clay_claim": true
+}

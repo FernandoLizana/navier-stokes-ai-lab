@@ -1,0 +1,13 @@
+{
+  "cert_id": "CERT-L0036-signed-shor-C0007-N12",
+  "lemma_id": "L-0036",
+  "n": 12,
+  "c0007_M": 41.283999509509286,
+  "C_dagger": 9.562009938690146,
+  "D": 684,
+  "n_pairs": 198504,
+  "L_op_lower": 15.130430640472264,
+  "C_shor_lower": 42.79532043260262,
+  "closes_c0007": false,
+  "clay_implication": "None. Signed Shor/matricization stretch majorant already exceeds C_\u2020; not continuum; not Clay."
+}

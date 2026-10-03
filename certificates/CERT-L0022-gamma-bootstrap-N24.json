@@ -1,0 +1,21 @@
+{
+  "certificate_id": "CERT-L0022-gamma-bootstrap-N24",
+  "lemma_ref": "L-0022 gamma/N_* bootstrap arithmetic for C-0005 via L-0020",
+  "route": "B",
+  "evidence_level": "N5",
+  "n": 24,
+  "E0": 0.5,
+  "nu": 0.1,
+  "T": 0.02,
+  "c0005_M": 61.23693461895651,
+  "Ncrit_c0005": 9.666194264843458,
+  "gamma_crit": 1.746882907641106,
+  "N_emp_max": 37.273862194750464,
+  "gamma_emp_max": 11.88611316513487,
+  "Omega_T_emp_max": 37.37628973340516,
+  "uniform_hypothesis_holds_empirically": false,
+  "proved_closes_c0005": false,
+  "clay_implication": "None. Bootstrap arithmetic only; uniform \u03b3/N_* false for all-IC; not continuum; not Clay.",
+  "payload_sha256": "d994b84409712a7559ad2a98d0c0a84d7b95c5c2f88dfd0bc773f12de83bbfc1",
+  "notes": "\u03b3_crit=1.74688, N_crit=9.66619. Adversarial N2: \u2016N\u2016_max\u224837.2739, \u03b3_max\u224811.8861, \u03a9(T)_max\u224837.3763 (M=61.2369). Uniform hypothesis holds empirically: False. Proved C-0005 closure via this bootstrap: False."
+}

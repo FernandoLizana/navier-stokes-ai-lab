@@ -1,0 +1,32 @@
+{
+  "lemma_id": "L-0072",
+  "route": "terminal",
+  "status": "superseded_by_repair",
+  "evidence_level": "N4_repair_one_inf",
+  "n": 24,
+  "parent": "L-0071",
+  "claim": "C-0008",
+  "parameters": {
+    "nu": 0.1,
+    "E0": 0.5,
+    "T": 0.02,
+    "M_target": 41.283999509509286
+  },
+  "full_dealias": {
+    "D": 6748,
+    "n_shells": 87,
+    "radii_mode": "full"
+  },
+  "historical_phase_e_best_route_D_I_hi": 78.804,
+  "repair_I_term_hi": 170.5871515665858369747011687095425020673,
+  "repair_omega_T_hi": 101.1362889073194569953400748478992335273,
+  "I_star_lo": 1.2993114563479942,
+  "verifier": "PASS",
+  "certificate": "certificates/CERT-C0008-repair-full-n24-one-inf.json",
+  "certificate_alias": "certificates/CERT-L0072-repair-C0008-full-one-inf.json",
+  "manifest": "python/experiments/terminal_weighted/shell_manifest_repair_full_one_inf_n24.json",
+  "bound_method": "one_inf_only",
+  "closes_c0008": false,
+  "clay_implication": "None. Rigorous repair per-shell bound; does not close sharp M.",
+  "notes": "Supersedes historical L-0072 fro/min per-shell route. Full dealias 87/87 one_inf_only MPFR; adversarial verify PASS. I_hi~170.6 >> I_* — C-0008 exploring."
+}

@@ -1,0 +1,30 @@
+{
+  "lemma_id": "L-0041",
+  "route": "B",
+  "status": "proved_restricted",
+  "evidence_level": "N7",
+  "n": 24,
+  "c0007_M": 41.283999509509286,
+  "C_dagger": 9.562009938690146,
+  "band_123456_C": 11.344112520990302,
+  "seed_12346_C": 8.406346808612328,
+  "seed_23456_C": 8.638518391483577,
+  "seed_13456_C": 9.373816962392878,
+  "support_cr0007": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    11,
+    12,
+    25
+  ],
+  "support_cr0007_C": 9.413983769277191,
+  "support_cr0007_D": 236,
+  "closes_cr0007": true,
+  "closes_c0007_all_ic": false,
+  "consecutive_6_techo": true,
+  "clay_implication": "None. Sym Shor shell-6 catalog / consecutive-6 techo; C-R-0007 only; not all-IC; not continuum; not Clay.",
+  "notes": "Sym: {1..6} C=11.34>C_\u2020 (techo); seeds with 6: {1,2,3,4,6}=8.406, {2,3,4,5,6}=8.639, {1,3,4,5,6}=9.374; C-R-0007 support [1, 2, 3, 4, 6, 11, 12, 25] C=9.414. All-IC: False."
+}

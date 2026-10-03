@@ -1,0 +1,49 @@
+{
+  "lemma_id": "L-0057",
+  "route": "B",
+  "status": "cluster_ready",
+  "evidence_level": "N7",
+  "n": 24,
+  "C_dagger": 9.562009938690146,
+  "C_shor": 9.5037,
+  "greedy_D": 1772,
+  "n_shells": 41,
+  "C_ub_sos_extrap": 5.3885979,
+  "est_sdp_variables_M": 8.56101989684336,
+  "est_solve_hours": 113.24420125381447,
+  "est_gram_export_gb": 4352.851055985436,
+  "export_dir": "tools\\sos_julia\\data\\greedy_cr0012",
+  "cluster_dir": "tools\\sos_julia\\cluster\\greedy_cr0012",
+  "stages": [
+    {
+      "id": "export",
+      "command": "PYTHONPATH=python python -m ns_exploration.experiments.export_sos_cubic --n 24 --cr0012 --out tools/sos_julia/data/greedy_cr0012",
+      "est_hours": 0.5,
+      "est_ram_gb": 16.0,
+      "notes": "Sparse fullsym M export for 41-shell greedy witness."
+    },
+    {
+      "id": "tssos_cosmo",
+      "command": "cd tools/sos_julia && julia --project=tssos_env run_tssos_cosmo.jl tools/sos_julia/data/greedy_cr0012",
+      "est_hours": 113.24420125381447,
+      "est_ram_gb": 64.0,
+      "notes": "Order-2 TSSOS TS=MD COSMO; est ~8.6M SDP vars."
+    },
+    {
+      "id": "gram_export",
+      "command": "cd tools/sos_julia && julia --project=tssos_env export_tssos_gram.jl tools/sos_julia/data/greedy_cr0012",
+      "est_hours": 8.0,
+      "est_ram_gb": 128.0,
+      "notes": "Rational Gram export; est ~4353 GB JSON."
+    },
+    {
+      "id": "n5_verify",
+      "command": "PYTHONPATH=python python -m ns_exploration.experiments.sprint02_l0057_cluster",
+      "est_hours": 2.0,
+      "est_ram_gb": 32.0,
+      "notes": "Python N5 Gram verify + certificate (post-cluster)."
+    }
+  ],
+  "clay_implication": "None. Cluster job pack only; not a SOS certificate; not Clay.",
+  "notes": "Greedy C-R-0012 cluster pack: D=1772, C_Shor\u22489.5037. Extrap SOS C_ub\u22485.389 (< C_dagger\u22489.562). Est SDP ~8.6M vars, ~113h solve, Gram ~4353GB. Laptop infeasible; submit via SLURM template."
+}

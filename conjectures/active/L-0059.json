@@ -1,0 +1,103 @@
+{
+  "lemma_id": "L-0059",
+  "route": "B",
+  "status": "validated",
+  "evidence_level": "N8",
+  "n": 24,
+  "lean_package": "NSGalerkin.SosGram",
+  "lean_build_ok": false,
+  "pins": [
+    {
+      "cert_id": "CERT-L0052-sos-gram-band123-N24",
+      "subclass": "L-0052 TSSOS order-2 + rational Gram on Hermitian {1,2,3}",
+      "C_ub_hi_num": 8438224893075237,
+      "C_ub_hi_den": 10000000000000000,
+      "C_dagger_num": 95620099386901456,
+      "C_dagger_den": 10000000000000000,
+      "lean_theorem": "sos_band123_C_ub_lt_Cdagger"
+    },
+    {
+      "cert_id": "CERT-L0053-sos-gram-onepol-cr0008-N24",
+      "subclass": "L-0053 TSSOS order-2 + rational Gram on one-pol C-R-0008",
+      "C_ub_hi_num": 33560651946371632,
+      "C_ub_hi_den": 10000000000000000,
+      "C_dagger_num": 95620099386901456,
+      "C_dagger_den": 10000000000000000,
+      "lean_theorem": "sos_onepol_cr0008_C_ub_lt_Cdagger"
+    },
+    {
+      "cert_id": "CERT-L0054-sos-gram-band1234-N24",
+      "subclass": "L-0054 extension: TSSOS + rational Gram on Hermitian {1,2,3,4}",
+      "C_ub_hi_num": 8940401324113961,
+      "C_ub_hi_den": 10000000000000000,
+      "C_dagger_num": 95620099386901456,
+      "C_dagger_den": 10000000000000000,
+      "lean_theorem": "sos_band1234_C_ub_lt_Cdagger"
+    },
+    {
+      "cert_id": "CERT-L0058-sos-gram-band12345-N24",
+      "subclass": "L-0058 TSSOS order-2 + rational Gram on Hermitian {1..5}",
+      "C_ub_hi_num": 13052615184195026,
+      "C_ub_hi_den": 10000000000000000,
+      "C_dagger_num": 95620099386901456,
+      "C_dagger_den": 10000000000000000,
+      "lean_theorem": "sos_band12345_C_ub_lt_Cdagger"
+    },
+    {
+      "cert_id": "CERT-L0060-sos-gram-band123456-N24",
+      "subclass": "L-0060 N5 interval constant from N2 TSSOS on Hermitian {1..6}",
+      "C_ub_hi_num": 17009322214824126,
+      "C_ub_hi_den": 10000000000000000,
+      "C_dagger_num": 95620099386901456,
+      "C_dagger_den": 10000000000000000,
+      "lean_theorem": "sos_band123456_C_ub_lt_Cdagger"
+    },
+    {
+      "cert_id": "CERT-L0061-sos-band12345678-N24",
+      "subclass": "L-0061 N5 interval constant from COSMO TSSOS on Hermitian {1..8}",
+      "C_ub_hi_num": 18518343630712872,
+      "C_ub_hi_den": 10000000000000000,
+      "C_dagger_num": 95620099386901456,
+      "C_dagger_den": 10000000000000000,
+      "lean_theorem": "sos_band12345678_C_ub_lt_Cdagger"
+    },
+    {
+      "cert_id": "CERT-L0062-sos-band123456789-N24",
+      "subclass": "L-0062 N5 interval COSMO Hermitian {1..9}",
+      "C_ub_hi_num": 22234260084759508,
+      "C_ub_hi_den": 10000000000000000,
+      "C_dagger_num": 95620099386901456,
+      "C_dagger_den": 10000000000000000,
+      "lean_theorem": "sos_band123456789_C_ub_lt_Cdagger"
+    },
+    {
+      "cert_id": "CERT-L0062-sos-band1to10-N24",
+      "subclass": "L-0062 N5 interval COSMO Hermitian {1..10}",
+      "C_ub_hi_num": 24401954034218728,
+      "C_ub_hi_den": 10000000000000000,
+      "C_dagger_num": 95620099386901456,
+      "C_dagger_den": 10000000000000000,
+      "lean_theorem": "sos_band1to10_C_ub_lt_Cdagger"
+    },
+    {
+      "cert_id": "CERT-L0062-sos-band1to12-N24",
+      "subclass": "L-0062 N5 interval COSMO Hermitian {1..12}",
+      "C_ub_hi_num": 27828051183326548,
+      "C_ub_hi_den": 10000000000000000,
+      "C_dagger_num": 95620099386901456,
+      "C_dagger_den": 10000000000000000,
+      "lean_theorem": "sos_band1to12_C_ub_lt_Cdagger"
+    },
+    {
+      "cert_id": "CERT-L0065-sos-onepol-greedy-second-N24",
+      "subclass": "L-0065 N5 interval COSMO one-pol greedy-second",
+      "C_ub_hi_num": 40149382615739840,
+      "C_ub_hi_den": 10000000000000000,
+      "C_dagger_num": 95620099386901456,
+      "C_dagger_den": 10000000000000000,
+      "lean_theorem": "sos_onepol_greedy_second_C_ub_lt_Cdagger"
+    }
+  ],
+  "clay_implication": "None. Lean arithmetic cross-check of N5 SOS constants only; not Clay.",
+  "notes": "Lean N8 pins for 10 N5 SOS Gram certs: native_decide checks C_ub_hi < C_dagger (rational arithmetic only). lake build: pending/failed."
+}

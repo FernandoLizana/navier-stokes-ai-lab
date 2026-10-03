@@ -1,0 +1,15 @@
+{
+  "mode": "full",
+  "n_clusters": 12,
+  "n_shells": 87,
+  "D": 6748,
+  "integral_hi": "158.0451340249400489050234554871637521512",
+  "omega_T_hi": "96.70201608059026818891615882734328771021",
+  "I_star_lo": "1.299312755657915943535353700029000225351",
+  "closes_c0008": false,
+  "per_shell_integral_hi": "425.3843859528320436290330395846182263747",
+  "improvement_vs_per_shell": 0.37153487350253755,
+  "phase_e_best_reference": 78.804,
+  "runtime_s": 1315.77,
+  "manifest": "experiments/terminal_weighted/shell_manifest_cluster_full.json"
+}

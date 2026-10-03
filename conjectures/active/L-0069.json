@@ -1,0 +1,80 @@
+{
+  "lemma_id": "L-0069",
+  "route": "B",
+  "status": "validated",
+  "evidence_level": "N7",
+  "n": 24,
+  "C_dagger": 9.562009938690146,
+  "n_proved_restricted": 14,
+  "best_onepol_cr": "C-R-0014",
+  "best_onepol_D": 178,
+  "best_onepol_C_shor": 9.3130311111074,
+  "best_onepol_C_ub_sos_hi": 4.0760825002657395,
+  "techo_shell": 25,
+  "techo_C_shor": 9.789078725604933,
+  "cluster_greedy_sos": "deferred",
+  "all_ic_open": false,
+  "c0007_proved_M": 41.74337593971423,
+  "c0008_sharp_open": true,
+  "ladder": [
+    {
+      "id": "C-R-0008",
+      "shells": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8
+      ],
+      "D": 92,
+      "C_shor": 8.4764,
+      "C_ub_sos_hi": 3.356,
+      "status": "proved_N5"
+    },
+    {
+      "id": "C-R-0013",
+      "shells": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        12,
+        16,
+        19
+      ],
+      "D": 154,
+      "C_shor": 9.189036845789548,
+      "C_ub_sos_hi": 4.014938261573984,
+      "status": "proved_N5"
+    },
+    {
+      "id": "C-R-0014",
+      "shells": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        10,
+        12,
+        16,
+        19,
+        24
+      ],
+      "D": 178,
+      "C_shor": 9.3130311111074,
+      "C_ub_sos_hi": 4.0760825002657395,
+      "status": "proved_N5"
+    }
+  ],
+  "clay_implication": "None. Laptop structured path closure map; not Clay.",
+  "notes": "Laptop one-pol path closed at C-R-0014 (12 shells, D=178). Adding shell 25 gives C_Shor\u22489.7891>C_\u2020\u22489.5620 (techo). 14 restricted subclasses proved. Greedy cluster SOS (L-0057) deferred. C-0007 all-IC closed at M\u224841.7434 (L-0070); C-0008 sharp still open."
+}

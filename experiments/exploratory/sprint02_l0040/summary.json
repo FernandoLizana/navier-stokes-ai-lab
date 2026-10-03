@@ -1,0 +1,20 @@
+{
+  "band_1234_C_sym": 6.110100926607786,
+  "band_12345_C": 9.014802641581605,
+  "band_123456_C": 11.344112520990302,
+  "greedy9_C": 9.501738761182967,
+  "C_dagger": 9.562009938690146,
+  "closes_cr0006": true,
+  "closes_c0007_all_ic": false,
+  "certificate_ok": true,
+  "checks": {
+    "band5_matches": true,
+    "band5_le_Cdagger": true,
+    "band6_above_Cdagger": true,
+    "band4_le_Cdagger": true,
+    "greedy9_le_Cdagger": true,
+    "cr0006_true": true,
+    "all_ic_false": true
+  },
+  "not_a_clay_claim": true
+}

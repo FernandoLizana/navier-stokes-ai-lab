@@ -1,0 +1,95 @@
+{
+  "lemma_id": "L-0054",
+  "route": "B",
+  "status": "validated",
+  "evidence_level": "N5",
+  "n": 24,
+  "C_dagger": 9.562009938690146,
+  "C_rank1_full": 3.4463930313736206,
+  "C_fullsym_full": 25.925922025377965,
+  "C_greedy_41_shor": 9.5037,
+  "best_sos_n5_hi": 0.8438224893075237,
+  "best_sos_subclass": "Hermitian {1,2,3}",
+  "rows": [
+    {
+      "id": "rank1-full",
+      "subclass": "full-dealias rank-1",
+      "D": 6748,
+      "C_shor": null,
+      "C_ub_sos": 3.4463930313736206,
+      "C_ub_n5_hi": null,
+      "evidence": "N7 lower",
+      "cert_id": null,
+      "closes_vs_Cdagger": true
+    },
+    {
+      "id": "band-123-n5",
+      "subclass": "Hermitian {1,2,3}",
+      "D": 52,
+      "C_shor": 1.36986977843755,
+      "C_ub_sos": 0.843822489307523,
+      "C_ub_n5_hi": 0.8438224893075237,
+      "evidence": "N5 Gram",
+      "cert_id": "CERT-L0052-sos-gram-band123-N24",
+      "closes_vs_Cdagger": true
+    },
+    {
+      "id": "band-1234-n5",
+      "subclass": "Hermitian {1,2,3,4}",
+      "D": 64,
+      "C_shor": 1.36986977843755,
+      "C_ub_sos": 0.8940401324113963,
+      "C_ub_n5_hi": 0.8940401324113961,
+      "evidence": "N5 Gram",
+      "cert_id": "CERT-L0054-sos-gram-band1234-N24",
+      "closes_vs_Cdagger": true
+    },
+    {
+      "id": "onepol-cr0008-n5",
+      "subclass": "one-pol C-R-0008 [1, 2, 3, 4, 5, 6, 8]",
+      "D": 92,
+      "C_shor": 8.475443542120622,
+      "C_ub_sos": 3.3560651946371607,
+      "C_ub_n5_hi": 3.3560651946371634,
+      "evidence": "N5 Gram",
+      "cert_id": "CERT-L0053-sos-gram-onepol-cr0008-N24",
+      "closes_vs_Cdagger": true
+    },
+    {
+      "id": "greedy-41-shor",
+      "subclass": "C-R-0012 greedy 41 shells",
+      "D": 1772,
+      "C_shor": 9.5037,
+      "C_ub_sos": null,
+      "C_ub_n5_hi": null,
+      "evidence": "N7 Shor",
+      "cert_id": "CERT-L0047-greedy-fullsym-C0007-N24",
+      "closes_vs_Cdagger": true
+    },
+    {
+      "id": "full-dealias-shor",
+      "subclass": "all-IC physical fullsym",
+      "D": 6748,
+      "C_shor": 25.925922025377965,
+      "C_ub_sos": null,
+      "C_ub_n5_hi": null,
+      "evidence": "N7 Shor techo",
+      "cert_id": null,
+      "closes_vs_Cdagger": false
+    },
+    {
+      "id": "brute-sos-extrap",
+      "subclass": "Hermitian bands \u2192 full dealias (extrapolated)",
+      "D": 6748,
+      "C_shor": 25.925922025377965,
+      "C_ub_sos": 14.7,
+      "C_ub_n5_hi": null,
+      "evidence": "N2 techo",
+      "cert_id": null,
+      "closes_vs_Cdagger": false
+    }
+  ],
+  "all_ic_open": true,
+  "clay_implication": "None. Synthesis of finite structured SOS/Shor bounds; not all-IC; not Clay.",
+  "notes": "Structured SOS synthesis: best N5 bound C_ub_hi\u22480.8438 on Hermitian {1,2,3}; greedy Shor\u22489.50\u2264C_\u2020; fullsym all-IC\u224825.93\u226bC_\u2020; brute SOS extrap\u224814.7 > C_\u2020."
+}

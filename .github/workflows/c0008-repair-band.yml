@@ -1,0 +1,48 @@
+name: C-0008 repair band gates
+
+on:
+  push:
+    paths:
+      - 'python/ns_exploration/**'
+      - 'python/scripts/**'
+      - 'experiments/terminal_weighted/shell_manifest_repair_band6_one_inf.json'
+      - 'certificates/CERT-C0008-repair-band6-one-inf.json'
+      - '.github/workflows/c0008-repair-band.yml'
+  pull_request:
+    paths:
+      - 'python/ns_exploration/**'
+      - 'python/scripts/**'
+      - 'experiments/terminal_weighted/shell_manifest_repair_band6_one_inf.json'
+      - 'certificates/CERT-C0008-repair-band6-one-inf.json'
+      - '.github/workflows/c0008-repair-band.yml'
+
+jobs:
+  band-gates:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: python
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install repair deps
+        run: pip install -q -r requirements-c0008-repair.txt
+      - name: Band repair tests
+        run: |
+          python -m pytest \
+            ns_exploration/tests/test_c0008_cert_repair.py \
+            ns_exploration/tests/test_exact_prototype_band123.py \
+            ns_exploration/tests/test_cluster_l0073r_manifest.py \
+            ns_exploration/tests/test_repair_full_manifest.py \
+            ns_exploration/tests/test_c0008_repair_pipeline.py \
+            -q --tb=line
+      - name: Finalize band certificate
+        run: python scripts/finalize_c0008_repair.py --band --prec 128
+      - name: Adversarial verify band cert
+        working-directory: .
+        run: |
+          python verify_c0008_terminal_certificate.py \
+            certificates/CERT-C0008-repair-band6-one-inf.json \
+            experiments/terminal_weighted/shell_manifest_repair_band6_one_inf.json

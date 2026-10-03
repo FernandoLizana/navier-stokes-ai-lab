@@ -1,0 +1,19 @@
+{
+  "band_12_C": 6.6332495807108005,
+  "band_123_C": 9.16515138991168,
+  "band_125_C": 9.549869109050658,
+  "band_1234_C": 10.066445913694333,
+  "C_dagger": 9.562009938690146,
+  "closes_cr0004": true,
+  "closes_c0007_all_ic": false,
+  "certificate_ok": true,
+  "checks": {
+    "band123_matches": true,
+    "band123_le_Cdagger": true,
+    "band1234_above_Cdagger": true,
+    "band125_le_Cdagger": true,
+    "cr0004_true": true,
+    "all_ic_false": true
+  },
+  "not_a_clay_claim": true
+}

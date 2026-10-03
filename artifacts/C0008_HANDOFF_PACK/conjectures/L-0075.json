@@ -1,0 +1,19 @@
+{
+  "lemma_id": "L-0075",
+  "route": "B",
+  "status": "best_low_slab_hybrid",
+  "evidence_level": "N7",
+  "parent": "L-0027",
+  "claim": "C-0008",
+  "best_label": "sos_band123_cubic_ode",
+  "best_low_slab_omega_T": 17.5363,
+  "M_sharp": 41.283999509509286,
+  "M_c0007": 41.283999509509286,
+  "best_all_ic_label": "triad_min_defect_ode",
+  "best_all_ic_low_slab_omega_T": 51.0025,
+  "closes_c0008_sharp": false,
+  "closes_c0008_sharp_subclass_low_slab_only": true,
+  "best_is_subclass_sos": true,
+  "summary": "experiments/terminal_weighted/hybrid_low_slab_summary.json",
+  "notes": "Hybrid min(triad/defect/weighted/SOS cubic ODE) on low slab. Subclass SOS; does not close sharp M or all-IC C<=C_dagger."
+}

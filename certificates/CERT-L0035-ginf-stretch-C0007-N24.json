@@ -1,0 +1,14 @@
+{
+  "cert_id": "CERT-L0035-ginf-stretch-C0007-N24",
+  "lemma_id": "L-0035",
+  "n": 24,
+  "c0007_M": 41.283999509509286,
+  "C_dagger": 9.562009938690146,
+  "C_at_equipartition": 6.928203230275508,
+  "C_max_low_slab": 36.660252288847474,
+  "Omega_c": 0.5,
+  "ginf_ode_worst": 85.29439507367843,
+  "minprod_ode_worst": 57.29084607975069,
+  "closes_c0007": false,
+  "clay_implication": "None. Shell two-point \u2016\u2207u\u2016_\u221e stretch without triad cancellation; C_\u2020 only at equipartition; not continuum; not Clay."
+}

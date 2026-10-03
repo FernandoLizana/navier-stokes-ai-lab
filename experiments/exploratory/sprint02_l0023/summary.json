@@ -1,0 +1,16 @@
+{
+  "C_star": 2.153875713868075,
+  "Omega_at_Cstar": 61.23693461895651,
+  "C_emp_max": 0.020063495421016313,
+  "emp_closes": true,
+  "proved_closes_c0005": false,
+  "certificate_ok": true,
+  "checks": {
+    "C_star": true,
+    "Omega_at_Cstar_matches": true,
+    "bound_at_cert_C_le_M": true,
+    "not_proved_closed": true,
+    "K2_Omega0": true
+  },
+  "not_a_clay_claim": true
+}

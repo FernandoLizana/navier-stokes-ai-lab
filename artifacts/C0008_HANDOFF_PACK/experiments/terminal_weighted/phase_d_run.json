@@ -1,0 +1,14 @@
+{
+  "mode": "full",
+  "best_route": "D",
+  "closes_strict": false,
+  "integral_hi": "78.80350895792126877417231287859787981991",
+  "I_star_lo": "1.299312755657915943535353700029000225351",
+  "verifier_pass": false,
+  "verifier_msgs": [
+    "FAIL: I_term_hi=78.80350895792126877417231287859787982028 >= I_star_lo=1.2993127556579159435353537000290002253480339412874906629718458",
+    "omega_T_hi >= M_target",
+    "FAIL"
+  ],
+  "c0008_status": "unchanged_open"
+}

@@ -1,0 +1,22 @@
+{
+  "cert_id": "CERT-L0037-shell-diff-C0007-N24",
+  "lemma_id": "L-0037",
+  "n": 24,
+  "c0007_M": 41.283999509509286,
+  "C_dagger": 9.562009938690146,
+  "mono_stretch_zero": true,
+  "mono_identity": "If supp(\u00fb) \u2282 {|k|\u00b2 = r}, then stretch = \u03a3 |k|\u00b2 T_k = r \u03a3 T_k = 0 because \u03a3 T_k = \u27e8u, N\u27e9 = 0 for the Leray\u2013Galerkin nonlinearity.",
+  "C_near_pair": 6.632347598335395,
+  "near_pair": [
+    1,
+    2
+  ],
+  "C_far_pair": 32.68252051982102,
+  "far_pair": [
+    2,
+    134
+  ],
+  "C_bishell_shor_max_sample": 32.68252051982102,
+  "closes_c0007": false,
+  "clay_implication": "None. Shell-diff mono stretch=0 and bi-shell Shor sample; uniform C_\u2020 not reached; not continuum; not Clay."
+}

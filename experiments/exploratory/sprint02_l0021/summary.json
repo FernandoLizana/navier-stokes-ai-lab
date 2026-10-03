@@ -1,0 +1,18 @@
+{
+  "alpha_star": 14.000000000000002,
+  "r_star": 74,
+  "Omega_radial_H1": 71.72774945123018,
+  "beats_envelope": true,
+  "closes_c0005": false,
+  "C_R_0001_M": 71.72774945123018,
+  "certificate_ok": true,
+  "checks": {
+    "alpha_star": true,
+    "r_star": true,
+    "n_shells": true,
+    "Omega": true,
+    "beats_envelope": true,
+    "radial_M": true
+  },
+  "not_a_clay_claim": true
+}

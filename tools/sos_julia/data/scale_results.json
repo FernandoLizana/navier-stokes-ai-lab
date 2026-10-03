@@ -1,0 +1,349 @@
+{
+  "updated": "2026-07-21",
+  "method": "TSSOS order=2 TS=MD sphere equality (Clarabel\u2264160; COSMO\u2265184)",
+  "C_dagger": 9.562009938690146,
+  "beta": 3.3806810347104825,
+  "bands": [
+    {
+      "radii": [
+        1,
+        2,
+        3
+      ],
+      "D": 52,
+      "C_fullsym": 1.36986977843755,
+      "C_ub": 0.843822489307523,
+      "solver": "Clarabel",
+      "beats_fullsym": true,
+      "ratio_ub_over_fullsym": 0.616
+    },
+    {
+      "radii": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "D": 64,
+      "C_fullsym": 1.36986977843755,
+      "C_ub": 0.8940401324113963,
+      "solver": "Clarabel",
+      "beats_fullsym": true,
+      "ratio_ub_over_fullsym": 0.653
+    },
+    {
+      "radii": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "D": 112,
+      "C_fullsym": 2.148097061972368,
+      "C_ub": 1.3052615184180565,
+      "solver": "Clarabel",
+      "beats_fullsym": true,
+      "ratio_ub_over_fullsym": 0.608
+    },
+    {
+      "radii": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "D": 160,
+      "C_fullsym": 2.9933259094191538,
+      "C_ub": 1.7009322214824112,
+      "solver": "Clarabel",
+      "beats_fullsym": true,
+      "ratio_ub_over_fullsym": 0.568
+    },
+    {
+      "radii": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "D": 184,
+      "C_fullsym": 3.2876874682501214,
+      "C_ub": 1.8518343630712857,
+      "solver": "COSMO",
+      "beats_fullsym": true,
+      "ratio_ub_over_fullsym": 0.563
+    },
+    {
+      "radii": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "D": 244,
+      "C_fullsym": 3.991247855265094,
+      "C_ub": 2.223426008475949,
+      "solver": "COSMO",
+      "beats_fullsym": true,
+      "ratio_ub_over_fullsym": 0.557
+    },
+    {
+      "radii": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "D": 292,
+      "C_fullsym": 4.260132170346936,
+      "C_ub": 2.4401954034218707,
+      "solver": "COSMO",
+      "beats_fullsym": true,
+      "ratio_ub_over_fullsym": 0.573
+    },
+    {
+      "radii": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "D": 356,
+      "C_fullsym": 4.912140950058888,
+      "C_ub": 2.782805118332653,
+      "solver": "COSMO",
+      "beats_fullsym": true,
+      "ratio_ub_over_fullsym": 0.566,
+      "solve_s_approx": 4521
+    }
+  ],
+  "extrapolation": {
+    "C_fullsym_full_dealias": 25.925922025377965,
+    "need_ratio_below": 0.369,
+    "ratio_median_D_ge_112": 0.567,
+    "C_ub_sos_extrapolated_full": 14.7,
+    "brute_sos_closes_all_ic": false,
+    "note": "Large-band SOS/Shor ratio ~0.56. Extrapolated all-IC SOS ~14.7 > C_\u2020. See L-0051 structured pivot."
+  },
+  "band_1to15_status": "abandoned_OOM_D500",
+  "band_1234_gram_n5": {
+    "radii": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "D": 64,
+    "C_fullsym": 1.36986977843755,
+    "C_ub": 0.8940401324113963,
+    "C_ub_hi": 0.8940401324113961,
+    "ratio_ub_over_fullsym": 0.653,
+    "solver": "Clarabel",
+    "evidence": "N5_gram_rationalized",
+    "cert": "CERT-L0054-sos-gram-band1234-N24"
+  },
+  "band_12345_gram_n5": {
+    "radii": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "D": 112,
+    "C_fullsym": 2.148097061972368,
+    "C_ub": 1.3052615184180565,
+    "C_ub_hi": 1.3052615184195027,
+    "ratio_ub_over_fullsym": 0.608,
+    "solver": "Clarabel",
+    "evidence": "N5_gram_rationalized",
+    "cert": "CERT-L0058-sos-gram-band12345-N24",
+    "related_cr": "C-R-0006"
+  },
+  "band_123456_interval_n5": {
+    "radii": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6
+    ],
+    "D": 160,
+    "C_fullsym": 2.9933259094191538,
+    "C_ub": 1.7009322214824112,
+    "C_ub_hi": 1.7009322214824112,
+    "ratio_ub_over_fullsym": 0.568,
+    "solver": "Clarabel",
+    "merge": true,
+    "evidence": "N5_interval_constant",
+    "gram_psd": "deferred_OOM_D160",
+    "cert": "CERT-L0060-sos-gram-band123456-N24",
+    "related_cr": "C-R-0009"
+  },
+  "band_12345678_interval_n5": {
+    "radii": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "D": 184,
+    "C_fullsym": 3.2876874682501214,
+    "C_ub": 1.8518343630712857,
+    "C_ub_hi": 1.8518343630712857,
+    "ratio_ub_over_fullsym": 0.563,
+    "solver": "COSMO",
+    "evidence": "N5_interval_constant",
+    "gram_psd": "deferred_laptop",
+    "cert": "CERT-L0061-sos-band12345678-N24",
+    "related_cr": "C-R-0010"
+  },
+  "cosmo_ladder_n5": {
+    "bands": [
+      {
+        "radii_end": 9,
+        "D": 244,
+        "C_ub_hi": 2.223426008475949,
+        "cert": "CERT-L0062-sos-band123456789-N24"
+      },
+      {
+        "radii_end": 10,
+        "D": 292,
+        "C_ub_hi": 2.4401954034218707,
+        "cert": "CERT-L0062-sos-band1to10-N24"
+      },
+      {
+        "radii_end": 12,
+        "D": 356,
+        "C_ub_hi": 2.782805118332653,
+        "cert": "CERT-L0062-sos-band1to12-N24"
+      }
+    ],
+    "lemma": "L-0062",
+    "solver": "COSMO",
+    "evidence": "N5_interval_constant"
+  },
+  "greedy_cr0012_export": {
+    "status": "ready",
+    "lemma": "L-0063",
+    "D": 1772,
+    "nnz_M": 1521532,
+    "C_shor": 9.5037,
+    "C_ub_sos_extrap": 5.39,
+    "cluster": "tools/sos_julia/cluster/greedy_cr0012"
+  },
+  "onepol_cr0008": {
+    "radii": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8
+    ],
+    "D": 92,
+    "basis": "one_pol_stretch",
+    "C_fullsym": 8.475443542120622,
+    "C_shor_sym": 8.476437931112338,
+    "C_ub": 3.3560651946371607,
+    "ratio_ub_over_fullsym": 0.396,
+    "solver": "Clarabel",
+    "solve_s_approx": 302,
+    "beats_fullsym": true,
+    "closes_vs_Cdagger": true,
+    "note": "Structured one-pol subclass (C-R-0008). Not all-IC."
+  },
+  "onepol_cr0008_gram_n5": {
+    "radii": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8
+    ],
+    "D": 92,
+    "basis": "one_pol_stretch",
+    "C_fullsym": 8.475443542120622,
+    "C_ub": 3.3560651946371607,
+    "C_ub_hi": 3.3560651946371634,
+    "ratio_ub_over_fullsym": 0.396,
+    "solver": "Clarabel",
+    "n_gram_blocks": 4212,
+    "evidence": "N5_gram_rationalized",
+    "cert": "CERT-L0053-sos-gram-onepol-cr0008-N24",
+    "note": "One-pol C-R-0008 with rational Gram certificate L-0053."
+  },
+  "greedy_sos_feasibility": {
+    "D": 1772,
+    "C_shor": 9.5037,
+    "C_ub_sos_extrap": 5.39,
+    "extrap_closes_cr0012": true,
+    "est_sdp_variables_M": 8.56,
+    "est_solve_hours": 113.2,
+    "verdict": "cluster_candidate",
+    "laptop_feasible": false,
+    "lemma": "L-0055"
+  },
+  "honesty": "N2 float SDP only. Band closes_vs_Cdagger \u2260 all-IC C-0007. Greedy SOS: L-0055 cluster scan. Not Clay.",
+  "onepol_greedy_second_n5": {
+    "support": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      8,
+      10,
+      12,
+      16,
+      19
+    ],
+    "branch": "second",
+    "D": 154,
+    "C_shor_sym": 9.189036845789548,
+    "C_fullsym": 9.060826005460791,
+    "C_ub": 4.01493826157398,
+    "C_ub_hi": 4.014938261573984,
+    "solver": "COSMO",
+    "beats_shor": true,
+    "closes_vs_Cdagger": true,
+    "solve_s_approx": 217,
+    "cert": "CERT-L0065-sos-onepol-greedy-second-N24",
+    "restricted": "C-R-0013"
+  }
+}

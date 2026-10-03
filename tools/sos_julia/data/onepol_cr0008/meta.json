@@ -1,0 +1,23 @@
+{
+  "n": 24,
+  "radii": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8
+  ],
+  "branch": "first",
+  "basis": "one_pol_stretch",
+  "D": 92,
+  "nnz_A": 7968,
+  "C_dagger": 9.562009938690146,
+  "beta": 3.3806810347104825,
+  "C_fullsym": 8.475443542120622,
+  "C_shor_sym": 8.476437931112338,
+  "format": "onepol_fullsym_A_coo",
+  "objective": "max A(z,z,z) s.t. ||z||^2=1; subclass one-pol only",
+  "clay_implication": "None. Finite Galerkin subclass only."
+}

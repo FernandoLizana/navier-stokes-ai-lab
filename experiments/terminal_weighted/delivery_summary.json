@@ -1,0 +1,18 @@
+{
+  "delivery": "section_22_first",
+  "audit_ok": true,
+  "stokes_floor_hi": 40.82462307930534,
+  "sparse_T_C": 25.925922025377965,
+  "l0048_frozen": 25.925922025377965,
+  "max_grid_bound": 3.2876874682501214,
+  "t_at_max": 0.02,
+  "trapezoid_estimate": 0.06483974521300888,
+  "margin_vs_threshold": 1.2344730104477408,
+  "decision": {
+    "audit_passed": true,
+    "recommendation": "Proceed to Phase D interval cover on band; then shell decomposition.",
+    "next_phase": "D"
+  },
+  "pytest_ok": true,
+  "c0008_status": "unchanged_open"
+}

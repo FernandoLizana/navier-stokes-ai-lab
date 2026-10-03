@@ -1,0 +1,22 @@
+{
+  "lemma_id": "L-0024",
+  "route": "B",
+  "status": "proved_restricted",
+  "evidence_level": "N7",
+  "n": 24,
+  "E0": 0.5,
+  "nu": 0.1,
+  "T": 0.02,
+  "K2": 147,
+  "m_K": 8,
+  "gap": 13,
+  "r_next": 134,
+  "rho_star": 6192.0,
+  "max_shell_self_triads": 0,
+  "c0005_M": 61.23693461895651,
+  "Omega_T_worst": 41.74337593971423,
+  "Omega0_worst": 0.5,
+  "closes_c0005": true,
+  "clay_implication": "None. Finite dealias Galerkin spectral-defect ODE only; not continuum; not Clay.",
+  "notes": "K\u00b2=147, m_K=8, gap=13, no max-shell self-triads. Worst \u03a9(T)=41.7434 at \u03a90=0.5 (M=61.2369); closes C-0005: True."
+}

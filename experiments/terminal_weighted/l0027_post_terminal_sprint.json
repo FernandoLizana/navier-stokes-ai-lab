@@ -1,0 +1,32 @@
+{
+  "sprint": "C0008_L0027_post_terminal",
+  "C_dagger": 9.562009938690146,
+  "C_emp_max": 0.009311348515766146,
+  "emp_closes_low_slab": true,
+  "C_fullsym_all_ic": 25.925922025377965,
+  "fullsym_closes_C_dagger": false,
+  "proved_subclasses": 0,
+  "best_n5_sos_hi": 0.0,
+  "greedy_sos_extrap": 5.3885979,
+  "terminal_route_refuted": true,
+  "terminal_route_msgs": [
+    "FAIL: parameter mismatch nu",
+    "FAIL: parameter mismatch T",
+    "FAIL: i_star_interval hi too low vs recomputation",
+    "FAIL: integral_hi: declared 78.80350895792126877417231287859787982028 < recomputed 170.2216449621772833514725267265563984249",
+    "FAIL: omega_T_hi: declared 68.68587086202482425360358063376009166009 < recomputed 101.0070628080465784385442417058419592061",
+    "FAIL: bound_method 'best' rejected for full-dealias until manifest regenerated with one_inf_only",
+    "ROUTE_REFUTED: terminal shell integral cannot close C-0008"
+  ],
+  "L0073_best_I_hi": 37.92,
+  "L0073_best_omega": 54.231,
+  "L0074_partition_ladder_refuted": true,
+  "L0074_best_label": "equal_12",
+  "viable_paths": [
+    "L-0027 stretch: prove all-IC C <= C_dagger (fullsym techo ~25.9 refutes naive Shor)",
+    "N5 SOS one-pol subclasses C-R-0002..0014 (proved)",
+    "Weighted triad / SOS flattening (L-0031)",
+    "Non-partition terminal structure (L-0074 refuted finer clusters)"
+  ],
+  "C-0008_status": "exploring"
+}

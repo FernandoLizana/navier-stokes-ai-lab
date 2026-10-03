@@ -1,0 +1,16 @@
+{
+  "cert_id": "CERT-L0028-embedding-techo-C0007-N24",
+  "lemma_id": "L-0028",
+  "n": 24,
+  "C_dagger": 9.562009938690146,
+  "M_star": 3.80966808615038,
+  "M_full": 3374,
+  "C_full_L0002": 284.5628225893186,
+  "M_shell_r1": 6,
+  "C_shell_r1": 12.0,
+  "M_hard_R2": 18,
+  "C_hard_R2": 20.784609690826528,
+  "embedding_can_meet_Cdagger": false,
+  "proved_closes_c0007": false,
+  "clay_implication": "None. Embedding techo for stretch C only; C_\u2020 still unproved; not continuum; not Clay."
+}
