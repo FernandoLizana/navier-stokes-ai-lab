@@ -1,6 +1,6 @@
 # Official Clay Mathematics Institute Target
 
-**Project:** Navier–Stokes Millennium Research Laboratory (NS-MRL)  
+**Project:** Navier–Stokes AI Lab (NS-MRL)  
 **Evidence level of this document:** N7 (editorial synthesis of the official problem statement; not a new theorem)  
 **Primary computational route:** **B**  
 **Secondary route:** **D**  

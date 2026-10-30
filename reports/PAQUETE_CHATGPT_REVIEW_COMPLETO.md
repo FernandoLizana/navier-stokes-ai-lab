@@ -313,4 +313,4 @@ Por favor:
 
 ---
 
-*Sistema finito Galerkin. No continuo. No Clay. Repo: bastardus2 / NS-MRL Route B.*
+*Sistema finito Galerkin. No continuo. No Clay. Repo: navier-stokes-ai-lab, Route B.*

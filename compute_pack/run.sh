@@ -9,7 +9,7 @@ if [[ -f "$PACK_ROOT/.venv/bin/activate" ]]; then
   source "$PACK_ROOT/.venv/bin/activate"
 fi
 
-cd "$BASTARDUS_ROOT/python"
+cd "$LAB_ROOT/python"
 
 _recommended_workers() {
   python3 "$PACK_ROOT/ram_workers.py" --max "${C0008_WORKERS_MAX:-32}"

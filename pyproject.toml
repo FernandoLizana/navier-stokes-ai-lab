@@ -1,5 +1,5 @@
 [project]
-name = "ns-mrl"
+name = "navier-stokes-ai-lab"
 version = "0.1.0"
 description = "Navier-Stokes AI Lab — exploratory pseudospectral NS and verification tooling"
 readme = "README.md"

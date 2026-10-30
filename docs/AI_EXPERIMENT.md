@@ -6,7 +6,7 @@ What can be **built and checked** with AI-assisted software development when app
 
 ## Personal / exploratory context
 
-This repository is a personal lab (historical names: NS-MRL, bastardus2), not an institutional claim. It grew from ambitious attempts to push finite-dimensional bounds and tooling with heavy AI assistance. The public face is a **learning and integrity** case study, not a prize submission.
+This repository is a personal lab, not an institutional claim. It grew from ambitious attempts to push finite-dimensional bounds and tooling with heavy AI assistance. The public face is a **learning and integrity** case study, not a prize submission.
 
 ## Where AI assistance is evidenced
 

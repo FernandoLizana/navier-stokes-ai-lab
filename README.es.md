@@ -6,9 +6,9 @@
 
 > Laboratorio experimental personal sobre cómo la asistencia de IA puede apoyar simulación, conjeturas y verificación en torno a Navier–Stokes 3D. Documenta código útil, enfoques fallidos, correcciones y límites abiertos. **No afirma una solución al Problema del Premio del Milenio.**
 
-Nombres históricos: **NS-MRL**, **bastardus2**. Imports: `ns_exploration`.
+Imports: `ns_exploration`.
 
-**Repositorio:** público en GitHub como [`navier-stokes-ai-lab`](https://github.com/FernandoLizana/navier-stokes-ai-lab). Nombre histórico local: `bastardus2`.
+**Repositorio:** público en GitHub como [`navier-stokes-ai-lab`](https://github.com/FernandoLizana/navier-stokes-ai-lab).
 
 ---
 

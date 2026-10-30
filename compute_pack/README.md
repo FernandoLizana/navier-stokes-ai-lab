@@ -10,7 +10,7 @@ Copia **`compute_pack/`** + el código **`python/`** (o el repo entero) al noteb
 ## 1. En tu PC (Windows) — exportar progreso actual
 
 ```powershell
-cd C:\Users\...\bastardus2\compute_pack
+cd C:\Users\...\navier-stokes-ai-lab\compute_pack
 .\export_state.ps1
 ```
 
@@ -22,8 +22,8 @@ Incluye checkpoints racional n=24 (**27/87** shells al último stop).
 
 | Opción | Qué copiar |
 |--------|------------|
-| **Mínimo** | `bastardus2/python/` + `bastardus2/compute_pack/` |
-| **Recomendado** | Repo `bastardus2/` completo |
+| **Mínimo** | `navier-stokes-ai-lab/python/` + `navier-stokes-ai-lab/compute_pack/` |
+| **Recomendado** | Repo `navier-stokes-ai-lab/` completo |
 
 No hace falta GPU. Sí: **Python 3.11+**, **gmpy2** (MPFR).
 
@@ -57,7 +57,7 @@ Con **16 workers** el job P1 (~60 shells restantes) baja de **~16 h → ~6–8 h
 ## 3. Setup Ubuntu (una vez)
 
 ```bash
-cd bastardus2/compute_pack
+cd navier-stokes-ai-lab/compute_pack
 chmod +x setup.sh run.sh env.sh pack_results.sh import_results.sh
 ./setup.sh
 source env.sh
@@ -107,7 +107,7 @@ En el notebook:
 En Windows (PowerShell):
 
 ```powershell
-cd bastardus2\compute_pack
+cd navier-stokes-ai-lab\compute_pack
 bash import_results.sh c0008_compute_results_....tar.gz
 ```
 

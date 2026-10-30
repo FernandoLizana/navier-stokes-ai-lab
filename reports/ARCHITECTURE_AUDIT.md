@@ -5,7 +5,7 @@
 
 ## Decision
 
-Create the full NS-MRL directory tree at the workspace root (`bastardus2`), matching the prescribed architecture. Implement only the Sprint 1 critical path; leave C++/CUDA/dashboard/ML as empty scaffolds.
+Create the full NS-MRL directory tree at the workspace root (`navier-stokes-ai-lab`), matching the prescribed architecture. Implement only the Sprint 1 critical path; leave C++/CUDA/dashboard/ML as empty scaffolds.
 
 ## What exists after Sprint 1
 

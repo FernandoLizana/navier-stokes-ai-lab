@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for interest in **Navier–Stokes AI Lab** (historical: NS-MRL / bastardus2).
+Thanks for interest in **Navier–Stokes AI Lab**.
 
 ## Setup
 

@@ -6,9 +6,9 @@
 
 > A personal experimental laboratory exploring how AI assistance can support numerical simulation, conjecture exploration, and verification workflows around 3D Navier–Stokes. This repository documents working code, failed approaches, corrections, and unresolved limits. **It does not claim a solution to the Clay Millennium Prize Problem.**
 
-Historical names in code and archives: **NS-MRL**, **bastardus2**. Python imports remain `ns_exploration`.
+Python imports remain `ns_exploration`.
 
-**Repository:** public on GitHub as [`navier-stokes-ai-lab`](https://github.com/FernandoLizana/navier-stokes-ai-lab). Historical local folder name: `bastardus2`.
+**Repository:** public on GitHub as [`navier-stokes-ai-lab`](https://github.com/FernandoLizana/navier-stokes-ai-lab).
 
 ---
 
@@ -198,7 +198,7 @@ Full folder legend: [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md).
 
 ## 6. Quick start
 
-**Install from the repository root** (`pyproject.toml` → package `ns-mrl`). Nested `python/pyproject.toml` is an alternate path to the same tree.
+**Install from the repository root** (`pyproject.toml` → package `navier-stokes-ai-lab`). Nested `python/pyproject.toml` is an alternate path to the same tree.
 
 ### Linux / macOS
 
